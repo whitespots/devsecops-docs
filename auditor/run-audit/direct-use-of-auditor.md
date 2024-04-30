@@ -60,3 +60,8 @@ Clicking on a pipeline provides information about the Jobs in it, as well as Log
 You can bulk delete all pipelines by clicking on the button <img src="../../.gitbook/assets/image.png" alt="" data-size="line">
 
 <figure><img src="../../.gitbook/assets/audit2.png" alt=""><figcaption></figcaption></figure>
+
+You can also filter the available pipelines by clicking on the filter button in the right panel. \
+You can filter your results by Job name and/or status
+
+<figure><img src="../../.gitbook/assets/auditor filter 1.png" alt=""><figcaption></figcaption></figure>
