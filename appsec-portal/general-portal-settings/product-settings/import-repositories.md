@@ -2,13 +2,19 @@
 
 You can create products on the AppSec Portal by importing them from your GitHub or GitLab repositories
 
-1. Navigate to the Products page and click **Import Repositories**
+1. Navigate to the Assets page and click **Import Repositories**
 
-<figure><img src="../../../.gitbook/assets/prod import.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/import rep 1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/import rep 2.png" alt=""><figcaption></figcaption></figure>
 
 2. **Select Code Management System** - GitLab or GitHub
 
 <figure><img src="../../../.gitbook/assets/prod import2.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+Importing from GitHub is only possible for organisation repositories.
+{% endhint %}
 
 3. Create an **Access Token** in the Code Management System and enter its value in the corresponding field
 
