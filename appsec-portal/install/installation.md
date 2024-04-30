@@ -322,6 +322,9 @@ DB_PORT{default=5432}
 
 The set\_vars.sh script creates the .env file with the configured environment variables and generates a pair of JWT keys, which are used to sign JWT keys and SECRET\_KEY is used to generate hashes in Django.
 
+<mark style="background-color:red;">DO NOT run the ./set\_vars.sh command twice.</mark> \
+If you need to change the value of a variable, do so in the .env file.
+
 **Step 4:** Start the AppSec Portal
 
 To start the AppSec Portal, run the following command:
@@ -355,8 +358,6 @@ In order to access admin settings, follow the `<your-domain>.com/admin` URL and 
 **Next step:** [Start your AppSec Portal and apply the licence](get-started-with-the-appsec-portal/)
 
 </details>
-
-
 
 Congratulations, you have successfully installed the AppSec Portal! \
 <mark style="background-color:green;">Now</mark> [<mark style="background-color:green;">**apply the licence**</mark>](get-started-with-the-appsec-portal/) <mark style="background-color:green;">to your installed application.</mark>
