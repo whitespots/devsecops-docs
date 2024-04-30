@@ -61,6 +61,10 @@ You can bulk delete all pipelines by clicking on the button <img src="../../.git
 
 <figure><img src="../../.gitbook/assets/audit2.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+When scanning a code with Auditor, if the code is not loaded by the technical scanner, the pipelines are automatically killed.
+{% endhint %}
+
 You can also filter the available pipelines by clicking on the filter button in the right panel. \
 You can filter your results by Job name and/or status
 
