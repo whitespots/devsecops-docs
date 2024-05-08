@@ -271,7 +271,8 @@ ACCESS_TOKEN=<your value>
 ```
 
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> variables are required for database configuration.
-* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified.
+* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified.\
+  The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
 * <mark style="color:blue;">`DOCKER_ENCRYPTION_TOKEN`</mark> this variable is essential when accessing images from a private registry. If your registry requires authentication, provide the appropriate encryption token here.
 * <mark style="color:blue;">ACCESS\_TOKEN</mark>: After the first run of the Auditor (step 4) you will get the value of the access token. You must to copy it and put this variable and its value in the .env file.
 

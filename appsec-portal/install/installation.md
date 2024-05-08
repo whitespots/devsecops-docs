@@ -27,8 +27,10 @@ To securely connect to the Linux server, you will need to set up SSH keys.
 If you don't have SSH keys already, you can generate them using the following command in your server terminal:
 
 ```bash
-ssh-keygen -t rsa -b 4096
+ssh-keygen 
 ```
+
+:warning: When copying keys, make sure you copy **without spaces**.
 
 #### Set SSH key to your Server
 
@@ -107,7 +109,8 @@ To configure the import worker and import threads, the following is necessary: \
 
 <mark style="color:blue;">DB\_NAME</mark>, <mark style="color:blue;">DB\_USER</mark>, <mark style="color:blue;">DB\_PASS</mark>, <mark style="color:blue;">DB\_HOST</mark>, <mark style="color:blue;">DB\_PORT</mark> variables are required for database configuration
 
-If the message broker is hosted on a third-party server, only the <mark style="color:blue;">AMQP\_HOST\_STRING</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">RABBITMQ\_DEFAULT\_USER</mark> and <mark style="color:blue;">RABBITMQ\_DEFAULT\_PASS</mark> need to be specified
+If the message broker is hosted on a third-party server, only the <mark style="color:blue;">AMQP\_HOST\_STRING</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">RABBITMQ\_DEFAULT\_USER</mark> and <mark style="color:blue;">RABBITMQ\_DEFAULT\_PASS</mark> need to be specified. \
+The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
 
 The <mark style="color:blue;">COOKIES\_SECURE</mark> variable determines the cookie security flag. It should be set to <mark style="color:purple;">`True`</mark> if HTTPS is used.
 
@@ -317,7 +320,8 @@ DB_PORT{default=5432}
 * The <mark style="color:blue;">`IMAGE_VERSION`</mark> the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.02.3, or specify **latest** and the script will install the latest version.
 * The <mark style="color:blue;">`DOMAIN`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify the domain where the AppSec Portal will be accessible
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> <mark style="color:green;">optional variable</mark><mark style="color:blue;">.</mark> Specify the variables needed to configure the database, or use the defaults.
-* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified
+* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified\
+  The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
 * The <mark style="color:blue;">`COOKIES_SECURE`</mark> variable determines the cookie security flag. It should be set to <mark style="color:purple;">`True`</mark> if HTTPS is used
 
 The set\_vars.sh script creates the .env file with the configured environment variables and generates a pair of JWT keys, which are used to sign JWT keys and SECRET\_KEY is used to generate hashes in Django.
