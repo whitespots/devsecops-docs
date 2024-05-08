@@ -8,7 +8,7 @@ description: Auditor step-by-step deployment guide
 
 * Minimum system resources: 4 GB of RAM and 2 CPU cores.
 * Free disk space for installation and data storage of the Auditor.
-* Network access for external users (users must be able to connect to the Auditor over the network).
+* Network access to and from the portal and to the location of your asset (the location of the product to be scanned).
 
 ## Prerequisites
 
@@ -33,8 +33,10 @@ To securely connect to the Linux server, you will need to set up SSH keys.
 If you don't have SSH keys already, you can generate them using the following command in your server terminal:
 
 ```bash
-ssh-keygen -t rsa -b 4096
+ssh-keygen 
 ```
+
+:warning: When copying keys, make sure you copy **without spaces**.
 
 #### Set SSH key to your Server
 
@@ -81,7 +83,9 @@ In GitLab, go to _"Settings" > "CI / CD" > "Variables"_ and configure the follow
 
 * <mark style="color:blue;">`IMAGE_VERSION`</mark>: The script will autonomously determine the most recent version.
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark>: Required for database configuration.
-* <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark>, <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark>, <mark style="color:blue;">`AMQP_HOST_STRING`</mark>: Message broker configuration.
+*   <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark>, <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark>, <mark style="color:blue;">`AMQP_HOST_STRING`</mark>: Message broker configuration.&#x20;
+
+    The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
 
 **Step 4. Update the Hosts File**
 
@@ -123,9 +127,22 @@ The Ansible playbook will be executed, deploying Auditor on the specified host.\
 
 **Step 9. Adding an Access Token**
 
+Now your application should be accessible on the port specified in the configuration.
+
 After the first run, you will receive an Access Token.
 
+<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+
 Copy the value of the access token and add it in the CI/CD variables on GitLab
+
+<mark style="color:blue;">`ACCESS_TOKEN`</mark>: your value
+
+After adding the variable, **must to restart the service** from the command line using the command:
+
+```
+docker-compose down
+docker-compose up -d
+```
 
 Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
 
@@ -273,11 +290,13 @@ RABBITMQ_DEFAULT_USER=admin
 RABBITMQ_DEFAULT_PASS=mypass
 AMQP_HOST_STRING=amqp://admin:mypass@rabbitmq:5672/
 DOCKER_ENCRYPTION_TOKEN=defaultvaluetobechangedorelse...
+ACCESS_TOKEN=<your value>
 ```
 
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> variables are required for database configuration.
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified.
 * <mark style="color:blue;">`DOCKER_ENCRYPTION_TOKEN`</mark> this variable is essential when accessing images from a private registry. If your registry requires authentication, provide the appropriate encryption token here.
+* <mark style="color:blue;">ACCESS\_TOKEN</mark>: After the first run of the Auditor (step 4) you will get the value of the access token. You must to copy it and put this variable and its value in the .env file.
 
 **Step 4. Start the Auditor**
 
@@ -291,8 +310,19 @@ docker-compose up -d
 
 This will start all the services described in the docker-compose.yml file in the background.
 
-**Step 5. Verify that your application is running**
-
 After successfully running the docker-compose up -d command, your application should be accessible on the port specified in the configuration.
+
+You will receive an Access Token the first time you start. Copy it and set it in the .env file as the value of the variable ACCESS\_TOKEN (step 3)
+
+<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+
+After adding the variable, **must to restart the service** from the command line using the command:
+
+```
+docker-compose down
+docker-compose up -d
+```
+
+Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
 
 </details>
