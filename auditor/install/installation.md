@@ -129,11 +129,11 @@ The Ansible playbook will be executed, deploying Auditor on the specified host.\
 
 Now your application should be accessible on the port specified in the configuration.
 
-After the first run, you will receive an Access Token.
+After the first run, you will receive an <mark style="color:blue;">**`Access Token`**</mark>.
 
 <img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
-Copy the value of the access token and add it in the CI/CD variables on GitLab
+<mark style="color:red;">Copy the value of the access token and add it in the CI/CD variables on GitLab</mark>
 
 <mark style="color:blue;">`ACCESS_TOKEN`</mark>: your value
 
@@ -152,101 +152,78 @@ Save the key value in a safe place for later usage in the Auditor [settings](../
 
 <summary>Instal using Helm</summary>
 
-**Step 1. Clone the repository**
+Before using Helm, make sure that Helm is installed on your computer and that your Kubernetes cluster is configured to work with Helm
 
-Clone the Auditor repository to your server:
+**Step 1. Add helm package**
 
-```
-git clone https://gitlab.com/whitespots-public/auditor.git auditor
-```
-
-**Step 2. Navigate to the root directory**
-
-Navigate to the directory where the Auditor files were cloned, the helm directory:
+Add the Auditor package to your server:
 
 ```
-cd auditor/AuditorHelmChart
+helm repo add auditor https://gitlab.com/api/v4/projects/51993931/packages/helm/stable
 ```
 
-**Step 3. Set environment variables**
+**Step 2. Set environment variables**
 
 in the **values.yaml** file, change the default environment variables to meet your requirements:
 
 * In the **deploymentSpec** section:
 
 ```
-    release: release_v24.04.1
+    global.image.tag=release_v24.04.1
 ```
 
 * In the **configMap** section:
 
 ```
-  DB_HOST: "postgres"     
-  DB_PORT: "5432"         
-  DB_NAME: "postgres"       
-  DB_USER: "postgres"                
-  DOMAIN: http://localhost  
-  RABBITMQ_DEFAULT_USER: "admin"
-  RABBITMQ_DEFAULT_PORT: "5672"
+  configs.configMap.database.host=your_db_host
+  configs.configMap.redis.host=your_redis_host
+  postgresql.auth.database=appsec
+  postgresql.auth.username=appsec
+  postgresql.containerPorts.postgresql=5432
+  configs.configMap.database.host=your_db_host
+  rabbitmq.auth.username=admin           
+  rabbitmq.containerPorts.amqp=5672 
 ```
 
 * In the **secrets** section:
 
 ```
-  AMQP_HOST_STRING: "amqp://admin:mypass@rabbitmq:5672/"
-  DB_PASS: "postgres"
-  RABBITMQ_DEFAULT_PASS: "mypass"
-  REDIS_PASSWORD: "11110000"
+  postgresql.auth.password=appsec
+  rabbitmq.auth.password=admin
+  redis.auth.password="11110000"
 ```
 
-<mark style="color:blue;">`release`</mark>` ``:` specify a particular release identifier\
-<mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> and <mark style="color:blue;">`DB_PASS`</mark> variables are required for database     configuration.\
-If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified\
-<mark style="color:blue;">`REDIS_PASSWORD`</mark> If the broker is hosted on a third-party server leave the variable at its default value
+<mark style="color:blue;">`global.image.tag`</mark>`:` specify a particular release identifier\
+<mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>, <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark> and <mark style="color:blue;">`postgresql.auth.password`</mark> variables are required for database configuration.\
+For message broker <mark style="color:blue;">`rabbitmq.auth.username`</mark>, <mark style="color:blue;">`rabbitmq.auth.password`</mark> and <mark style="color:blue;">`rabbitmq.containerPorts.amqp`</mark> need to be specified\
+<mark style="color:blue;">`redis.auth.password`</mark> If the broker is hosted on a third-party server leave the variable at its default value
 
-* In the **db** section:\
-  It is <mark style="color:orange;">**recommended**</mark> to use an **external database**. For this purpose it is enough only to specify the value `true` for the variable <mark style="color:blue;">`external_db`</mark>, other variables in this section do not need to be specified
+**Step 3. Helm install with all resources inside cluster**
 
-But if you use a database inside the cluster, configure variables for it
-
-```
-external_db: false 
-name: postgres
-storageClassName: local-storage
-node: minikube
-path: /mnt/local-storage
-mountPath: /mnt
-claimName: postgres-pv-claim
-```
-
-<mark style="color:blue;">`external_db`</mark>: `false`\
-<mark style="color:blue;">`name`</mark>: database name\
-<mark style="color:blue;">`storageClassName`</mark>: storage class name for the database\
-<mark style="color:blue;">`node`</mark>: the node in the cluster that will host the database\
-<mark style="color:blue;">`path`</mark>:path to the database storage on the node\
-<mark style="color:blue;">`mountPath`</mark>: the place inside the container where the database storage will be mounted\
-<mark style="color:blue;">`claimName`</mark>: the name of the PersistentVolumeClaim that is used to request storage allocation
-
-**Step 4. Install the application using Helm**
-
-Run the application by executing the following command:
+In the example we use pre-installed nginx ingress controller and postgres, redis, rabbitmq from chart:
 
 ```
-helm install auditor <path-to-helm-directory>
-```
-
-replace with the path to the directory that contains the Helm Chart for your application.
-
-After the first run you will receive an <mark style="color:blue;">**`Access Token`**</mark>.
-
-<mark style="color:red;">Copy the value of the access token and add it</mark> in the **values.yaml** file in the **secret section** and **restart scanner-worker** pod
+helm install auditor auditor/appsecauditor --set postgresql.enabled=true
+  --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
+  --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip
+  --set ingress.ingressClassName=nginx --set ingress.host=your_own_host -n <namespace>
 
 ```
-  AMQP_HOST_STRING: "amqp://admin:mypass@rabbitmq:5672/"
-  DB_PASS: "postgres"
-  RABBITMQ_DEFAULT_PASS: "mypass"
-  REDIS_PASSWORD: "11110000"
-  ACCESS_TOKEN: "access_token"
+
+After the first login you will receive an <mark style="color:blue;">**`Access Token`**</mark>.&#x20;
+
+<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+
+<mark style="color:red;">Copy and set</mark> <mark style="color:red;">as a variable token</mark> and relaunch service scanner\_worker.
+
+```
+kubectl get deployments -n <namespace>
+kubectl delete deployment <scanner_runner> -n <namespace>
+helm upgrade auditor auditor/appsecauditor --set postgresql.enabled=true
+    --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
+    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip
+    --set ingress.ingressClassName=nginx --set configs.secret.access_token=your_token --set ingress.host=your__own_host -n <namespace>
+
 ```
 
 Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
@@ -312,7 +289,8 @@ This will start all the services described in the docker-compose.yml file in the
 
 After successfully running the docker-compose up -d command, your application should be accessible on the port specified in the configuration.
 
-You will receive an Access Token the first time you start. Copy it and set it in the .env file as the value of the variable ACCESS\_TOKEN (step 3)
+You will receive an <mark style="color:blue;">**`Access Token`**</mark> the first time you start. \
+<mark style="color:red;">Copy it and set it in the .env file</mark> as the value of the variable <mark style="color:blue;">ACCESS\_TOKEN</mark> (step 3)
 
 <img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
