@@ -6,6 +6,10 @@ description: >-
 
 # Trivy vulners.com plugin
 
+**Auditor Job Name**: Vulners Trivy\
+**Auditor image:** registry.gitlab.com/whitespots-public/security-images/trivy:0.46.0\
+**AppSec Portal Importer Name**: Vulners Trivy
+
 Trivy is a versatile security scanning tool designed to identify potential vulnerabilities in both **container images** and **code repositories** (two operating modes). It offers comprehensive coverage of potential security issues, including known vulnerabilities in operating system packages and application dependencies.
 
 Trivy's container scanning capabilities are particularly noteworthy, as it can inspect Docker images for vulnerabilities within OS packages, libraries, and other components. This ensures that containerized applications are built on a secure foundation, minimizing the risk of exploitation through known vulnerabilities.
