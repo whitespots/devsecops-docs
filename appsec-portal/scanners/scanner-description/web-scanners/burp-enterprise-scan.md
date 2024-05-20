@@ -1,22 +1,22 @@
 ---
 description: >-
-  Quickly find and fix the vulnerabilities that put your web applications at
-  risk of attack.
+  BurpSuite Enterprise is a web vulnerability scanner that is designed for
+  enterprise-level web application security testing.
 ---
 
-# Acunetix
+# Burp Enterprise Scan
 
-**AppSec Portal Importer Name**: Acunetix Scan
+**AppSec Portal Importer Name**: Burp Enterprise Scan
 
-[Acunetix](https://www.acunetix.com/) is a specialized scanner designed to detect **vulnerabilities** in **web applications**. It provides a comprehensive solution for identifying security issues that could potentially compromise the security of web applications.
+It is a scalable solution that allows security teams to conduct efficient and comprehensive security assessments of their **web applications**.
 
-Acunetix scans web applications by performing a thorough examination of their code, configuration, and functionality. It is equipped to discover a wide range of security vulnerabilities, including but not limited to SQL injection, cross-site scripting (XSS), security misconfigurations, and more. This extensive coverage ensures that web application developers and security professionals can identify and address potential threats effectively.
+BurpSuite Enterprise offers a wide range of automated scanning capabilities, including the ability to perform advanced scans on _complex_ web applications and identify vulnerabilities such as **SQL injection**, **cross-site scripting (XSS)**, and **authentication bypass**. The scanner also includes a variety of customization options, allowing users to configure the scanner according to their specific testing requirements.
 
 #### Curl example
 
 {% code overflow="wrap" %}
 ```
-curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./acunetix.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name= Acunetix Scan" -F "branch=dev" 
+curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./bis.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=Burp Enterprise Scan" -F "branch=dev" 
 ```
 {% endcode %}
 

@@ -96,7 +96,7 @@
     * [Web Scanners](appsec-portal/scanners/scanner-description/web-scanners/README.md)
       * [Arachni Scan](appsec-portal/scanners/scanner-description/web-scanners/arachni-scan.md)
       * [Acunetix](appsec-portal/scanners/scanner-description/web-scanners/acunetix.md)
-      * [BurpSuit Enterprise](appsec-portal/scanners/scanner-description/web-scanners/burpsuit-enterprise.md)
+      * [Burp Enterprise Scan](appsec-portal/scanners/scanner-description/web-scanners/burp-enterprise-scan.md)
       * [OWASP Zap](appsec-portal/scanners/scanner-description/web-scanners/owasp-zap.md)
     * [Infrastructure Scanners](appsec-portal/scanners/scanner-description/infrastructure-scanners/README.md)
       * [AWS Security Hub Scan](appsec-portal/scanners/scanner-description/infrastructure-scanners/aws-security-hub-scan/README.md)

@@ -41,7 +41,7 @@ Here are the details of each **importer** supported by AppSec Portal
 
 * **`Arachni`**: imports scan results from [**Arachni Scanner**](scanner-description/web-scanners/arachni-scan.md), which is a tool for scanning modern web applications for a variety of vulnerabilities including SQL injection, cross-site scripting, file inclusion, and more.
 * **`Acunetix`** : imports scan results from [**Acunetix**](scanner-description/web-scanners/acunetix.md), a scanner designed to detect vulnerabilities in web applications.
-* **`Burpsuit`**: imports scan results from [**BurpSuit Enterprise scanner**](scanner-description/web-scanners/burpsuit-enterprise.md), which is a tool for automated web application security testing and vulnerability scanning.
+* **`Burpsuit`**: imports scan results from [**BurpSuit Enterprise scanner**](scanner-description/web-scanners/burp-enterprise-scan.md), which is a tool for automated web application security testing and vulnerability scanning.
 * **`OWASP Zap`**: is responsible for importing scan results from [**GitLab** **OWASP Zap Scanner**](scanner-description/web-scanners/owasp-zap.md), wich is a security testing tool focused on web application vulnerabilities, including SQL injection, cross-site scripting (XSS), and more.
 
 **Mobile Scanners:**
