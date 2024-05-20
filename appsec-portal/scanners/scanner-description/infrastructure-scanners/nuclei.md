@@ -6,7 +6,7 @@ description: >-
 
 # Nuclei
 
-**Auditor Job Name**: Nuclei Scan\
+**Auditor Job Name**: Nuclei Scan, Nuclei Infrastructure\
 **Auditor image:** registry.gitlab.com/whitespots-public/security-images/nuclei:2.9.9\
 **AppSec Portal Importer Name**: Nuclei Scan
 
