@@ -25,7 +25,7 @@ Choose the necessary report settings for its output to meet your goals:
 
 {% tabs %}
 {% tab title="Cover Page" %}
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Overview" %}
