@@ -25,6 +25,7 @@ Here are the details of each **importer** supported by AppSec Portal
 * **`PHPCodeSniffer`**: mports scan results from [**PHP\_CodeSniffer**](scanner-description/code-scanners/php\_codesniffer.md), wich is tokenizes PHP files and detects violations of a defined set of coding standards.
 * **`Retire.js`**: imports scan results from [**Retire.js Scanner**](scanner-description/code-scanners/retire.js.md), a tool designed to analyze JavaScript code for deprecated and vulnerable libraries and dependencies. It focuses on identifying outdated or known vulnerable components within JavaScript code, contributing to the enhancement of web application security.
 * **`Semgrep`**: imports scan results from [**Semgrep scanner** and **GitLab Semgrep scanner**](scanner-description/code-scanners/semgrep.md), which is a tool for finding security issues in code. It provides static analysis of code in various languages and helps identify potential security vulnerabilities.
+* **`SpotBugs`**: imports scan results from [**SpotBugs scanner**](scanner-description/code-scanners/spotbugs.md) which analyses Java source code for potential security, efficiency, and programming style issues.
 * **`Terrascan`**: imports scan results from [**Terrascan Scanner**](scanner-description/code-scanners/terrascan.md), which is a tool for finding security issues in Terraform code. It helps identify potential security vulnerabilities in infrastructure as code.
 
 #### Secret Scanners:
@@ -57,7 +58,6 @@ Here are the details of each **importer** supported by AppSec Portal
 
 #### Other scanners:
 
-* **`GitLab SAST Report`** : imports results from [**Find Security Bugs Scan (GitLab SAST Report)**](broken-reference). This tool performs a static analysis of the application source code, identifying potential vulnerabilities and security issues.
 * **`Manual`**
 * **`Pen test`** : imports results from [**Pen test scanner**](scanner-description/other-scanners/pen-test.md). Processes the data from a report that describes the results of penetration testing performed, the purpose of which is to assess the security of a system or application by actively testing, identifying vulnerabilities, and providing recommendations for remediation of the problems found.
 * **`Snyk:`** imports result from [**Snyk**](scanner-description/other-scanners/snyk.md) tool. Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations.
