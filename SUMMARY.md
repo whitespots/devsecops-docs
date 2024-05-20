@@ -107,7 +107,6 @@
     * [Mobile Security Scanners](appsec-portal/scanners/scanner-description/mobile-security-scanners/README.md)
       * [MobSFScan](appsec-portal/scanners/scanner-description/mobile-security-scanners/mobsfscan.md)
     * [Other Scanners](appsec-portal/scanners/scanner-description/other-scanners/README.md)
-      * [GitLab SAST Report](appsec-portal/scanners/scanner-description/other-scanners/gitlab-sast-report.md)
       * [Pen test](appsec-portal/scanners/scanner-description/other-scanners/pen-test.md)
       * [Snyk](appsec-portal/scanners/scanner-description/other-scanners/snyk.md)
       * [Whitespots Portal](appsec-portal/scanners/scanner-description/other-scanners/whitespots-portal.md)
