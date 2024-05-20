@@ -12,6 +12,8 @@ CodeQL uses a semantic code analysis engine to understand the behavior of code a
 
 CodeQL works by creating a **graph database** that models the behavior of code. This database allows CodeQL to understand how different parts of the code interact with each other and identify potential security issues that may arise from those interactions. CodeQL also provides a range of powerful query languages that allow developers to write custom queries to find specific security issues or patterns in their code.
 
+#### Curl example
+
 {% code overflow="wrap" %}
 ```
 curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=CodeQL Scan (SARIF)" -F "branch=dev" 
