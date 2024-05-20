@@ -26,43 +26,6 @@ Asset information, if an [auditor ](broken-reference)is used
 11. \-F "domain=\<domain>": If your product is **web** enter the **domain name** of your product, for example: whitespots.io
 12. \-F "host=\<host>": If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 
-<details>
-
-<summary>List of currently supported scanners</summary>
-
-* Acunetix Scan
-* Arachni Scan
-* AWS Security Hub Scan
-* Bandit Scan
-* Burp Enterprise Scan
-* Checkov Scan
-* CodeQL Scan (SARIF)
-* ESLint Scan
-* Find Security Bugs Scan (GitLab SAST Report)
-* GitLab Bandit
-* GitLab ESLint&#x20;
-* GitLab Gemnasium
-* GitLab Gitleaks
-* GitLab KICS&#x20;
-* GitLab OWASP Zap&#x20;
-* GitLab Semgrep
-* Gitleaks Scan
-* Gosec Scanner
-* Hadolint Dockerfile check
-* Manual
-* Nuclei Scan
-* Pen Test
-* Prowler
-* Retire.js Scan
-* Semgrep JSON Report
-* subfinder
-* Terrascan Scan
-* Trivy Scan
-* Trufflehog3 Scan
-* Whitespots Portal
-
-</details>
-
 {% hint style="warning" %}
 If you generate a `curl` command for an unsupported scanner, the **import will not be executed**.
 {% endhint %}

@@ -51,7 +51,7 @@ Replace the following parameters:
 * &#x20;**\<portal address>** with the address of your Appsec Portal
 * **\<product name>** with the name of your product
 * &#x20;**\<product\_type>** with the name of your product type
-* &#x20;**\<scanner name>** with the [**name of your scanner**](importing-reports-via-terminal-using-a-report-file.md#list-of-currently-supported-scanners)
+* &#x20;**\<scanner name>** with the [**name of your scanner**](../scanner-description/)
 * **\<branch>** (_optional_) with the the name of the branch in the source code repository (if applicable) This parameter is particularly useful when you want to associate the scan results with a specific branch in your repository. If not provided, the scan will be associated with the default branch
 
 Asset information, if an [auditor ](broken-reference)is used
