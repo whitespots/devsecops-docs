@@ -49,3 +49,79 @@ Asset information, if an [auditor ](broken-reference)is used
 12. \-F "host=\<host>": If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 
 **Report example:**
+
+```json
+{
+  "SchemaVersion": 2,
+  "ArtifactName": ".",
+  "ArtifactType": "filesystem",
+  "Metadata": {
+    "ImageConfig": {
+      "architecture": "",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "",
+      "rootfs": {
+        "type": "",
+        "diff_ids": null
+      },
+      "config": {}
+    }
+  },
+  "Results": [
+    {
+      "Target": "pom.xml",
+      "Class": "lang-pkgs",
+      "Type": "pom",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2022-25647",
+          "PkgID": "com.google.code.gson:gson:2.8.1",
+          "PkgName": "com.google.code.gson:gson",
+          "InstalledVersion": "2.8.1",
+          "FixedVersion": "2.8.9",
+          "Status": "fixed",
+          "Layer": {},
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-25647",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "Deserialization of Untrusted Data in com.google.code.gson-gson",
+          "Description": "The package com.google.code.gson:gson before 2.8.9 are vulnerable to Deserialization of Untrusted Data via the writeReplace() method in internal classes, which may lead to DoS attacks.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-502"
+          ],
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+              "V3Score": 7.7
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 5,
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-25647",
+            "https://github.com/google/gson",
+            "https://github.com/google/gson/pull/1991",
+            "https://github.com/google/gson/pull/1991/commits",
+            "https://lists.debian.org/debian-lts-announce/2022/05/msg00015.html",
+            "https://lists.debian.org/debian-lts-announce/2022/09/msg00009.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25647",
+            "https://security.netapp.com/advisory/ntap-20220901-0009/",
+            "https://snyk.io/vuln/SNYK-JAVA-COMGOOGLECODEGSON-1730327",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25647",
+            "https://www.debian.org/security/2022/dsa-5227",
+            "https://www.oracle.com/security-alerts/cpujul2022.html"
+          ],
+```
