@@ -158,8 +158,9 @@ in the **values.yaml** file, change the default environment variables in some se
 
 * <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**deploymentSpec**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
 
-<pre class="language-bash"><code class="lang-bash">release: <a data-footnote-ref href="#user-content-fn-1">release_v24.04.1</a>
-</code></pre>
+```bash
+release: release_v24.05.1
+```
 
 * <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**ingresses**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
 
@@ -317,7 +318,7 @@ DB_PORT{default=5432}
 
 </code></pre>
 
-* The <mark style="color:blue;">`IMAGE_VERSION`</mark> the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.02.3, or specify **latest** and the script will install the latest version.
+* The <mark style="color:blue;">`IMAGE_VERSION`</mark> the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.05.1, or specify **latest** and the script will install the latest version.
 * The <mark style="color:blue;">`DOMAIN`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify the domain where the AppSec Portal will be accessible
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> <mark style="color:green;">optional variable</mark><mark style="color:blue;">.</mark> Specify the variables needed to configure the database, or use the defaults.
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified\
@@ -367,5 +368,3 @@ Congratulations, you have successfully installed the AppSec Portal! \
 <mark style="background-color:green;">Now</mark> [<mark style="background-color:green;">**apply the licence**</mark>](get-started-with-the-appsec-portal/) <mark style="background-color:green;">to your installed application.</mark>
 
 > If you have any issues during the installation process or while using the app, contact our support team _**sales@whitespots.io**_ for assistance:heart:.
-
-[^1]: latest release

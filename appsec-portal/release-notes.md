@@ -1,6 +1,14 @@
 # 🗒️ Release notes
 
-#### release\_v24.04.1  (latest)
+#### release\_v24.05.1  (latest)
+
+1. **New/Fixed Counters per Asset and Scanner**: The audit view now includes updated counters for each asset and scanner, providing more accurate and detailed insights. <mark style="color:blue;">**`UPDATE`**</mark>
+2. **Customizable Dashboard Metrics**: Easily customize your dashboard with metrics for different products, product types, products with tags, and more. <mark style="color:green;">**`NEW`**</mark>
+3. **New Dashboard:** Introducing a new dashboard for better user experience and enhanced data visualization. <mark style="color:blue;">**`UPDATE`**</mark>
+4. **Cloud Account as an Asset Type**: Now supports cloud accounts (AWS, GCP, Azure) as asset types. Scanning these accounts is now straightforward and well-documented. <mark style="color:green;">**`NEW`**</mark>
+5. **Asset Transfer Between Products**: You can now transfer assets between products along with their findings. This means that if you change the product, all issues will remain consistent per repository, domain, host, and cloud account. <mark style="color:green;">**`NEW`**</mark>
+
+#### release\_v24.04.1 &#x20;
 
 1. **New Screen for Assets**: Added a new screen to manage assets more effectively.  <mark style="color:green;">**`NEW`**</mark>
 2. **Even More Stability**: Implemented further improvements to enhance the stability of the system. <mark style="color:blue;">**`UPDATE`**</mark>
