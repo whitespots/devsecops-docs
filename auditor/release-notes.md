@@ -2,8 +2,8 @@
 
 #### release\_v24.05.1 (latest)
 
-1. Added audits
-2. Added cloud account
+1. **Added audits**: Now sends `audit_id` in the report for better tracking and reference. <mark style="color:green;">**`NEW`**</mark>
+2. **Added cloud account**: Introduced support for cloud accounts as a new asset type. <mark style="color:green;">**`NEW`**</mark>
 
 #### release\_v24.04.1&#x20;
 
