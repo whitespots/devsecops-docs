@@ -169,7 +169,7 @@ in the **values.yaml** file, change the default environment variables to meet yo
 * In the **deploymentSpec** section:
 
 ```
-    global.image.tag=release_v24.04.1
+    global.image.tag=release_v24.05.1 
 ```
 
 * In the **configMap** section:

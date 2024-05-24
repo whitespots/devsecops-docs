@@ -1,6 +1,11 @@
 # 🗒️ Release notes
 
-#### release\_v24.04.1 (latest)
+#### release\_v24.05.1 (latest)
+
+1. Added audits
+2. Added cloud account
+
+#### release\_v24.04.1&#x20;
 
 1. **Improved filtering**: The ability to filter jobs by scanner name and status has been added. <mark style="color:green;">**`NEW`**</mark>
 
