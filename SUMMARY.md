@@ -110,6 +110,8 @@
       * [Pen test](appsec-portal/scanners/scanner-description/other-scanners/pen-test.md)
       * [Snyk](appsec-portal/scanners/scanner-description/other-scanners/snyk.md)
       * [Whitespots Portal](appsec-portal/scanners/scanner-description/other-scanners/whitespots-portal.md)
+* [🔦 Auditor](appsec-portal/auditor/README.md)
+  * [Assets view](appsec-portal/auditor/assets-view.md)
 * [📊 Jira](appsec-portal/jira/README.md)
   * [Jira integration configuration](appsec-portal/jira/jira-integration-configuration.md)
   * [Setting up Jira webhook](appsec-portal/jira/setting-up-jira-webhook.md)
