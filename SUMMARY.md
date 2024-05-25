@@ -111,7 +111,9 @@
       * [Snyk](appsec-portal/scanners/scanner-description/other-scanners/snyk.md)
       * [Whitespots Portal](appsec-portal/scanners/scanner-description/other-scanners/whitespots-portal.md)
 * [🔦 Auditor](appsec-portal/auditor/README.md)
-  * [Assets view](appsec-portal/auditor/assets-view.md)
+  * [Assets screen](appsec-portal/auditor/assets-screen.md)
+  * [Asset Transfer Between Products](appsec-portal/auditor/asset-transfer-between-products.md)
+  * [Audits](appsec-portal/auditor/audits.md)
 * [📊 Jira](appsec-portal/jira/README.md)
   * [Jira integration configuration](appsec-portal/jira/jira-integration-configuration.md)
   * [Setting up Jira webhook](appsec-portal/jira/setting-up-jira-webhook.md)
@@ -142,7 +144,6 @@
     * [Auditor Job Config](appsec-portal/general-portal-settings/scanner-settings/auditor-job-config.md)
   * [Repository Link Configs](appsec-portal/general-portal-settings/repository-link-configs.md)
   * [Tag screen](appsec-portal/general-portal-settings/tag-screen.md)
-  * [Asset screen](appsec-portal/general-portal-settings/asset-screen.md)
 * [🗒️ Release notes](appsec-portal/release-notes.md)
 
 ## 🔎 Security Pipelines

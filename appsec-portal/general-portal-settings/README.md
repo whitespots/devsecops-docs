@@ -9,4 +9,4 @@ description: General AppSec Portal settings description
 * [**Scanner setings**](scanner-settings/)
 * [**Global repository URL**](repository-link-configs.md)
 * [**Tag screen**](tag-screen.md)
-* [**Asset settings**](asset-screen.md)
+* [**Asset settings**](broken-reference)

@@ -6,6 +6,6 @@ When using Auditor through the Apsec Portal, you can setting up and use Auditor 
 
 * [Setting up products and an auditor](../../auditor/settings/appsec-portal-cooperation/)
 * [Run audit](../../auditor/run-audit/appsec-portal-cooperation/)
-* View assets
-* **Asset Transfer Between Products**
-* View completed audits
+* [View Assets](assets-screen.md)
+* [Asset Transfer Between Products](asset-transfer-between-products.md)
+* [View completed audits](audits.md)
