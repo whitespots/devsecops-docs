@@ -4,51 +4,53 @@
 * [**Status change mean time**](severity-statistics-dashboard.md#status-change-mean-time)
 * [**Findings count**](severity-statistics-dashboard.md#findings-count)
 
-Сomprehensible **Severity Statistic view:**
+&#x20;**Severity Statistic view:**
 
-<figure><img src="../../../.gitbook/assets/dashboard1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dash2.png" alt=""><figcaption></figcaption></figure>
+
+
 
 The timeline of the charts can be customized to show data for the last 3 days, last week, last month, or last year, providing flexibility in analyzing different time ranges.&#x20;
 
-### General Weighted Risk Trend
+### Current Weighted Risk Trend
 
 [**Weighted Risk Trend (WRT)**](wrt-weighted-risk-trend.md) metric empowers organizations to measure and track the state of security in a business-oriented manner. The **General WRT** is calculated by combining the WRT of each product, taking into account their respective severity weights, findings count, and business criticality assessments.
 
-<figure><img src="../../../.gitbook/assets/dashboard2(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/weight risk trend.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Note that the **General Weighted Risk Trend** displays the [WRT](wrt-weighted-risk-trend.md), risk appetite and severity weight values for each day. To ensure that the historical graph accurately reflects your risk trends, be sure to [set the appropriate weights](https://docs.whitespots.io/appsec-portal/features/security-metrics/metrics-settings) before viewing the graph. Otherwise, the graph may be distorted by incorrect weight values.
+Note that the **General Weighted Risk Trend** displays the [WRT](wrt-weighted-risk-trend.md), risk appetite and severity weight values. Be sure to [set the appropriate weights](https://docs.whitespots.io/appsec-portal/features/security-metrics/metrics-settings) before viewing the graph. Otherwise, the graph may be distorted by incorrect weight values.
 {% endhint %}
 
 By regulary tracking the following global metrics, you can gain a better understanding of your security posture and make informed decisions to enhance your overall security strategy.
 
-### Status change mean time
+### Mean Time of Status Change
 
 By monitoring the **Status change mean time** graph in relation to the [**SLA**](metrics-settings/sla.md) requirements, you can effectively manage and prioritize your remediation efforts, ensuring that critical vulnerabilities are promptly addressed and mitigated according to the established timelines.
 
 * **Average Vulnerability Age** (**AVA**) calculates the average age of vulnerabilities from _creation_ to _remediation_. It helps to determine how long vulnerabilities pose a potential risk.
 
-<figure><img src="../../../.gitbook/assets/dashboard3.png" alt=""><figcaption><p>AVA graph</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/mean time of status change.png" alt=""><figcaption><p>AVA graph</p></figcaption></figure>
 
 * **Mean Time to Detection** (**MTTD**) measures the average time it takes to _verify_ vulnerabilities from the moment they are _created_. A shorter MTTD indicates an effective and timely vulnerability detection process.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-05 at 09.38.37.png" alt=""><figcaption><p>MTTD graph</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>MTTD graph</p></figcaption></figure>
 
 * **Mean Time to Rejection** (**MTR**) measures the average time it takes for a finding to be _rejected_ after _creation_. It provides insights into the speed of handling findings that are determined to be false positives.
 
-<figure><img src="../../../.gitbook/assets/dashboard5.png" alt=""><figcaption><p>MTR graph</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/mean time 2.png" alt=""><figcaption><p>MTR graph</p></figcaption></figure>
 
 * **Mean Time to Remediation** (**MTTR**) calculates the average time it takes to _remediate_ vulnerabilities from the moment they are _verified_. A shorter MTTR indicates an efficient vulnerability resolution process.
 
-<figure><img src="../../../.gitbook/assets/dashboard6.png" alt=""><figcaption><p>MTTR graph</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (145).png" alt=""><figcaption><p>MTTR graph</p></figcaption></figure>
 
 * **Mean Time to Product Task Assignment** (**MTTAp**) measures the average time it takes for a _validated_ finding to be assigned to a developer (_assignee_) in the Jira product space from the time it is validated. It helps to track the speed at which results are processed after validation and the initiation of the fixing process.
 
-<figure><img src="../../../.gitbook/assets/dashboard7.png" alt=""><figcaption><p>MTTA graph</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>MTTAp graph</p></figcaption></figure>
 
 **Mean Time to Security Task Assignment** (**MTTAs**) measures the average time it takes for a _validated_ finding to be assigned to a developer (_assignee_) in the Jira security space from the time it is validated. It helps to track the speed at which results are processed after validation and the initiation of the fixing process.
 
-<figure><img src="../../../.gitbook/assets/dashboard7(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption><p>MTTAs graph</p></figcaption></figure>
 
 ### Findings count
 
