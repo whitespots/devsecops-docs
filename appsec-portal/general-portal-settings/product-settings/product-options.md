@@ -2,14 +2,14 @@
 
 Product options are accessed by selecting a product from the **Product** tab and navigating to the **Options** tab.
 
-<figure><img src="../../../.gitbook/assets/product1.png" alt=""><figcaption><p>Options page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 \
-On the Product options page, you can specify **Product related tags**, change the **Product type**, and view the current data of **Jira integration settings** sourced from the [global integration settings](../../jira/jira-integration-configuration.md#step-3.-default-team-spaces) with Jira.&#x20;
+On the Product options page, you can specify **Product related tags**, change the **Product type**, specify the product as the **default product** (default product will be used for reports import functionality if no specific product has been provided) and view the current data of **Jira integration settings** sourced from the [global integration settings](../../jira/jira-integration-configuration.md#step-3.-default-team-spaces) with Jira.&#x20;
 
 **Jira integration settings** are displayed here to provide you with an overview of the Jira configuration that has been set up on a global level. Any changes made to the Jira configuration at the product level will be specific to this product and will override the global settings for the integration.
 
-<figure><img src="../../../.gitbook/assets/product 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 The **Product related tags** field allows you to create and add tags to the findings that are related to this specific product in AppSec Portal. And also to filter products by these tags.
 

@@ -2,9 +2,9 @@
 
 1. To create a new product, click the <img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" data-size="line"> button on the Products page.
 
-<figure><img src="../../../.gitbook/assets/prod creat1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
-2. On the **Main** tab fill in the required information: **product name** (mandatory), **product type** and **product related tags**. The product type and product related tags can be created anew or chosen from existing labels.
+1. On the **Main** tab fill in the required information: **product name** (mandatory), **product type** and **product related tags**. The product type and product related tags can be created anew or chosen from existing labels.
 
 <figure><img src="../../../.gitbook/assets/prod creat4.png" alt=""><figcaption><p>Example of product creation</p></figcaption></figure>
 
