@@ -8,7 +8,7 @@
 
 <figure><img src="../../../.gitbook/assets/dash2.png" alt=""><figcaption></figcaption></figure>
 
-You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="line">  on the right panel:
+You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line">  on the right panel:
 
 <figure><img src="../../../.gitbook/assets/cust metrics.gif" alt=""><figcaption></figcaption></figure>
 
