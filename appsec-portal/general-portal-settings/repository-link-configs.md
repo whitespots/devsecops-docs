@@ -1,7 +1,7 @@
 # Repository Link Configs
 
 {% hint style="info" %}
-<img src="../../.gitbook/assets/image (8).png" alt="" data-size="line">Used in working with an [**Auditor**](broken-reference)
+<img src="../../.gitbook/assets/image (8) (1).png" alt="" data-size="line">Used in working with an [**Auditor**](broken-reference)
 {% endhint %}
 
 This configuration enables the Portal to provide a link to the repository sources using the provided finding path and line. Associate it with Product Assets of the Repository type in [product settings](../../auditor/settings/appsec-portal-cooperation/product-asset-setting.md).
@@ -18,4 +18,4 @@ To help you get started, here is the _URL builder_:
 * select a protocol shema;
 * **Keywords definition** will help you build correct way to project repository, you can also hover your mouse over the highlighted sections of the URL in the **Result** box to see what they mean
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
