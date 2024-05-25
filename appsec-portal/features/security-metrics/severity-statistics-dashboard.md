@@ -8,7 +8,7 @@
 
 <figure><img src="../../../.gitbook/assets/dash2.png" alt=""><figcaption></figcaption></figure>
 
-You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1).png" alt="" data-size="line">  on the right panel:
+You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="line">  on the right panel:
 
 <figure><img src="../../../.gitbook/assets/cust metrics.gif" alt=""><figcaption></figcaption></figure>
 
@@ -42,37 +42,37 @@ Customise the view of the metric view using the Findings Status Change Time Stat
 
 *   **Average Vulnerability Age** (**AVA**) calculates the average age of vulnerabilities from _creation_ to _remediation_. It helps to determine how long vulnerabilities pose a potential risk.
 
-    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/mean time of status change.png" alt=""><figcaption><p>AVA graph</p></figcaption></figure>
 
 *   **Mean Time to Detection** (**MTTD**) measures the average time it takes to _verify_ vulnerabilities from the moment they are _created_ . A shorter MTTD indicates an effective and timely vulnerability detection process.
 
-    <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>MTTD graph</p></figcaption></figure>
 
 *   **Mean Time to Rejection** (**MTR**) measures the average time it takes for a finding to be _rejected_ after _creation_. It provides insights into the speed of handling findings that are determined to be false positives.
 
-    <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/mean time 2.png" alt=""><figcaption><p>MTR graph</p></figcaption></figure>
 
 *   **Mean Time to Remediation** (**MTTR**) calculates the average time it takes to _remediate_ vulnerabilities from the moment they are _verified_. A shorter MTTR indicates an efficient vulnerability resolution process.
 
-    <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (145).png" alt=""><figcaption><p>MTTR graph</p></figcaption></figure>
 
 *   **Mean Time to Product Task Assignment** (**MTTAp**) measures the average time it takes for a _validated_ finding to be assigned to a developer (_assignee_) in the Jira product space from the time it is validated. It helps to track the speed at which results are processed after validation and the initiation of the fixing process.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>MTTAp graph</p></figcaption></figure>
 
 **Mean Time to Security Task Assignment** (**MTTAs**) measures the average time it takes for a _validated_ finding to be assigned to a developer (_assignee_) in the Jira security space from the time it is validated. It helps to track the speed at which results are processed after validation and the initiation of the fixing process.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption><p>MTTAs graph</p></figcaption></figure>
 
