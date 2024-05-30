@@ -7,7 +7,8 @@ description: >-
 # Trivy
 
 **Auditor Job Name**: Trivy Code Dependencies, Trivy Image Dependencies\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/trivy:0.46.0\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/trivy:0.51.4`\
 **AppSec Portal Importer Name**: Trivy Scan
 
 Trivy is a versatile security scanning tool designed to identify potential vulnerabilities in both **container images** and **code repositories** (two operating modes). It offers comprehensive coverage of potential security issues, including known vulnerabilities in operating system packages and application dependencies.

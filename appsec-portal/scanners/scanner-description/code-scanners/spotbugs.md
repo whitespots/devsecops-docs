@@ -1,7 +1,8 @@
 # SpotBugs
 
 **Auditor Job Name**: Spotbugs\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/spotbugs:4.2.0\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/spotbugs:5.0.0`\
 **AppSec Portal Importer Name**: GitLab SAST Report
 
 [SpotBugs](https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs) analyzes **Java** source code for possible problems in security, efficiency, and programming style. It is based on the FindBugs project, but provides additional functionality and improved bug detection capabilities.

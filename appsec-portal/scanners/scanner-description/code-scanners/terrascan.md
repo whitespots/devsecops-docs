@@ -7,7 +7,8 @@ description: >-
 # Terrascan
 
 **Auditor Job Name**: Terrascan\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/terrascan:1.14.0\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/terrascan:1.18.11`\
 **AppSec Portal Importer Name**: Terrascan Scan
 
 [Terrascan](https://github.com/tenable/terrascan) ensures that IaC definitions adhere to security best practices and can detect issues that may cause security breaches, data loss, or service disruptions. Terrascan supports several popular IaC frameworks, including **Terraform**, **Kubernetes**, **Helm**, **AWS CloudFormation**, **Azure Resource Manager**, and **Google Cloud Deployment Manager**.

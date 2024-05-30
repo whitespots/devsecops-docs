@@ -4,7 +4,9 @@ description: Dockerfile linter, validate inline bash, written in Haskell
 
 # Hadolint
 
-**AppSec Portal Importer Name**: Hadolint Dockerfile check
+**AppSec Portal Importer Name**: Hadolint\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/hadolint:2.12.0`
 
 [Hadolint ](https://github.com/hadolint/hadolint)is a specialized **Dockerfile** linter designed to ensure the correctness of Dockerfile syntax, adherence to best practices, and the identification of potential issues related to Docker image creation. It focuses on code quality and conformity to Dockerfile standards, assisting in the creation of secure and well-structured Docker images.
 

@@ -5,7 +5,8 @@ description: Gosec is a security scanner for Go programming language code.
 # Gosec
 
 **Auditor Job Name**: Gosec Scanner\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/gosec:2.16.0\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/gosec:2.20.0`\
 **AppSec Portal Importer Name**: Gosec Scanner
 
 It is designed to identify potential vulnerabilities in the **Go** codebase, including common issues such as **SQL injections**, **buffer overflows**, and **cross-site scripting (XSS)** vulnerabilities.

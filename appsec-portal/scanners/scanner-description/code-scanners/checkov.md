@@ -8,7 +8,8 @@ description: >-
 # Checkov
 
 **Auditor Job Name**: Checkov Scan\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/checkov:2.5.18\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/checkov:3.2.108`\
 **AppSec Portal Importer Name**: Checkov Scan
 
 [Checkov](https://github.com/bridgecrewio/checkov) supports various IaC formats, including **Terraform**, **Kubernetes**, **AWS** **CloudFormation**, and **Azure Resource Manager** templates. Checkov can be used to identify misconfigurations and enforce compliance with industry-standard policies and regulations.

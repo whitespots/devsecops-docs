@@ -7,8 +7,9 @@ description: >-
 # Semgrep
 
 **Auditor Job Name**: Semgrep, Gitlab Semgrep, Gitlab Php\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/semgrep:1.45.0\
-registry.gitlab.com/whitespots-public/security-images/semgrep-sast-gitlab:4\
+**Auditor image:** \
+`registry.gitlab.com/whitespots-public/security-images/semgrep:1.74.0`\
+`registry.gitlab.com/whitespots-public/security-images/semgrep-sast-gitlab:4`\
 **AppSec Portal Importer Name**: Semgrep JSON Report, [GitLab Semgrep](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep)
 
 [Semgrep](https://github.com/semgrep/semgrep) supports several programming languages such as:
