@@ -1,6 +1,13 @@
 # 🗒️ Release notes
 
-#### release\_v24.05.1  (latest)
+#### release\_v24.06.1  (latest)
+
+1. **Monthly risk trend line**: Introduced a monthly risk trend line to help track and visualise risk changes over time. <mark style="color:green;">**`NEW`**</mark>
+2. **Recommendations**: Added a recommendation feature to provide actionable insights and suggestions for risk mitigation. <mark style="color:green;">**`NEW`**</mark>
+3. **Importers for Hadolint and Dependency Track**: New importers have been added to support Hadolint and Dependency-Track, enabling seamless integration and data import. <mark style="color:green;">**`NEW`**</mark>
+4. **Filters for findings**: Implemented filters for findings by product and asset tags, making it easier to narrow and focus on specific areas of interest. <mark style="color:green;">**`NEW`**</mark>
+
+#### release\_v24.05.1 &#x20;
 
 1. **New/Fixed Counters per Asset and Scanner**: The audit view now includes updated counters for each asset and scanner, providing more accurate and detailed insights. <mark style="color:blue;">**`UPDATE`**</mark>
 2. **Customizable Dashboard Metrics**: Easily customize your dashboard with metrics for different products, product types, products with tags, and more. <mark style="color:green;">**`NEW`**</mark>
