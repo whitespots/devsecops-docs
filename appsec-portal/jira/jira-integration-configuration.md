@@ -10,7 +10,7 @@ This guide will also allow you to establish **mappings** for **issue status** an
 * Log in to your AppSec Portal instance
 * Navigate to the Settings->Integrations->Jira
 
-<figure><img src="../../.gitbook/assets/jira gen(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 1. Authorization
 
@@ -18,7 +18,7 @@ Choose your preferred authorization method: **Basic** or **OAuth**
 
 Enter the appropriate credentials for the chosen method:
 
-* For **Вasic** authorization, enter your Jira username and _**Auth token:**_
+* For **Вasic** authorization, enter your **Jira server URL**, **e-mail** and _**Auth token:**_
 
 {% hint style="info" %}
 &#x20;If you don't already have a Jira API token, you'll need to create one in Jira. You can do this by logging in to Jira and navigating to the '**API tokens**' page in your profile settings ([**Atlassian account settings->Create and manage API tokens->Security**](https://id.atlassian.com/manage-profile/security/api-tokens)). From there, you can create a new API token and use it to authenticate with AppSec Portal using basic authorization.
@@ -26,20 +26,18 @@ Enter the appropriate credentials for the chosen method:
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-25 at 22.12.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+* For **OAuth**, enter your Jira server URL, access token secret, access token secret, consumer key, and certificate file. To use Jira OAuth, you need to create an _application link_ between Jira and AppSec Portal. You can find detailed instructions on how to create an application link [here](https://developer.atlassian.com/server/jira/platform/oauth/).
 
-
-* For **OAuth**, enter your Jira access token, access token secret, consumer key, and certificate file. To use Jira OAuth, you need to create an _application link_ between Jira and AppSec Portal. You can find detailed instructions on how to create an application link [here](https://developer.atlassian.com/server/jira/platform/oauth/).
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-25 at 23.22.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2. Issue Status Mapping
 
 Configure the mapping between finding statuses and Jira issue statuses. \
 Select from dropdown list one or more issue statuses to be automatically set in Jira when findings statuses change.
 
-<figure><img src="../../.gitbook/assets/jira_step2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3. Default Team Spaces
 
@@ -97,5 +95,3 @@ If you choose to dismiss a finding in Jira ("False Positive"), the portal may se
 {% endhint %}
 
 _**Congratulations**_! You can now create and update tasks in AppSec Portal, and they will be automatically reflected in your Jira instance. :tada:
-
-<figure><img src="../../.gitbook/assets/jira setting.gif" alt=""><figcaption></figcaption></figure>
