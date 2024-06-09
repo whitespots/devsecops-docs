@@ -58,7 +58,9 @@ Here are the details of each **importer** supported by AppSec Portal
 
 #### Other scanners:
 
-* **`Manual`**
+*   **`Dependency-Track`**: imports result from Dependency-track platform. Component support for:
+
+    Applications, Libraries, Frameworks, Operating systems, Containers, Firmware, Files, Hardware, Services
 * **`Pen test`** : imports results from [**Pen test scanner**](scanner-description/other-scanners/pen-test.md). Processes the data from a report that describes the results of penetration testing performed, the purpose of which is to assess the security of a system or application by actively testing, identifying vulnerabilities, and providing recommendations for remediation of the problems found.
 * **`Snyk:`** imports result from [**Snyk**](scanner-description/other-scanners/snyk.md) tool. Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations.
 * **`Whitespots Portal`** : imports results from [**Whitespots Portal scanner**](scanner-description/other-scanners/whitespots-portal.md). Processes the data that the user has specified in the scanner report.
