@@ -2,8 +2,8 @@
 
 You can run the Auditor through the Appsec Portal
 
-* [Manually](appsec-portal-cooperation/run-audit-manually.md)
-* [By setting up a schedule](appsec-portal-cooperation/scheduled-audit-run.md)
+* [Manually](broken-reference)
+* [By setting up a schedule](broken-reference)
 
 Faindings detected by the Auditor will be [displayed](../../appsec-portal/findings-view/) in the Appsec portal
 

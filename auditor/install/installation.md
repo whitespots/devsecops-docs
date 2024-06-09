@@ -144,7 +144,7 @@ docker-compose down
 docker-compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
 
 </details>
 
@@ -226,7 +226,7 @@ helm upgrade auditor auditor/appsecauditor --set postgresql.enabled=true
 
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
 
 </details>
 
@@ -302,6 +302,6 @@ docker-compose down
 docker-compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../settings/appsec-portal-cooperation/auditor-configurator.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
 
 </details>

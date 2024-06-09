@@ -4,7 +4,7 @@
 <img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" data-size="line">Used in working with an [**Auditor**](broken-reference)
 {% endhint %}
 
-This configuration enables the Portal to provide a link to the repository sources using the provided finding path and line. Associate it with Product Assets of the Repository type in [product settings](../../auditor/settings/appsec-portal-cooperation/product-asset-setting.md).
+This configuration enables the Portal to provide a link to the repository sources using the provided finding path and line. Associate it with Product Assets of the Repository type in [product settings](../auditor/auditor-settings/product-asset-setting.md).
 
 Navigate to **Settings → Integrations → Repository Link** to specify pattern for repository link
 

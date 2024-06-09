@@ -40,7 +40,7 @@ This workflow performs a scan of your repository in [Auditor](broken-reference).
 
 * Make sure you have [entered](github-actions.md#project-setting) the values of the required variables.
 
-You can also set the value of the [`SEQUENCE`](../../auditor/settings/appsec-portal-cooperation/sequences/) variable, or the default value will be used.
+You can also set the value of the [`SEQUENCE`](../../appsec-portal/auditor/auditor-settings/sequences/) variable, or the default value will be used.
 
 * Create a **`auditor-runner.yml`**  file in your repository's `.github/workflows/` directory with the following content:
 

@@ -36,7 +36,7 @@ For a successful connection with the repository, the Access Token must have \
 <figure><img src="../../../.gitbook/assets/prod impor5.gif" alt=""><figcaption></figcaption></figure>
 
 6. Congratulations! Your product and its asset repository have been created on the portal\
-   You can [run an audit](../../../auditor/run-audit/appsec-portal-cooperation/run-audit-manually.md) immediately or set up an [Auditor schedule](../../../auditor/run-audit/appsec-portal-cooperation/scheduled-audit-run.md) for this product\
+   You can [run an audit](broken-reference) immediately or set up an [Auditor schedule](broken-reference) for this product\
 
 
 <figure><img src="../../../.gitbook/assets/prod import 7.png" alt=""><figcaption></figcaption></figure>

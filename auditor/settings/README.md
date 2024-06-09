@@ -5,4 +5,4 @@ The Auditor scans your product using various scanners and can forwards the findi
 **Auditor Settings if you use Auditor:**
 
 * [**Directly**](direct-use-of-the-auditor/)
-* [**Through AppSec Portal**](appsec-portal-cooperation/)
+* [**Through AppSec Portal**](../../appsec-portal/auditor/auditor-settings/)
