@@ -43,4 +43,313 @@ Asset information, if an [auditor ](broken-reference)is used
 
 **Report example:**
 
-<figure><img src="../../../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+```json
+{
+  "results": {
+    "scan_errors": [
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/db",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/db' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/assessment",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/assessment' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/assets",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/development",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/development' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/solution",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docs/solution' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/scripts",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/scripts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/controllers",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/controllers' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/interceptors",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/interceptors' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/models",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/models' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/services",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/dvja/services' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/example",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/java/com/appsecco/example' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/META-INF",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/META-INF' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com/appsecco",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com/appsecco' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com/appsecco/example",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/resources/com/appsecco/example' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a10_redirect",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a10_redirect' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a1_injection",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a1_injection' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a2_broken_auth",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a2_broken_auth' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a3_xss",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a3_xss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a4_idor",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a4_idor' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a5_sec_misconf",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a5_sec_misconf' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a6_sensitive_data",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a6_sensitive_data' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a7_missing_access_control",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a7_missing_access_control' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a8_csrf",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a8_csrf' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a9_vuln_component",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/a9_vuln_component' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/common",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/dvja/common' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/example",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/WEB-INF/example' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/css",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/fonts",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/fonts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/less",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/less' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/scss",
+        "errMsg": "directory '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/src/main/webapp/assets/fa/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "error while loading iac file '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/.gitlab-ci.yml', err: failed to find valid Resources key in file: /builds/whitespots-public/vulnerable-apps/vulnerable-java-app/.gitlab-ci.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "error while loading iac file '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docker-compose.yml', err: failed to find valid Resources key in file: /builds/whitespots-public/vulnerable-apps/vulnerable-java-app/docker-compose.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "error while loading iac file '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/terrascan.json', err: error while resolving intrinsic functions, error invalid JSON: unexpected end of JSON input"
+      },
+      {
+        "iac_type": "arm",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "error while loading iac file '/builds/whitespots-public/vulnerable-apps/vulnerable-java-app/terrascan.json'. err: unable to parse file /builds/whitespots-public/vulnerable-apps/vulnerable-java-app/terrascan.json"
+      },
+      {
+        "iac_type": "kustomize",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "kustomization.y(a)ml file not found in the directory /builds/whitespots-public/vulnerable-apps/vulnerable-java-app"
+      },
+      {
+        "iac_type": "helm",
+        "directory": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+        "errMsg": "no helm charts found in directory /builds/whitespots-public/vulnerable-apps/vulnerable-java-app"
+      }
+    ],
+    "violations": [
+      {
+        "rule_name": "runUsingApt",
+        "description": "Ensure apt is not used with RUN command for Docker file",
+        "rule_id": "AC_DOCKER_0002",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "Dockerfile",
+        "resource_type": "docker_run",
+        "file": "Dockerfile",
+        "line": 4
+      },
+      {
+        "rule_name": "runUsingApt",
+        "description": "Ensure apt is not used with RUN command for Docker file",
+        "rule_id": "AC_DOCKER_0002",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "Dockerfile",
+        "resource_type": "docker_run",
+        "file": "Dockerfile",
+        "line": 5
+      },
+      {
+        "rule_name": "runUsingApt",
+        "description": "Ensure apt is not used with RUN command for Docker file",
+        "rule_id": "AC_DOCKER_0002",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "Dockerfile",
+        "resource_type": "docker_run",
+        "file": "Dockerfile",
+        "line": 6
+      }
+    ],
+    "skipped_violations": null,
+    "scan_summary": {
+      "file/folder": "/builds/whitespots-public/vulnerable-apps/vulnerable-java-app",
+      "iac_type": "docker",
+      "scanned_at": "2023-12-11 10:55:58.562986649 +0000 UTC",
+      "policies_validated": 24,
+      "violated_policies": 3,
+      "low": 0,
+      "medium": 3,
+      "high": 0
+    }
+  }
+}
+
+```
