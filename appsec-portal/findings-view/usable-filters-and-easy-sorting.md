@@ -106,6 +106,8 @@ You can **select several filters** at once for sampling accuracy:
 * [x] Docker Image: enter registry
 * [x] Domain: enter domain
 * [x] Host: enter host
+* [x] Cloud account: enter cloud account name
+* [x] Asset tags: select tags from dropdown list
 
 </details>
 
@@ -133,31 +135,11 @@ You can **select several filters** at once for sampling accuracy:
 
 <summary>Product</summary>
 
-* [x] Select a product from the drop-down list to be displayed as a result of filtering (multi-select option)
-
-</details>
-
-<details>
-
-<summary>Not product</summary>
-
-* [x] Select a product from the drop-down list to exclude from the filter result  (multi-select option)
-
-</details>
-
-<details>
-
-<summary>Product Business Criticality</summary>
-
-* [x] Select a filter range from 1 to 10
-
-</details>
-
-<details>
-
-<summary>Product type</summary>
-
-* [x] Select a product type from the drop-down list to be displayed as a result of filtering (multi-select option)
+* [x] Product: select a product from the drop-down list to be **displayed** as a result of filtering (multi-select option)
+* [x] Not product: select a product from the drop-down list to **exclude** from the filter result  (multi-select option)
+* [x] Product type: select a product type from the drop-down list to be displayed as a result of filtering (multi-select option)
+* [x] Product tags: select a product tags from the drop-down list to be displayed as a result of filtering (multi-select option)
+* [x] Product Business Criticality: select a filter range from 1 to 10
 
 </details>
 
