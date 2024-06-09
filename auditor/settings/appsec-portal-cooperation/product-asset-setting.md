@@ -15,7 +15,7 @@ Specify the location of the product by adding <img src="../../../.gitbook/assets
 * [**Domain or Host**](product-asset-setting.md#domain-and-host): to analyse your <mark style="color:blue;">web</mark> product
 * [**Cloud Account:**](product-asset-setting.md#cloud-account) to analyse the product in a <mark style="color:blue;">cloud account</mark>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Repository
 
@@ -53,7 +53,7 @@ In the **Host tab** enter **host IP**, for example 83.110.124.0
 
 Click **Create**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
