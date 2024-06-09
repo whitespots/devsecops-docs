@@ -70,4 +70,4 @@ Asset information, if an [auditor ](broken-reference)is used
 
 **Report example:**
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>

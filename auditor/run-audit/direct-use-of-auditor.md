@@ -8,7 +8,7 @@ if you are using your own images for job (scanners), [**preconfigure**](../setti
 
 2. **Create pipline**
 
-On the dashboard page click on <img src="../../.gitbook/assets/image (11) (1).png" alt="" data-size="line"> button
+On the dashboard page click on <img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" data-size="line"> button
 
 <figure><img src="../../.gitbook/assets/audit1.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,7 +57,7 @@ Clicking on a pipeline provides information about the Jobs in it, as well as Log
 
 <figure><img src="../../.gitbook/assets/audit3.png" alt=""><figcaption></figcaption></figure>
 
-You can bulk delete all pipelines by clicking on the button <img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="line">
+You can bulk delete all pipelines by clicking on the button <img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="line">
 
 <figure><img src="../../.gitbook/assets/audit2.png" alt=""><figcaption></figcaption></figure>
 

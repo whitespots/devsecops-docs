@@ -10,7 +10,7 @@ To set up a pipeline of a sequence of scanners to process your product perform t
 
 <figure><img src="../../../../.gitbook/assets/seq 2.png" alt=""><figcaption></figcaption></figure>
 
-3. Click on add ( <img src="../../../../.gitbook/assets/image (19) (1).png" alt="" data-size="line">), select a job (scanner) from the drop-down list and click on Create to add this job to your pipeline
+3. Click on add ( <img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt="" data-size="line">), select a job (scanner) from the drop-down list and click on Create to add this job to your pipeline
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../../../../.gitbook/assets/seq 3.png">seq 3.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="../../../../.gitbook/assets/seq 4.png">seq 4.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="../../../../.gitbook/assets/seq 5.png">seq 5.png</a></td></tr></tbody></table>
 
@@ -18,7 +18,7 @@ To set up a pipeline of a sequence of scanners to process your product perform t
 
 <figure><img src="../../../../.gitbook/assets/seq 6.png" alt=""><figcaption></figcaption></figure>
 
-By default, jobs are added with the option to use shared data - the scan results of a job will be passed to the next job. You can disable this option for each job by clicking on <img src="../../../../.gitbook/assets/image (21).png" alt="" data-size="line">
+By default, jobs are added with the option to use shared data - the scan results of a job will be passed to the next job. You can disable this option for each job by clicking on <img src="../../../../.gitbook/assets/image (21) (1).png" alt="" data-size="line">
 
 <figure><img src="../../../../.gitbook/assets/seq 7.png" alt=""><figcaption></figcaption></figure>
 
