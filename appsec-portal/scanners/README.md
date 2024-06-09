@@ -58,7 +58,7 @@ Here are the details of each **importer** supported by AppSec Portal
 
 #### Other scanners:
 
-*   **`Dependency-Track`**: imports result from Dependency-track platform. Component support for:
+*   **`Dependency-Track`**: imports result from [**Dependency-track**](scanner-description/other-scanners/dependency-track.md) platform. Component support for:
 
     Applications, Libraries, Frameworks, Operating systems, Containers, Firmware, Files, Hardware, Services
 * **`Pen test`** : imports results from [**Pen test scanner**](scanner-description/other-scanners/pen-test.md). Processes the data from a report that describes the results of penetration testing performed, the purpose of which is to assess the security of a system or application by actively testing, identifying vulnerabilities, and providing recommendations for remediation of the problems found.
