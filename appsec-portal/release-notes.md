@@ -1,6 +1,12 @@
 # 🗒️ Release notes
 
-#### release\_v24.06.1  (latest)
+#### release\_v24.06.2  (latest)
+
+1. **Bulk Audits for Assets:** Introduced the ability to perform bulk audits on assets, allowing users to efficiently manage and review multiple assets simultaneously. <mark style="color:green;">**`NEW`**</mark>
+2. **Linear Regression Based Suggestions:** Implemented linear regression analysis to provide intelligent suggestions and predictions. <mark style="color:green;">**`NEW`**</mark>
+3. **Improved Stability:** Made several under-the-hood improvements to enhance the overall stability of the system. <mark style="color:blue;">**`UPDATE`**</mark>
+
+#### release\_v24.06.1&#x20;
 
 1. **Monthly risk trend line**: Introduced a monthly risk trend line to help track and visualise risk changes over time. <mark style="color:green;">**`NEW`**</mark>
 2. **Recommendations**: Added a recommendation feature to provide actionable insights and suggestions for risk mitigation. <mark style="color:green;">**`NEW`**</mark>
