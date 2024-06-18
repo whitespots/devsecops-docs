@@ -2,30 +2,26 @@
 
 1. Navigate to the Auditor section
 
-<figure><img src="../../../.gitbook/assets/auditor config 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2. On the Auditor config page, fill in the details for accessing your resources:
+1. On the Auditor config page, fill in the details for accessing your resources:
 
-<figure><img src="../../../.gitbook/assets/auditor conf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 2.1. Authentication section:
 
 * _**Auditor URL**_: The host on which Auditor is installed
 * _**Access token**_: Access token received during Auditor installation
 
-<figure><img src="../../../.gitbook/assets/aud conf 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 2.2. Enable or disable the _**Verify SSL**_ option to verify the SSL certificate
 
 If the data is correct, you will see a confirmation of connection and successful authentication
 
-<figure><img src="../../../.gitbook/assets/aud conf 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-2.3. The name of the **host** to which the report will be sent after scanning
-
-<figure><img src="../../../.gitbook/assets/aud conf 4.png" alt=""><figcaption></figcaption></figure>
-
-2.4. Activate _**Group asset of different types**_ to optimize the number of pipelines
+2.3. Activate _**Group asset of different types**_ to optimize the number of pipelines
 
 <figure><img src="../../../.gitbook/assets/aud conf 5.png" alt=""><figcaption></figcaption></figure>
 
