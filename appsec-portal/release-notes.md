@@ -1,6 +1,13 @@
 # 🗒️ Release notes
 
-#### release\_v24.06.2  (latest)
+#### release\_v24.06.3  (latest)
+
+1. **Select Items Using Shift Key**: Added the ability to select multiple items using the Shift key. <mark style="color:green;">**`NEW`**</mark>
+2. **Nessus Importer**: Introduced a new Nessus importer feature, enabling seamless integration with Nessus for importing and managing vulnerability data. <mark style="color:green;">**`NEW`**</mark>
+3. **UI Improvements**: Made several enhancements to the user interface for a more intuitive and user-friendly experience. <mark style="color:blue;">**`UPDATE`**</mark>
+4. **Minor Fixes**: Addressed various minor bugs to improve system performance and reliability. <mark style="color:blue;">**`UPDATE`**</mark>
+
+#### release\_v24.06.2&#x20;
 
 1. **Bulk Audits for Assets:** Introduced the ability to perform bulk audits on assets, allowing users to efficiently manage and review multiple assets simultaneously. <mark style="color:green;">**`NEW`**</mark>
 2. **Linear Regression Based Suggestions:** Implemented linear regression analysis to provide intelligent suggestions and predictions. <mark style="color:green;">**`NEW`**</mark>
