@@ -97,6 +97,7 @@
         * [Importing reports via AWS Lambda Function within AWS Security Hub](appsec-portal/scanners/scanner-description/infrastructure-scanners/aws-security-hub-scan/importing-reports-via-aws-lambda-function-within-aws-security-hub.md)
       * [Prowler](appsec-portal/scanners/scanner-description/infrastructure-scanners/prowler.md)
       * [Subfinder](appsec-portal/scanners/scanner-description/infrastructure-scanners/subfinder.md)
+      * [Nessus](appsec-portal/scanners/scanner-description/infrastructure-scanners/nessus.md)
       * [Nuclei](appsec-portal/scanners/scanner-description/infrastructure-scanners/nuclei.md)
     * [Mobile Security Scanners](appsec-portal/scanners/scanner-description/mobile-security-scanners/README.md)
       * [MobSFScan](appsec-portal/scanners/scanner-description/mobile-security-scanners/mobsfscan.md)
