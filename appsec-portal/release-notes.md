@@ -1,6 +1,15 @@
 # 🗒️ Release notes
 
-#### release\_v24.06.3  (latest)
+**release\_v24.07.1 (latest)**
+
+1. **Grouping feature for Auto Validator**: A new grouping feature has been added to the Auto Validator, allowing users to organise and categorise validation results more efficiently. <mark style="color:green;">**`NEW`**</mark>
+2. Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.06.3.1**
+
+1. Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
+
+#### release\_v24.06.3 &#x20;
 
 1. **Select Items Using Shift Key**: Added the ability to select multiple items using the Shift key. <mark style="color:green;">**`NEW`**</mark>
 2. **Nessus Importer**: Introduced a new Nessus importer feature, enabling seamless integration with Nessus for importing and managing vulnerability data. <mark style="color:green;">**`NEW`**</mark>
