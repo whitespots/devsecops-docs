@@ -1,20 +1,20 @@
 # Whitespots Portal
 
 **Auditor Job Name**: Defender Alerts\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/defender-alerts-exporter:latest\
+**Auditor image:** registry.gitlab.com/whitespots-public/security-images/toolset:latest + your scripts\
 **AppSec Portal Importer Name**: Whitespots Portal
 
-Whitespots Portal Scanner provides the ability for users to submit their own data to Appsec Portal for further processing and management. To do this, the importer needs to provide a list of dictionaries in the following format:
+Whitespots Portal general report format provides the ability for users to submit their own reports to Appsec Portal for further processing and management. To do this, the importer needs to provide a list of dictionaries in the following format:
 
 <pre><code><strong>[
 </strong><strong>    {
-</strong>        name : “str“,
-        severity : “str”,
-        description : “str”,
-        file_path : “str”,
-        line : int,
-        vulnerable_url : “str”,
-        dependency : “str”
+</strong>        "name": “str“,
+        "severity": “str”,
+        "description": “str”,
+        "file_path": “str”,
+        "line": 0,
+        "vulnerable_url": “str”,
+        "dependency": “str”
     }
 ]
 </code></pre>
