@@ -52,7 +52,7 @@
       * [CVSS Rule](appsec-portal/features/security-metrics/cvss/cvss-rule.md)
 * [🎣 Auto Validator](appsec-portal/auto-validator/README.md)
   * [Rule creation](appsec-portal/auto-validator/rule-creation.md)
-  * [Rules filters & sorting](appsec-portal/auto-validator/rules-filters-and-sorting.md)
+  * [Rules view](appsec-portal/auto-validator/rules-view.md)
 * [🕷️ Findings view](appsec-portal/findings-view/README.md)
   * [All findings view](appsec-portal/findings-view/all-findings-view.md)
   * [Grouped findings as a result of](appsec-portal/findings-view/grouped-findings-as-a-result-of.md)
