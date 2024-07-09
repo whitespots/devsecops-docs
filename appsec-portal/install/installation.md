@@ -159,7 +159,7 @@ in the **values.yaml** file, change the default environment variables in some se
 * <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**deploymentSpec**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
 
 ```bash
-release: release_v24.07.1 
+release: release_v24.07.2
 ```
 
 * <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**ingresses**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
@@ -314,11 +314,11 @@ DB_PORT{default=5432}
 </strong><strong>AMQP_HOST_STRING{default=amqp://admin:mypass@rabbitmq:5672/}
 </strong>COOKIES_SECURE{default=True}
 <strong>DOMAIN=http://localhost
-</strong>IMAGE_VERSION=release_v24.07.1 
+</strong>IMAGE_VERSION=release_v24.07.2 
 
 </code></pre>
 
-* The <mark style="color:blue;">`IMAGE_VERSION`</mark> the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.07.1&#x20;
+* The <mark style="color:blue;">`IMAGE_VERSION`</mark> the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.07.2&#x20;
 * The <mark style="color:blue;">`DOMAIN`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify the domain where the AppSec Portal will be accessible
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> <mark style="color:green;">optional variable</mark><mark style="color:blue;">.</mark> Specify the variables needed to configure the database, or use the defaults.
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified\

@@ -1,6 +1,15 @@
 # 🗒️ Release notes
 
-**release\_v24.07.1 (latest)**
+**release\_v24.07.2 (latest)**
+
+1. **UI improvements**: Made several improvements to the user interface for a more intuitive and user-friendly experience. <mark style="color:blue;">**`UPDATE`**</mark>
+2. **Jira Webhooks Improvements**: Improved integration with Jira webhooks for more reliable and efficient issue tracking and management. <mark style="color:blue;">**`UPDATE`**</mark>
+3. **CVSS Rules in Admin Interface**: Added the ability to manage Common Vulnerability Scoring System (CVSS) rules directly in the admin interface for easier configuration and updates. <mark style="color:green;">**`NEW`**</mark>
+4. **Stability improvements**: Audit schedules are now more stable <mark style="color:blue;">**`UPDATE`**</mark>
+5. **Bug fixes**: Various minor bugs have been addressed to improve overall system performance and reliability.  <mark style="color:blue;">**`UPDATE`**</mark>
+6. **Maintenance Some microservices removed**: Some microservices have been removed from the system. <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.07.1**&#x20;
 
 1. **Grouping feature for Auto Validator**: A new grouping feature has been added to the Auto Validator, allowing users to organise and categorise validation results more efficiently. <mark style="color:green;">**`NEW`**</mark>
 2. Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
