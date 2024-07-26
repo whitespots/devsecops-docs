@@ -35,10 +35,7 @@ In this command, the following parameters are used:
 
 **Report example:**
 
-`[{"line":1,"code":"DL3006","message":"Always tag the version of an image explicitly","column":1,"file":"./test/smoke/Dockerfile","level":"warning"},{"line":3,"code":"DL3018","message":"Pin versions in apk add. Instead of apk add <package> use apk add <package>=<version>","column":1,"file":"./test/smoke/Dockerfile","level":"warning"},{"line":3,"code":"DL3019","message":"Use the --no-cache switch to avoid the need to use --update and remove /var/cache/apk/* when done installing packages","column":1,"file":"./test/smoke/Dockerfile","level":"info"}]`
-
-<pre class="language-json"><code class="lang-json">[
-<strong>    {
+<pre class="language-json"><code class="lang-json"><strong>    {
 </strong><strong>   "line":1,"code":"DL3006","message":"Always tag the version of an image explicitly",
 </strong>       "column":1,"file":"./test/smoke/Dockerfile","level":"warning"
     },
