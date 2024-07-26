@@ -76,7 +76,7 @@
       * [Gosec](appsec-portal/scanners/scanner-description/code-scanners/gosec.md)
       * [Hadolint](appsec-portal/scanners/scanner-description/code-scanners/hadolint.md)
       * [KICS](appsec-portal/scanners/scanner-description/code-scanners/kics.md)
-      * [PHP\_CodeSniffer](appsec-portal/scanners/scanner-description/code-scanners/php\_codesniffer.md)
+      * [PHPCodeSniffer](appsec-portal/scanners/scanner-description/code-scanners/phpcodesniffer.md)
       * [Retire.js](appsec-portal/scanners/scanner-description/code-scanners/retire.js.md)
       * [Semgrep](appsec-portal/scanners/scanner-description/code-scanners/semgrep.md)
       * [SpotBugs](appsec-portal/scanners/scanner-description/code-scanners/spotbugs.md)
