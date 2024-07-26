@@ -8,7 +8,7 @@
 
 {% code overflow="wrap" %}
 ```
-curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./mobsfscan.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=Dependency-Track" -F "branch=dev" -F "repository=git@gitlab.com:whitespots-public/appsec-portal.git"
+curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./mobsfscan.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=Dependency-Track" -F "branch=dev" 
 ```
 {% endcode %}
 
@@ -22,11 +22,4 @@ In this command, the following parameters are used:
 6. `-F "product_type=<product_type>"`: specifies the **type of the product** being scanned.
 7. `-F "scanner_name=<scanner_name>"`: specifies the **name of the scanner** used to generate the report (Dependency-Track)
 8. `-F "branch=<branch_name>"`: (_optional_) specifies the name of the branch in the source code repository (if applicable) This parameter is particularly useful when you want to associate the scan results with a specific branch in your repository. If not provided, the scan will be associated with the default branch
-
-Asset information, if an [auditor ](broken-reference)is used
-
-9. `-F "repository=<repository SSH URL>"`: If your product is **code** in a repository enter the address of your **repository** in a specific format, for example: git@gitlab.com:whitespots-public/appsec-portal.git
-10. &#x20;\-F "docker\_image=\<registry address>": If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest
-11. \-F "domain=\<domain>": If your product is **web** enter the **domain name** of your product, for example: whitespots.io
-12. \-F "host=\<host>": If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 

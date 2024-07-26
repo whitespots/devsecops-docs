@@ -1,7 +1,5 @@
 # Nessus
 
-**Auditor Job Name**: Nuclei Scan, Nuclei Infrastructure\
-**Auditor image:** registry.gitlab.com/whitespots-public/security-images/nuclei:2.9.9\
 **AppSec Portal Importer Name**: Nessus
 
 [**Nessus**](https://www.tenable.com/products/nessus) applications:
@@ -16,7 +14,7 @@ Scan servers, workstations and network devices for vulnerabilities and misconfig
 
 {% code overflow="wrap" %}
 ```
-curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./report-nuclei.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=Nessus" -F "branch=dev" 
+curl -X POST localhost/api/v1/scan/import/ -H "Authorization: Token a75bb26171cf391671e67b128bfc8ae1c779ff7b" -H "Content-Type: multipart/form-data" -F "file=@./report-nuclei.json" -F "product_name=Product1" -F "product_type=Application" -F "scanner_name=Nessus" -F "branch=dev" -F "host=103.150.0.102"
 ```
 {% endcode %}
 
