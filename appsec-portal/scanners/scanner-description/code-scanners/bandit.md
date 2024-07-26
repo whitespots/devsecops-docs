@@ -40,9 +40,9 @@ In this command, the following parameters are used:
 Asset information, if an [auditor ](broken-reference)is used
 
 9. `-F "repository=<repository SSH URL>"`: If your product is **code** in a repository enter the address of your **repository** in a specific format, for example: git@gitlab.com:whitespots-public/appsec-portal.git
-10. &#x20;\-F "docker\_image=\<registry address>": If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest
-11. \-F "domain=\<domain>": If your product is **web** enter the **domain name** of your product, for example: whitespots.io
-12. \-F "host=\<host>": If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
+10. &#x20;`-F "docker_image=<registry address>"`: If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest
+11. `-F "domain=<domain>"`: If your product is **web** enter the **domain name** of your product, for example: whitespots.io
+12. `-F "host=<host>"`: If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 
 **Report example:**
 
