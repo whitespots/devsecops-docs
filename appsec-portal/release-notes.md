@@ -1,6 +1,14 @@
 # 🗒️ Release notes
 
-**release\_v24.07.2 (latest)**
+**release\_v24.07.3 (latest)**
+
+1. **Added support for Common Weakness Enumeration (CWE)**: Allows users to focus on the most common security issues. <mark style="color:green;">**`NEW`**</mark>
+2. **Refactored importers to support CWE**: Importers have been refactored to include CWE support, allowing for more comprehensive and detailed analysis of security issues. <mark style="color:green;">**`NEW`**</mark>
+3. **Added preview of assets and products for selected findings**: Added the ability to preview assets and products associated with selected findings, providing a clearer understanding of the impact and context of each issue. <mark style="color:green;">**`NEW`**</mark>
+4. **Organisation removed from repository URL configuration**: Simplified repository URL configuration by removing the organisation parameter. The portal can now automatically retrieve most information from the repository asset, streamlining setup and configuration. <mark style="color:blue;">**`UPDATE`**</mark>
+5. **Minor bug fixes:** Various minor bugs have been addressed to improve overall system performance and reliability. <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.07.2**
 
 1. **UI improvements**: Made several improvements to the user interface for a more intuitive and user-friendly experience. <mark style="color:blue;">**`UPDATE`**</mark>
 2. **Jira Webhooks Improvements**: Improved integration with Jira webhooks for more reliable and efficient issue tracking and management. <mark style="color:blue;">**`UPDATE`**</mark>
