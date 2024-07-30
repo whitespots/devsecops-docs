@@ -13,7 +13,7 @@ For **Product scanning** (**Product mode**):
 
 * Choose product(-s) by clickng on product in Products to select section. You can use the search bar or additional filters to find the products you need.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * By default, all product assets are selected for scanning (the list of assets is displayed below the Product Selection section). You can keep the product assets you are interested in for scanning and exclude the ones you don't need by clicking on them.
 

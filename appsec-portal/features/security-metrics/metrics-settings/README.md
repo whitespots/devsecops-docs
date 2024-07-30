@@ -9,7 +9,7 @@
 
 You can set the **weight** for each severity type according to your business needs by going to _Settings -> Metrics -> Severity Weights_:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Risk appetite
 
