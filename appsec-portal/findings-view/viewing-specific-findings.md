@@ -2,7 +2,7 @@
 
 Click on the finding to expand information:
 
-<figure><img src="../../.gitbook/assets/find view.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/viwe.gif" alt=""><figcaption></figcaption></figure>
 
 * **everything you need to know** about finding:&#x20;
 
@@ -12,8 +12,11 @@ Click on the finding to expand information:
 * [x] product name, tag and group
 * [x] severity
 * [x] name of the scanner or check used
+* [x] Dependency
 * [x] asset data
 * [x] CVSS vector
+* [x] Affected by
+* [x] CWE
 * [x] description of the problem
 * [x] jira information&#x20;
 
