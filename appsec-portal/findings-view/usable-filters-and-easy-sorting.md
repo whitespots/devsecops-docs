@@ -2,11 +2,11 @@
 
 **AppSec Portal** provides **all kinds of filters** to handle large numbers of reports:
 
-<figure><img src="../../.gitbook/assets/filter.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Video_2024_08_01-1(1).gif" alt=""><figcaption></figcaption></figure>
 
 You can filter your findings not only by **date of creation**, but also by **verification date**, **assignment date** and **resolving date**:
 
-<figure><img src="../../.gitbook/assets/date.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 You can **select several filters** at once for sampling accuracy:
 
@@ -45,11 +45,9 @@ You can **select several filters** at once for sampling accuracy:
 
 <details>
 
-<summary>Found by</summary>
+<summary>Found by: include or exclude</summary>
 
 * [x] Select **scanner name** from drop-down list of scanners (multi select option)
-* [x] Include or Exclude
-* [x] Medium
 
 </details>
 
@@ -120,6 +118,8 @@ You can **select several filters** at once for sampling accuracy:
 * [x] Auto verified by rule
 * [x] Auto rejected by rule
 * [x] Affected by CVSS rule
+* [x] Affected by Autovalidator rule
+* [x] Imported in Audit
 
 </details>
 
@@ -128,6 +128,17 @@ You can **select several filters** at once for sampling accuracy:
 <summary>Group</summary>
 
 * [x] Select a group name from the drop-down list to be displayed as a result of filtering (multi-select option)
+
+</details>
+
+<details>
+
+<summary>CWE </summary>
+
+* [x] Select CWE from the drop-down list (multi-select option) - include or exclude
+* [x] All&#x20;
+* [x] Empty&#x20;
+* [x] Not empty
 
 </details>
 
