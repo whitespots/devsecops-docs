@@ -7,7 +7,7 @@ You can view the **audits performed** using:
 Selecting the **Audits** section from the left-hand menu bar **on the home page** will bring up a screen displaying **all** audits performed on the portal. \
 Audits are displayed by date and time, product, assets and scanners used.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Use of the filter
 
@@ -25,7 +25,7 @@ Each Asset and Scanner displays the number of new and resolved findings. You can
 
 By selecting multiple entries you can **delete** them in bulk
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Product audit screen
 

@@ -1,6 +1,6 @@
 # All findings view
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Every finding can be viewed, edited and verified **on the same page** one by one:
 

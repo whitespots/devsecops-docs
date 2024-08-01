@@ -10,11 +10,11 @@ On the Product page you can find all the Assets that are configured for this pro
 
 You can also view all the Assets created for your products by clicking on the **Assets** section on the main page of the AppSec Portal
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here Assets are grouped by their type
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Findings in Assets
 
@@ -29,7 +29,7 @@ To search for Asset, you can use&#x20;
 
 * the **search bar** by clicking on the search icon on the top right side of the screen and typing in the name of the Asset
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **filter** option: you can filter assemblies by Tags, Product name, Product Business Criticality and Product type
 

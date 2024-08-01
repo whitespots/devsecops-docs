@@ -10,7 +10,7 @@ This guide will also allow you to establish **mappings** for **issue status** an
 * Log in to your AppSec Portal instance
 * Navigate to the Settings->Integrations->Jira
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 1. Authorization
 
