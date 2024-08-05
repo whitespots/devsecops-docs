@@ -1,6 +1,16 @@
 # 🗒️ Release notes
 
-**release\_v24.07.3 (latest)**
+**release\_v24.08.1 (latest)**
+
+1. **New statuses**: Introduced new statuses (_Temporarily Risk Accepted_, _Permanently Risk Accepted_) to better categorise and manage risk acceptance in findings. <mark style="color:green;">**`NEW`**</mark>
+2. **Autovalidator actions for new findings statuses**: Added autovalidator actions to handle the newly introduced issue statuses. <mark style="color:green;">**`NEW`**</mark>
+3. **Jira Issue Status Mappings for New Issue Statuses**: Implemented mappings for Jira issue statuses to reflect the new issue statuses. <mark style="color:green;">**`NEW`**</mark>
+4. **Configurable Two-Way Binding for Jira Issue Statuses**: Enabled configurable two-way binding for Jira issue statuses. <mark style="color:green;">**`NEW`**</mark>
+5. **Status change event added for notifications**: Added a status change event to trigger notifications to keep users informed of any changes to issue statuses. <mark style="color:green;">**`NEW`**</mark>
+6. **Enhanced findings automation filters**: Improved findings automation filters. <mark style="color:blue;">**`UPDATE`**</mark>
+7. **Minor bug fixes**: Various minor bugs have been addressed to improve overall system performance and reliability. <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.07.3**&#x20;
 
 1. **Added support for Common Weakness Enumeration (CWE)**: Allows users to focus on the most common security issues. <mark style="color:green;">**`NEW`**</mark>
 2. **Refactored importers to support CWE**: Importers have been refactored to include CWE support, allowing for more comprehensive and detailed analysis of security issues. <mark style="color:green;">**`NEW`**</mark>
