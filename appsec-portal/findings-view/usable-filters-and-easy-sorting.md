@@ -2,7 +2,7 @@
 
 **AppSec Portal** provides **all kinds of filters** to handle large numbers of reports:
 
-<figure><img src="../../.gitbook/assets/Video_2024_08_01-1(1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/filter(1).gif" alt=""><figcaption></figcaption></figure>
 
 You can filter your findings not only by **date of creation**, but also by **verification date**, **assignment date** and **resolving date**:
 
