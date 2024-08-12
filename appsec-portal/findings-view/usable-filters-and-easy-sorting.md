@@ -156,8 +156,8 @@ You can **select several filters** at once for sampling accuracy:
 
 You can also **sort** the list of findings in ascending or descending order by clicking on the column header:
 
-<figure><img src="../../.gitbook/assets/sort.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sort(1).gif" alt=""><figcaption></figcaption></figure>
 
 Click on the loupe sign to **search by specific name** (in finding name, in description or in tag):
 
-<figure><img src="../../.gitbook/assets/found by name.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/filter.gif" alt=""><figcaption></figcaption></figure>
