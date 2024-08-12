@@ -2,7 +2,7 @@
 
 Click on the finding to expand information:
 
-<figure><img src="../../.gitbook/assets/viwe.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/find(1).gif" alt=""><figcaption></figcaption></figure>
 
 * **everything you need to know** about finding:&#x20;
 
