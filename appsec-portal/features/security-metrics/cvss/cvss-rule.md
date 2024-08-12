@@ -5,7 +5,7 @@ Set up a rule to **automatically** rate your products by following the steps bel
 1. Navigate to the CVSS section and click on the **Create Rule** button
 2. In the window that opens, select the **products** to which you want the rules to apply, or leave the default setting to include all your products.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/cvss2-1.png" alt=""><figcaption></figcaption></figure>
 

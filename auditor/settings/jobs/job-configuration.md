@@ -29,7 +29,7 @@ Each job (scanner) has a preset configuration that can be changed or supplemente
 
 <figure><img src="../../../.gitbook/assets/job conf 4.png" alt=""><figcaption></figcaption></figure>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr><tr><td></td><td><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr><tr><td></td><td><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><img src="../../../.gitbook/assets/image (14) (1) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr><tr><td></td><td><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr><tr><td></td><td><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt="" data-size="original"></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Mandatory environment variables for each job type **Scanner**:\

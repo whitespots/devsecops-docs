@@ -2,7 +2,7 @@
 
 The Jobs page contains the [**configured**](job-configuration.md) jobs for processing your product
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt="" data-size="original"></td><td align="center">Auditor interface</td><td></td><td></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt="" data-size="original"></td><td align="center">AppSec Portal interface</td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><img src="../../../.gitbook/assets/image (12) (1) (1) (1).png" alt="" data-size="original"></td><td align="center">Auditor interface</td><td></td><td></td></tr><tr><td align="center"><img src="../../../.gitbook/assets/image (13) (1) (1) (1).png" alt="" data-size="original"></td><td align="center">AppSec Portal interface</td><td></td><td></td></tr></tbody></table>
 
 There are two types of jobs:&#x20;
 

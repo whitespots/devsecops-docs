@@ -6,7 +6,7 @@ You can create products on the AppSec Portal by importing them from your GitHub 
 
 <figure><img src="../../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 2. **Select Code Management System** - GitLab or GitHub
 
