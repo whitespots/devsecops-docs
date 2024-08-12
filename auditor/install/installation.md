@@ -164,7 +164,7 @@ helm repo add auditor https://gitlab.com/api/v4/projects/51993931/packages/helm/
 
 **Step 2. Set environment variables**
 
-in the **values.yaml** file, change the default environment variables to meet your requirements:
+change the default environment variables to meet your requirements:
 
 * In the **deploymentSpec** section:
 

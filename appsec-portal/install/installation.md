@@ -146,7 +146,7 @@ helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/
 
 **Step 2**: Set environment variables
 
-in the **values.yaml** file, change the default environment variables in some sections to meet your requirements :
+change the default environment variables in some sections to meet your requirements :
 
 * <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**deploymentSpec**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
 
