@@ -5,10 +5,9 @@ Basic deduplication works during report import, scanner report post-processing a
 To set up a rule for Basic Deduplicator, follow the steps below
 
 1. Navigate to **Settings** -> **Maintenance** -> **Basic Dedublication**
-
-<figure><img src="../../../.gitbook/assets/basic dedublic 1.png" alt=""><figcaption></figcaption></figure>
-
 2. Select the **Deduplication Criteria**
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 When criteria are chosen, new findings are compared only with those having equal values in selected criteria; otherwise, without selected criteria, new findings are compared with all existing findings in specified scope.
 
@@ -19,9 +18,11 @@ You can select one or more criteria:
 * Same Domain
 * Same Host
 * Same Repository
+* Same Cloud account
 * Same Scanner
+* Same custom field
 
-<figure><img src="../../../.gitbook/assets/basic dedublic 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 3. Select the **Scope** within which the basic deduplication will take place
 

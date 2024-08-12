@@ -31,7 +31,7 @@ In the example below, the **URL** has several components separated by forward sl
 * `e2b7e8be-1c77-4969-9105-58e91bd311cc`: This is a _unique identifier_ (token) that is associated with the specific webhook event. This identifier is used to ensure that the event is coming from a trusted source and to match the incoming event with the corresponding webhook configuration.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Select the "**Issue related events**" that will trigger the webhook:&#x20;
 

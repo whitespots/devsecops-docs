@@ -6,15 +6,15 @@
 
 &#x20;**Severity Statistic view:**
 
-<figure><img src="../../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="line">  on the right panel:
+You can **customise your dashboard** based on your needs by clicking the **Metrics button** <img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="line">  on the right panel:
 
 <figure><img src="../../../.gitbook/assets/dash1.gif" alt=""><figcaption></figcaption></figure>
 
 The **timeline** of the charts can be customized to show data for the last 3 days, last week, last month, or last year, providing flexibility in analyzing different time ranges.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Select the products** for which you want to see data on the chart by selecting them from the _Products to Select_ section. You can search, filter (by product type, included or excluded tag) and include or exclude selected products from the data display by moving the _Exclude Selection_ slider.
 
@@ -24,7 +24,7 @@ The **timeline** of the charts can be customized to show data for the last 3 day
 
 [**Weighted Risk Trend (WRT)**](wrt-weighted-risk-trend.md) metric empowers organizations to measure and track the state of security in a business-oriented manner. The **General WRT** is calculated by combining the WRT of each product, taking into account their respective severity weights, findings count, and business criticality assessments.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Note that the **General Weighted Risk Trend** displays the [WRT](wrt-weighted-risk-trend.md), risk appetite and severity weight values. Be sure to [set the appropriate weights](https://docs.whitespots.io/appsec-portal/features/security-metrics/metrics-settings) before viewing the graph. Otherwise, the graph may be distorted by incorrect weight values.
@@ -36,20 +36,20 @@ By regulary tracking the following global metrics, you can gain a better underst
 
 Shows the number of verified findings grouped by severity.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Trend history
 
 Shows the trend of verified fyndings.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-You can configure the trend display only by clicking on the cogwheel ![](<../../../.gitbook/assets/image (8).png>) through this section.\
+You can configure the trend display only by clicking on the cogwheel ![](<../../../.gitbook/assets/image (8) (1).png>) through this section.\
 Trend history section will display data for the last month
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Mean Time of Status Change
 
@@ -63,22 +63,22 @@ Customise the view of the metric view using the Findings Status Change Time Stat
 
 *   **Average Vulnerability Age** (**AVA**) calculates the average age of vulnerabilities from _creation_ to _remediation_. It helps to determine how long vulnerabilities pose a potential risk.
 
-    <figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 *   **Mean Time to Detection** (**MTTD**) measures the average time it takes to _verify_ vulnerabilities from the moment they are _created_ . A shorter MTTD indicates an effective and timely vulnerability detection process.
 
-    <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 *   **Mean Time to Rejection** (**MTR**) measures the average time it takes for a finding to be _rejected_ after _creation_. It provides insights into the speed of handling findings that are determined to be false positives.
 
-    <figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 *   **Mean Time to Remediation** (**MTTR**) calculates the average time it takes to _remediate_ vulnerabilities from the moment they are _verified_. A shorter MTTR indicates an efficient vulnerability resolution process.
 
-    <figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 *   **Mean Time to Product Task Assignment** (**MTTAp**) measures the average time it takes for a _validated_ finding to be assigned to a developer (_assignee_) in the Jira product space from the time it is validated. It helps to track the speed at which results are processed after validation and the initiation of the fixing process.&#x20;
