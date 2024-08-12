@@ -39,7 +39,9 @@ For **Asset scanning** (**Asset mode**):
 <figure><img src="../../../.gitbook/assets/run audit 3.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-You can run an audit **from** the **product page**. In this case, you will need to select the Job sequence and, if required, select specific assets and specify a branch.
+You can run an audit **from** the **product or assets page**. In this case, you will need to select the Job sequence and, if required, select specific assets and specify a branch.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/run aud prod.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/run aud prod.gif" alt=""><figcaption><p>fom product page</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/run audit (1).gif" alt=""><figcaption></figcaption></figure>
