@@ -12,7 +12,7 @@ By clicking on the triplet next to an Autovalidator rule, you can:&#x20;
 
 Use the handy **filters** to find the rules you need at a glance:
 
-<figure><img src="../../.gitbook/assets/autoval 2.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validat.gif" alt=""><figcaption></figcaption></figure>
 
 Search rules by **value** name:
 

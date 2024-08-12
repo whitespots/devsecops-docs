@@ -16,9 +16,9 @@ To import, click the '**Import**' button and drag and drop the JSON file contain
 
 1. Add new rule for validation:
 
-<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* decide what to do with findings if the right conditions are met: **reject, confirm** or **no.** If **сonfirm** is selected, the validator will automatically create corresponding tasks in Jira. If **reject** is selected, findings will be excluded from future checks. If **No** is selected, entered **tag** or/and **group** will be assigned to findings in accordance with rule;
+* decide what to do with findings if the right conditions are met: **reject, confirm, no, temporarily accept risk or permamently accept risk .** If **сonfirm** is selected, the validator will automatically create corresponding tasks in Jira. If **reject** is selected, findings will be excluded from future checks. If **No** is selected, entered **tag** or/and **group** will be assigned to findings in accordance with rule;
 * automatically add tags to validated findings;
 * automatically add group to validated findings;
 * set conditions: specify the value you want to find or exclude, choose where to search (in the _title_, _description_, _file path, branch,_ _scanner_ name, _dependency_, _vulnerable_ _url_, _import_ _source_ (internal or external at your option);
