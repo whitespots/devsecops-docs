@@ -5,7 +5,7 @@ You can set up multiple notification types for a single service
 
 1. Navigate to the **All Findings** section and click the **Filters** button:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/notif sched2.png" alt=""><figcaption></figcaption></figure>
 

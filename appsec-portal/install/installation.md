@@ -136,23 +136,15 @@ Please note that after the initial installation, it is **necessary to reset the 
 
 Before using Helm, make sure that Helm is installed on your computer and that your Kubernetes cluster is configured to work with Helm
 
-**Step 1:** Clone the repository
+**Step 1:** Add helm package
 
-Clone the Appsec portal repository to your server:
-
-```
-git clone https://gitlab.com/whitespots-public/appsec-portal.git appsec-portal
-```
-
-**Step 2:** Navigate to the root directory
-
-Navigate to the directory where the Appsec-portal files were cloned, the helm directory:
+Add the Appsec portal package to your server:
 
 ```
-cd appsec-portal/AppsecPortal-HelmChart  
+helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/helm/stable
 ```
 
-**Step 3**: Set environment variables
+**Step 2**: Set environment variables
 
 in the **values.yaml** file, change the default environment variables in some sections to meet your requirements :
 
@@ -232,44 +224,29 @@ claimName: postgres-pv-claim
 <mark style="color:blue;">`mountPath`</mark>: the place inside the container where the database storage will be mounted\
 <mark style="color:blue;">`claimName`</mark>: the name of the PersistentVolumeClaim that is used to request storage allocation
 
-**Step 4:** To configure the ingress
+**Step 3:** Helm install with all resources inside cluster
 
-To configure the ingress in your Helm chart, add the required annotations. We recommend including the following:
-
-For **ingress-webhook**:
-
-```bash
-ingress.kubernetes.io/scheme: internet-facing
-ingress.kubernetes.io/target-type: ip
-```
-
-For **ingress-hosts**:
-
-```bash
-ingress.kubernetes.io/scheme: internal
-ingress.kubernetes.io/target-type: ip
-```
-
-For **ingress-import**:
-
-```bash
-ingress.kubernetes.io/scheme: internal
-ingress.kubernetes.io/target-type: ip
-```
-
-**Step 5:** Install the application using Helm
-
-Run the application by executing the following command:
+In the example we use pre-installed nginx ingress controller and postgres, rabbitmq from chart:
 
 ```
-helm install appsecportal <path-to-helm-directory>
+helm install portal appsecportal/appsecportal --set postgresql.enabled=true 
+    --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
+    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip --set ingress.ingressClassName=nginx 
+    --set ingress.host=your_own_host -n <namespace>
+
 ```
 
-replace _\<path-to-helm-directory>_ with the path to the directory that contains the Helm Chart for your application.
+**Step 4:** Create a superuser account
 
-After the first run you will receive an **Access Token**.
+To create an administrator account, execute the following command:
 
-<mark style="color:red;">Copy the value of the access token and add it in the</mark> <mark style="color:red;"></mark><mark style="color:red;">**values.yaml**</mark> <mark style="color:red;"></mark><mark style="color:red;">file in the</mark> <mark style="color:red;"></mark><mark style="color:red;">**secret section**</mark> <mark style="color:red;"></mark><mark style="color:red;">and</mark> <mark style="color:red;"></mark><mark style="color:red;">**restart scanner-worker**</mark> <mark style="color:red;"></mark><mark style="color:red;">pod</mark>
+```
+kubectl get pods -n <namespace>
+kubectl exec -it -n <namespace> <portal_pod> -c appsecportal-backend -- /bin/sh 
+python3 manage.py createsuperuser --username admin
+```
+
+This username and password will allow you to **log in to** the installed **Appsec Portal**
 
 **Next step:** [Start your AppSec Portal and apply the licence](get-started-with-the-appsec-portal/)
 
