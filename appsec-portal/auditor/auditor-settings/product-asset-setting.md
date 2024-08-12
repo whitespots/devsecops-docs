@@ -29,11 +29,11 @@ In the Repository tab, fill in the required fields:
 
 Select a [pre-created](../../general-portal-settings/repository-link-configs.md) pattern from the drop-down list or use the find a matching config function
 
-<figure><img src="../../../.gitbook/assets/repos link(1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/asset link.gif" alt=""><figcaption></figcaption></figure>
 
 Or create a new pattern directly from this section
 
-<figure><img src="../../../.gitbook/assets/repos 3(1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/link2.gif" alt=""><figcaption></figcaption></figure>
 
 3. Save the created asset by clicking on the **Create** button
 
