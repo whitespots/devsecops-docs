@@ -49,7 +49,8 @@ docker-compose up -d
 1. To update, run the following command:
 
 ```
-helm upgrade auditor <path-to-helm-directory>
+helm repo update auditor
+helm upgrade auditor auditor/appsecauditor
 ```
 
 replace with the path to the directory that contains the Helm Chart for your application.
