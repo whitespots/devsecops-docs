@@ -1,6 +1,12 @@
 # 🗒️ Release notes
 
-**release\_v24.08.1 (latest)**
+**release\_v24.08.2 (latest)**
+
+1. **Custom field for findings and basic deduplication**: Introduced the ability to add custom fields to findings, along with basic deduplication functionality. <mark style="color:green;">**`NEW`**</mark>
+2. **SSL configuration for notifications**: Added SSL configuration options for notifications, improving the security and reliability of notification delivery. <mark style="color:blue;">**`UPDATE`**</mark>
+3. **Minor bug fixes**: Various minor issues have been addressed to improve system stability and performance. <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.08.1**&#x20;
 
 1. **New statuses**: Introduced new statuses (_Temporarily Risk Accepted_, _Permanently Risk Accepted_) to better categorise and manage risk acceptance in findings. <mark style="color:green;">**`NEW`**</mark>
 2. **Autovalidator actions for new findings statuses**: Added autovalidator actions to handle the newly introduced issue statuses. <mark style="color:green;">**`NEW`**</mark>
