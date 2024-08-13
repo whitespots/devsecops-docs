@@ -175,10 +175,10 @@ configs.configMap.domain="http://localhost"
 rabbitmq.auth.username="admin" 
 ```
 
-* <mark style="color:blue;">`COOKIES_SECURE`</mark>: variable determines the cookie security flag. It should be set to `True` if HTTPS is used.
-* <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> and <mark style="color:blue;">`DB_PASS`</mark> specify the variables needed to configure the database, or use the defaults.
-* The <mark style="color:blue;">`DOMAIN`</mark> specify the domain where the Appsec-portal will be accessible.
-* if the container is raised locally <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> need to be specified
+* <mark style="color:blue;">`configs.configMap.cookies_secure`</mark>: variable determines the cookie security flag. It should be set to `True` if HTTPS is used.
+* <mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>, <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark> and <mark style="color:blue;">`postgresql.auth.password`</mark> specify the variables needed to configure the database, or use the defaults.
+* The <mark style="color:blue;">`configs.configMap.domain`</mark> specify the domain where the Appsec-portal will be accessible.
+* if the container is raised locally <mark style="color:blue;">`rabbitmq.auth.username`</mark> need to be specified
 
 <!---->
 
@@ -193,9 +193,9 @@ configs.secret.secret_key=<your key>
 rabbitmq.auth.password="mypass"
 ```
 
-* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified
-* The <mark style="color:blue;">`JWT_PRIVATE_KEY`</mark> and <mark style="color:blue;">`JWT_PUBLIC_KEY`</mark> variables are RSA key pair used to sign JWT keys
-* <mark style="color:blue;">`SECRET_KEY`</mark>: variable is used to generate hashes in Django
+* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`rabbitmq.containerPorts.amqp`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`rabbitmq.auth.username`</mark> and <mark style="color:blue;">`rabbitmq.auth.password`</mark> need to be specified
+* The <mark style="color:blue;">`configs.secret.jwt_private_key`</mark> and <mark style="color:blue;">`configs.secret.jwt_public_key`</mark> variables are RSA key pair used to sign JWT keys
+* <mark style="color:blue;">`configs.secret.secret_key`</mark>: variable is used to generate hashes in Django
 
 **Step 3:** Helm install with all resources inside cluster
 
