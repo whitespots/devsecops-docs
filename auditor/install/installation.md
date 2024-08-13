@@ -150,7 +150,7 @@ Save the key value in a safe place for later usage in the Auditor [settings](../
 
 <details>
 
-<summary>Instal using Helm</summary>
+<summary>Install using Helm</summary>
 
 Before using Helm, make sure that Helm is installed on your computer and that your Kubernetes cluster is configured to work with Helm
 
