@@ -146,34 +146,33 @@ helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/
 
 **Step 2**: Set environment variables
 
-change the default environment variables in some sections to meet your requirements :
+change the default environment variables to meet your requirements :
 
-* <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**deploymentSpec**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
+* <mark style="background-color:blue;">**Release name**</mark><mark style="background-color:blue;">:</mark>
 
 ```bash
-release: release_v24.08.2
+global.image.tag=release_v24.08.2
 ```
 
-* <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**ingresses**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
+* <mark style="background-color:blue;">**Jira Webhook**</mark><mark style="background-color:blue;">:</mark>
 
 ```bash
-- name: ingress-webhook
-  path: /api/v1/jira-helper/jira-event/<your-webhook>/
+webhook.ingress.path="/api/v1/jira-helper/jira-event/<your-webhook>/"
 ```
 
 Replace _your-webhook_ in path variable '/api/v1/jira-helper/jira-event/your-webhook/' with the unique identifier (token) associated with the specific webhook event, for example, e2b7e8be-1c77-4969-9105-58e91bd311cc.
 
-* <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**configMap**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
+* <mark style="background-color:blue;">**Variables**</mark><mark style="background-color:blue;">:</mark>
 
 ```bash
-COOKIES_SECURE: "True"  
-DB_HOST: "postgres"     
-DB_PORT: "5432"         
-DB_NAME: "postgres"       
-DB_USER: "postgres"      
-DEBUG: "True"           
-DOMAIN: http://localhost  
-RABBITMQ_DEFAULT_USER: admin 
+configs.configMap.cookies_secure="True"  
+configs.configMap.database.host="postgres"     
+postgresql.containerPorts.postgresql="5432"         
+postgresql.auth.database="postgres"       
+postgresql.auth.username="postgres"      
+configs.configMap.debug="True"           
+configs.configMap.domain="http://localhost"  
+rabbitmq.auth.username="admin" 
 ```
 
 * <mark style="color:blue;">`COOKIES_SECURE`</mark>: variable determines the cookie security flag. It should be set to `True` if HTTPS is used.
@@ -183,46 +182,20 @@ RABBITMQ_DEFAULT_USER: admin
 
 <!---->
 
-* <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**secrets**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
+* <mark style="background-color:blue;">**Secrets**</mark><mark style="background-color:blue;">:</mark>
 
 ```bash
-AMQP_HOST_STRING: "amqp://admin:mypass@rabbitmq:5672/"
-DB_PASS: "postgres"
-JWT_PRIVATE_KEY: <your key>
-JWT_PUBLIC_KEY: <your key>
-SECRET_KEY: <your key>
-RABBITMQ_DEFAULT_PASS: "mypass"
+rabbitmq.containerPorts.amqp="amqp://admin:mypass@rabbitmq:5672/"
+postgresql.auth.password="postgres"
+configs.secret.jwt_private_key=<your key>
+configs.secret.jwt_public_key=<your key>
+configs.secret.secret_key=<your key>
+rabbitmq.auth.password="mypass"
 ```
 
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified
 * The <mark style="color:blue;">`JWT_PRIVATE_KEY`</mark> and <mark style="color:blue;">`JWT_PUBLIC_KEY`</mark> variables are RSA key pair used to sign JWT keys
 * <mark style="color:blue;">`SECRET_KEY`</mark>: variable is used to generate hashes in Django
-
-<!---->
-
-* <mark style="background-color:blue;">In the</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**db**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">section:</mark>
-
-It is **recommended** to use an **external database**. For this purpose it is enough only to specify the value `true` for the variable <mark style="color:blue;">`external_db`</mark>, other variables in this section do not need to be specified
-
-But if you use a database inside the cluster, configure variables for it
-
-```bash
-external_db: false 
-name: postgres
-storageClassName: local-storage
-node: minikube
-path: /mnt/local-storage
-mountPath: /mnt
-claimName: postgres-pv-claim
-```
-
-<mark style="color:blue;">`external_db`</mark>: `false`\
-<mark style="color:blue;">`name`</mark>: database name\
-<mark style="color:blue;">`storageClassName`</mark>: storage class name for the database\
-<mark style="color:blue;">`node`</mark>: the node in the cluster that will host the database\
-<mark style="color:blue;">`path`</mark>:path to the database storage on the node\
-<mark style="color:blue;">`mountPath`</mark>: the place inside the container where the database storage will be mounted\
-<mark style="color:blue;">`claimName`</mark>: the name of the PersistentVolumeClaim that is used to request storage allocation
 
 **Step 3:** Helm install with all resources inside cluster
 
