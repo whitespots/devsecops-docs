@@ -9,7 +9,7 @@ description: AppSec Portal deployment step-by-step guide
 ### System Requirements for Portal usage:
 
 * Minimum system resources: 4 GB of RAM and 2 CPU cores.
-* Average system resources for 500-700 assets: 16 GB of RAM and 4 CPU cores.
+* **Recommended** system resources for 500-700 assets: 16 GB of RAM and 4 CPU cores.
 * Free disk space for installation and data storage of the portal.
 * Network access for external users (users must be able to connect to the portal over the network).
 
