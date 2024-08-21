@@ -12,7 +12,7 @@ The **Products** **page** allows you to manage the products in the AppSec Portal
 
 On the Products tab, you can view a list of all products grouped by **product type**.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Products can be sorted in _ascending_ and _descending_ order by Name, Risk, Triaged and Resolved status using the **Sort** button.
 

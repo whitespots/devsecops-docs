@@ -2,7 +2,7 @@
 
 * If the metric has **increased** and **exceeded the risk appetite**:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 :exclamation:Arrange a meeting with the team to discuss security tasks for the upcoming sprint to reduce the metric, starting with the most critical ones.
 

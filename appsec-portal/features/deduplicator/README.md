@@ -25,7 +25,7 @@ Advanced Deduplication in AppSec Portal goes beyond the basic identification of 
 
 When the advanced deduplication process is initiated, the system searches for matches among the findings already stored in the database.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 AppSec Portal's **Deduplicator** feature allows to set up deduplication rules based on specific _criteria_ and _instructions_.
 
