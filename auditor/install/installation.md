@@ -19,7 +19,7 @@ Before installing the Auditor, make sure you have the following software install
 **Type of installation using containers:**
 
 * [**Docker**](https://docs.docker.com/get-docker/) (version 19.03 or higher)
-* [**Docker Compose**](https://docs.docker.com/compose/install/) (version 1.26 or higher)
+* [**Docker Compose**](https://docs.docker.com/compose/install/linux/#install-using-the-repository) (version 1.26 or higher)
 * [**SSH keys**](installation.md#ssh-keys) (for GitLab CI installation option)
 
 **Installation in Kubernetes environment:**
