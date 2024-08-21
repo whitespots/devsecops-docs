@@ -4,6 +4,8 @@ description: Auditor step-by-step deployment guide
 
 # Installation
 
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+
 ## System Requirements for Auditor usage:
 
 * Minimum system resources: 4 GB of RAM and 2 CPU cores.
@@ -307,3 +309,4 @@ docker-compose up -d
 Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
 
 </details>
+
