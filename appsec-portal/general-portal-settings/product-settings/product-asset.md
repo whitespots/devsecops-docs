@@ -6,7 +6,7 @@ To ensure the proper functioning of Auditor, include assets for products created
 
 To enable [**Auditor** ](broken-reference)functionality, it is necessary to define the product asset by indicating the **product's location**.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Specify the location of the product by adding <img src="../../../.gitbook/assets/image (133).png" alt="" data-size="line">  information about:
 

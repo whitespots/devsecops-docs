@@ -10,7 +10,7 @@ This guide will also allow you to establish **mappings** for **issue status** an
 * Log in to your AppSec Portal instance
 * Navigate to the Settings->Integrations->Jira
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 1. Authorization
 
@@ -26,7 +26,7 @@ Enter the appropriate credentials for the chosen method:
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * For **OAuth**, enter your Jira server URL, access token secret, access token secret, consumer key, and certificate file. To use Jira OAuth, you need to create an _application link_ between Jira and AppSec Portal. You can find detailed instructions on how to create an application link [here](https://developer.atlassian.com/server/jira/platform/oauth/).
 
@@ -37,7 +37,7 @@ Enter the appropriate credentials for the chosen method:
 Configure the mapping between finding statuses and Jira issue statuses. \
 Select from dropdown list one or more issue statuses to be automatically set in Jira when findings statuses change.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3. Default Team Spaces
 

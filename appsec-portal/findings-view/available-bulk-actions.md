@@ -12,7 +12,11 @@ You can set bulk for your findings:
 
 <figure><img src="../../.gitbook/assets/set severity.gif" alt=""><figcaption><p>set severity</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/bulk2.gif" alt=""><figcaption><p>set status</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/set status2.gif" alt=""><figcaption><p>set status</p></figcaption></figure>
+
+{% hint style="info" %}
+For temporary risk accepted findings, you can set days accepted.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/delete.gif" alt=""><figcaption><p>delete findings</p></figcaption></figure>
 

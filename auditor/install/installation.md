@@ -4,7 +4,7 @@ description: Auditor step-by-step deployment guide
 
 # Installation
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## System Requirements for Auditor usage:
 

@@ -7,4 +7,5 @@ See how to:&#x20;
 
 * [**Configure integration with notification service**](integration.md)
 * [**Configure criteria and notification schedule** ](criteria-and-schedule.md)
+* [**Configure status change notification**](status-change-notification.md)
 * [**Manage notification schedule**](manage-notification-schedule.md)

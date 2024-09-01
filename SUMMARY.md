@@ -126,6 +126,7 @@
   * [Notification settings](appsec-portal/general-portal-settings/notification-settings/README.md)
     * [Integration](appsec-portal/general-portal-settings/notification-settings/integration.md)
     * [Criteria & Schedule](appsec-portal/general-portal-settings/notification-settings/criteria-and-schedule.md)
+    * [Status change notification](appsec-portal/general-portal-settings/notification-settings/status-change-notification.md)
     * [Manage notification schedule](appsec-portal/general-portal-settings/notification-settings/manage-notification-schedule.md)
   * [SSO settings](appsec-portal/general-portal-settings/sso-settings/README.md)
     * [GitLab SSO](appsec-portal/general-portal-settings/sso-settings/gitlab-sso.md)
