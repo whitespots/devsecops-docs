@@ -28,7 +28,9 @@ To update the AppSec Portal to the latest version, follow these steps:
 <strong>helm upgrade appsecportal appsecportal/appsecportal
 </strong></code></pre>
 
-replace _\<path-to-helm-directory>_ with the path to the directory that contains the Helm Chart for your application.&#x20;
+`helm repo update appsecportal`: This command gets the latest Helm package from the repository, ensuring that you have the latest version.
+
+`helm upgrade appsecportal appsecportal/appsecportal`: This command upgrades your application to the latest version. If any variables <mark style="background-color:blue;">have been changed since installation</mark>, you <mark style="background-color:blue;">must specify them again in this command</mark> to ensure that they are applied correctly.
 
 ### **Manual update**
 

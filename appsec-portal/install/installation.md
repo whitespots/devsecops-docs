@@ -179,7 +179,7 @@ rabbitmq.auth.username="admin"
 ```
 
 * <mark style="color:blue;">`configs.configMap.cookies_secure`</mark>: variable determines the cookie security flag. It should be set to `True` if HTTPS is used.
-* <mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>, <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark> and <mark style="color:blue;">`postgresql.auth.password`</mark> specify the variables needed to configure the database, or use the defaults.
+* <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark><mark style="color:blue;">,</mark> <mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>,  and <mark style="color:blue;">`postgresql.auth.password`</mark> specify the variables needed to configure the database, or use the defaults.
 * The <mark style="color:blue;">`configs.configMap.domain`</mark> specify the domain where the Appsec-portal will be accessible.
 * if the container is raised locally <mark style="color:blue;">`rabbitmq.auth.username`</mark> need to be specified
 
@@ -199,6 +199,8 @@ rabbitmq.auth.password="mypass"
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`rabbitmq.containerPorts.amqp`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`rabbitmq.auth.username`</mark> and <mark style="color:blue;">`rabbitmq.auth.password`</mark> need to be specified
 * The <mark style="color:blue;">`configs.secret.jwt_private_key`</mark> and <mark style="color:blue;">`configs.secret.jwt_public_key`</mark> variables are RSA key pair used to sign JWT keys
 * <mark style="color:blue;">`configs.secret.secret_key`</mark>: variable is used to generate hashes in Django
+
+<mark style="background-color:orange;">Note:</mark> Make sure that all of these variables are correctly substituted into the helm install portal appsecportal/appsecportal command
 
 **Step 3:** Helm install with all resources inside cluster
 
