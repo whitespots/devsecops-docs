@@ -6,11 +6,11 @@ You can configure notifications for product status changes by going to **Setting
 
 Adjust the settings according to your needs
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Status**: Set initial and modifiable status to receive notification of findings
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Method of status change**: automatically, manual, any
 
