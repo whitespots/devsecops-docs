@@ -1,6 +1,26 @@
 # 🗒️ Release notes
 
-**release\_v24.08.2 (latest)**
+**release\_v24.08.4 (latest)**
+
+1. Date Selection for Temporarily Accepted Findings: Introduced a date select feature for temporarily accepted findings, allowing users to specify a review date. <mark style="color:green;">**`NEW`**</mark>
+2. Russian Portal Translation: The portal is now available in Russian. <mark style="color:green;">**`NEW`**</mark>
+3. Added Assets to Jira Issue Descriptions: Improved Jira integration by automatically including relevant assets in the issue description. <mark style="color:green;">**`NEW`**</mark>
+4. Improved Swagger: Updated and improved Swagger documentation, making it easier for developers to understand and use the API. <mark style="color:blue;">**`UPDATE`**</mark>
+5. Bugfix: Products were not visible on validation rule creation screen <mark style="color:blue;">**`UPDATE`**</mark>
+6. Bugfix: Filtering by tags resulted in duplicate products <mark style="color:blue;">**`UPDATE`**</mark>
+7. Bugfix: Wrong triage status after re-verifying a result <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.08.3**
+
+1. Status event notifications: Now include findings IDs <mark style="color:green;">**`NEW`**</mark>
+2. CWE Filter: Displays total number of findings per CWE <mark style="color:green;">**`NEW`**</mark>
+3. Added Days Accepted for Temporary Risk Accepted Findings <mark style="color:green;">**`NEW`**</mark>
+4. Added asset creation for the Asset Audit endpoint: The Assets Audit Endpoint has been enhanced with the ability to create assets, streamlining asset management within the audit process. <mark style="color:green;">**`NEW`**</mark>
+5. Notifications: Now use application/json content type <mark style="color:green;">**`NEW`**</mark>
+6. Select different triage statuses for top CWE recommendations <mark style="color:green;">**`NEW`**</mark>
+7. Added integrations to Patch Request for Findings endpoint <mark style="color:green;">**`NEW`**</mark>
+
+**release\_v24.08.2**&#x20;
 
 1. **Custom field for findings and basic deduplication**: Introduced the ability to add custom fields to findings, along with basic deduplication functionality. <mark style="color:green;">**`NEW`**</mark>
 2. **SSL configuration for notifications**: Added SSL configuration options for notifications, improving the security and reliability of notification delivery. <mark style="color:blue;">**`UPDATE`**</mark>
