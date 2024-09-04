@@ -4,9 +4,9 @@
 
 ## 🔦 Auditor
 
-* [📥 Install](auditor/install/README.md)
-  * [Installation](auditor/install/installation.md)
-  * [Update](auditor/install/update.md)
+* [📥 Deployment](auditor/deployment/README.md)
+  * [Installation](auditor/deployment/installation.md)
+  * [Update](auditor/deployment/update.md)
 * [🎯 Features](auditor/features.md)
 * [⚙️ Settings](auditor/settings/README.md)
   * [AppSec Portal cooperation](auditor/settings/appsec-portal-cooperation.md)
@@ -26,15 +26,15 @@
 
 ## 🖥️ AppSec Portal
 
-* [📥 Install](appsec-portal/install/README.md)
-  * [License obtaining](appsec-portal/install/license-obtaining.md)
-  * [Installation](appsec-portal/install/installation.md)
-  * [Get started with the AppSec Portal](appsec-portal/install/get-started-with-the-appsec-portal/README.md)
-    * [Сonfiguration options](appsec-portal/install/get-started-with-the-appsec-portal/sonfiguration-options.md)
-  * [Update](appsec-portal/install/update.md)
-  * [Accessing the AppSec Portal API Endpoints](appsec-portal/install/accessing-the-appsec-portal-api-endpoints.md)
-  * [Database transfer guide](appsec-portal/install/database-transfer-guide.md)
-  * [FAQ: typical errors in deployment process](appsec-portal/install/faq-typical-errors-in-deployment-process.md)
+* [📥 Deployment](appsec-portal/deployment/README.md)
+  * [License obtaining](appsec-portal/deployment/license-obtaining.md)
+  * [Installation](appsec-portal/deployment/installation.md)
+  * [Get started with the AppSec Portal](appsec-portal/deployment/get-started-with-the-appsec-portal/README.md)
+    * [Сonfiguration options](appsec-portal/deployment/get-started-with-the-appsec-portal/sonfiguration-options.md)
+  * [Update](appsec-portal/deployment/update.md)
+  * [Accessing the AppSec Portal API Endpoints](appsec-portal/deployment/accessing-the-appsec-portal-api-endpoints.md)
+  * [Database transfer guide](appsec-portal/deployment/database-transfer-guide.md)
+  * [FAQ: typical errors in deployment process](appsec-portal/deployment/faq-typical-errors-in-deployment-process.md)
 * [🎯 Features](appsec-portal/features/README.md)
   * [Active tasks](appsec-portal/features/active-tasks.md)
   * [Custom Reports](appsec-portal/features/custom-reports.md)
@@ -154,18 +154,3 @@
   * [CWE list](appsec-portal/general-portal-settings/cwe-list.md)
   * [API](appsec-portal/general-portal-settings/api.md)
 * [🗒️ Release notes](appsec-portal/release-notes.md)
-
-## 🔎 Security Pipelines
-
-* [🔘 Features](security-pipelines/features.md)
-* [📥 Install](security-pipelines/install/README.md)
-  * [GitHub CI](security-pipelines/install/github-ci.md)
-  * [GitLab CI](security-pipelines/install/gitlab-ci.md)
-* [🏁 Actions](security-pipelines/actions/README.md)
-  * [GitHub actions](security-pipelines/actions/github-actions.md)
-  * [GitLab actions](security-pipelines/actions/gitlab-actions.md)
-
-## ✅ Requirements Generator
-
-* [🔘 Features](requirements-generator/features.md)
-* [📥 Install](requirements-generator/install.md)

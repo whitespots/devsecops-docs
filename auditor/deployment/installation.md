@@ -273,7 +273,7 @@ DOCKER_ENCRYPTION_TOKEN=defaultvaluetobechangedorelse...
 ACCESS_TOKEN=<your value>
 ```
 
-* <mark style="color:blue;">`IMAGE_VERSION`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../../appsec-portal/release-notes.md), e.g. release\_v24.07.2
+* <mark style="color:blue;">`IMAGE_VERSION`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.07.2
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> variables are required for database configuration.
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified.\
   The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
