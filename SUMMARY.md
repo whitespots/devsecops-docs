@@ -152,5 +152,4 @@
   * [Repository Link Configs](appsec-portal/general-portal-settings/repository-link-configs.md)
   * [Tag screen](appsec-portal/general-portal-settings/tag-screen.md)
   * [CWE list](appsec-portal/general-portal-settings/cwe-list.md)
-  * [API](appsec-portal/general-portal-settings/api.md)
 * [🗒️ Release notes](appsec-portal/release-notes.md)
