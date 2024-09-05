@@ -37,7 +37,7 @@ To update the AppSec Portal to the latest version, follow these steps:
 1. Stop the application:
 
 ```
-docker-compose down -v
+docker compose down -v
 ```
 
 This will stop all services and remove the associated volumes, which will clean up the environment.
@@ -53,6 +53,6 @@ This ensures that you have the most up-to-date codebase to work with
 3. Restart the application:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 

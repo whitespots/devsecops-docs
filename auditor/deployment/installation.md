@@ -58,9 +58,9 @@ Select and copy the contents of the private key file. Ensure you copy the key wi
 
 ## Installation
 
-* Option 1:[ **GitLab CI installation** ](installation.md#gitlab-ci-installation-ansible-playbook)Ansible playbook (automated docker-compose installation)
+* Option 1:[ **GitLab CI installation** ](installation.md#gitlab-ci-installation-ansible-playbook)Ansible playbook (automated docker compose installation)
 * Option 2: [**Install using Helm**](installation.md#instal-using-helm) (install in Kubernetes environment)
-* Option 3:[ **Docker-compose installation**](installation.md#docker-compose-installation) (manual docker-compose installation)
+* Option 3:[ **Docker compose installation**](installation.md#docker-compose-installation) (manual docker compose installation)
 
 <details>
 
@@ -234,7 +234,7 @@ Save the key value in a safe place for later usage in the Auditor [settings](../
 
 <details>
 
-<summary>Docker-compose installation</summary>
+<summary>Docker compose installation</summary>
 
 **Step 1: Clone the repository**
 
@@ -287,7 +287,7 @@ From the terminal command line, navigate to the directory where the docker-compo
 Run the application by executing the following command:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 This will start all the services described in the docker-compose.yml file in the background.
@@ -302,8 +302,8 @@ You will receive an <mark style="color:blue;">**`Access Token`**</mark> the firs
 After adding the variable, **must to restart the service** from the command line using the command:
 
 ```
-docker-compose down
-docker-compose up -d
+docker compose down
+docker compose up -d
 ```
 
 Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)

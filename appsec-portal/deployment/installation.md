@@ -59,7 +59,7 @@ Please note that the AppSec Portal is currently incompatible with Amazon Aurora 
 
 * Option 1: [**GitLab CI installation**](installation.md#gitlab-ci-installation) (automated docker-compose installation)
 * Option 2: [**Install using Helm**](installation.md#install-using-helm) (install in Kubernetes environment)
-* Option 3: [**Docker-compose installation**](installation.md#docker-compose-installation) (manual docker-compose installation)
+* Option 3: [**Docker compose installation**](installation.md#docker-compose-installation) (manual docker compose installation)
 
 <details>
 
@@ -232,7 +232,7 @@ This username and password will allow you to **log in to** the installed **Appse
 
 <details>
 
-<summary>Docker-compose installation</summary>
+<summary>Docker compose installation</summary>
 
 **Step 1:** Clone the repository
 
@@ -298,7 +298,7 @@ sh run.sh
 To create an administrator account, execute the following command:
 
 ```bash
-docker-compose exec back python3 manage.py createsuperuser --username admin
+docker compose exec back python3 manage.py createsuperuser --username admin
 ```
 
 <img src="../../.gitbook/assets/setup.png" alt="" data-size="original">

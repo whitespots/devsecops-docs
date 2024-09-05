@@ -25,7 +25,7 @@ For the update it is enough to run pipeline and the script will autonomously upd
 1. Stop the application:
 
 ```
-docker-compose down -v
+docker compose down -v
 ```
 
 This will stop all services and remove the associated volumes, which will clean up the environment.&#x20;
@@ -41,7 +41,7 @@ This ensures that you have the most up-to-date codebase to work with.
 3. Restart the application:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Update in Kubernetes environment: <a href="#user-content-update-in-kubernetes-environment" id="user-content-update-in-kubernetes-environment"></a>
