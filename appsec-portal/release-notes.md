@@ -1,6 +1,20 @@
 # 🗒️ Release notes
 
-**release\_v24.08.4 (latest)**
+**release\_v24.10.1 (latest)**
+
+1. Improved version control systems integration: delayed comments, deletion of previous comments, including findings from other branches in pull requests <mark style="color:blue;">**`UPDATE`**</mark>
+2. Some notifications now include user information <mark style="color:blue;">**`UPDATE`**</mark>
+3. Small fixes in importers <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.09.1**&#x20;
+
+1. Webhook based integration with GitHub and GitLab: push events trigger scans, merge requests trigger comments <mark style="color:green;">**`NEW`**</mark>
+2. Reworked Assets table in product <mark style="color:blue;">**`UPDATE`**</mark>
+3. Added configuration of default job sequence <mark style="color:green;">**`NEW`**</mark>
+4. Improved Job list in Auditor settings <mark style="color:blue;">**`UPDATE`**</mark>
+5. Minor UI bug fixes <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.08.4**
 
 1. **Date Selection for Temporarily Accepted Findings**: Introduced a date select feature for temporarily accepted findings, allowing users to specify a review date. <mark style="color:green;">**`NEW`**</mark>
 2. **Russian Portal Translation**: The portal is now available in Russian. <mark style="color:green;">**`NEW`**</mark>
