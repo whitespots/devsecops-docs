@@ -1,6 +1,14 @@
 # 🗒️ Release notes
 
-**release\_v24.10.1 (latest)**
+**release\_v24.10.2 (latest)**
+
+* New token-based authorization for Jira <mark style="color:green;">**`NEW`**</mark>
+* Job sequence per asset <mark style="color:green;">**`NEW`**</mark>
+* Reworked version control comments mode settings <mark style="color:blue;">**`UPDATE`**</mark>
+* New auditor job settings <mark style="color:green;">**`NEW`**</mark>
+* Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
+
+**release\_v24.10.1**&#x20;
 
 1. Improved version control systems integration: delayed comments, deletion of previous comments, including findings from other branches in pull requests <mark style="color:blue;">**`UPDATE`**</mark>
 2. Some notifications now include user information <mark style="color:blue;">**`UPDATE`**</mark>
