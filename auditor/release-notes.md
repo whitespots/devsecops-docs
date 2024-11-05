@@ -1,6 +1,15 @@
 # 🗒️ Release notes
 
-**release\_v24.07.2** (latest)
+**release\_v24.10.2 (latest)**
+
+```
+- Reworked jobs settings
+- Improved deployment stability 
+- Added vendor provided settings
+- Minor fixes and improvements
+```
+
+**release\_v24.07.2**
 
 1. Minor bug fixes and improvements <mark style="color:blue;">**`UPDATE`**</mark>
 

@@ -1,6 +1,15 @@
 # 🗒️ Release notes
 
-**release\_v24.10.2 (latest)**
+**release\_v24.11.1 (latest)**
+
+```
+- Multiple git instances
+- Portal internal and external host urls
+- Misconfigurations case in trivy importer
+- Various bug fixes
+```
+
+**release\_v24.10.2**
 
 * New token-based authorization for Jira <mark style="color:green;">**`NEW`**</mark>
 * Job sequence per asset <mark style="color:green;">**`NEW`**</mark>
