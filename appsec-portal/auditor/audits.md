@@ -42,4 +42,4 @@ The same actions are available on the records as on the main Audits screen.
 When viewing a particular Asset, at the bottom of the screen you can also find all the audits performed on it. \
 The same actions with records are available as for the main audit screen
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

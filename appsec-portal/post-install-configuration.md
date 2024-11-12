@@ -23,7 +23,7 @@ But keep in mind, that you will see only those repositories, which developers co
 
 ## Import repositories
 
-If you want to scan all repositories by manual trigger - import them using this instruction and be ready to perform scans. [This is the guide](post-install-configuration.md#import-repositories)
+If you want to scan all repositories by manual trigger - import them using this instruction and be ready to perform scans. This is[ how you can do it](features/asset-management/how-to-import-repositories-from-version-control.md)
 
 ## Perform scans
 
