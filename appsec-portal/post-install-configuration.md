@@ -21,6 +21,10 @@ Here's [our guide](general-portal-settings/version-control.md)
 
 But keep in mind, that you will see only those repositories, which developers commit into.
 
+## Create a default product
+
+It's very important for future manipulations with assets. Use [this short guide](features/asset-management/default-product.md)
+
 ## Import repositories
 
 If you want to scan all repositories by manual trigger - import them using this instruction and be ready to perform scans. This is[ how you can do it](features/asset-management/how-to-import-repositories-from-version-control.md)
