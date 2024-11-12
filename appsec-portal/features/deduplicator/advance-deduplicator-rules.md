@@ -6,7 +6,7 @@ description: To set up a rule for Deduplicator, follow the steps below
 
 1. Select the **Deduplicator**, followed by clicking on the **Rule** button
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Define the products to which the rule will apply or leave All as default
 
@@ -52,4 +52,4 @@ You can combine terms via join, just click on the plus button
 
 Deduplicator will **automatically** identify and remove any duplicate findings based on the rule you have created
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>

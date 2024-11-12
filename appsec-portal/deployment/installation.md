@@ -4,7 +4,7 @@ description: AppSec Portal deployment step-by-step guide
 
 # Installation
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### System Requirements for Portal usage:
 

@@ -12,4 +12,4 @@ The recommendations are presented:
 * **CWE** (Common Weakness Enumerations) This section provides tailored recommendations using the top Common Weakness Enumerations (CWEs) to enhance your developer training. By focusing on these CWEs, you can guide your developers to identify and prevent critical security vulnerabilities.\
   View CWE recommendations for any product status using a simple filter
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
