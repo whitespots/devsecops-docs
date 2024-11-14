@@ -1,6 +1,20 @@
 # 🗒️ Release notes
 
-**release\_v24.11.1 (latest)**
+**release\_v24.11.2 (latest)**
+
+```
+- New asset creation logic on import. 
+Now you can only add an asset with a scanner report and it will be added 
+to the default product or not added if the asset already exists in one 
+of the existing products. 
+So, no need to use products for all our CI users. 
+Those who use auditor - you are great, it's nothing to worry about 😄
+
+- Bulk audits run
+- Customizable UI tables. Now you can pick up your favourite columns and sort data by them
+```
+
+**release\_v24.11.1**&#x20;
 
 ```
 - Multiple git instances
