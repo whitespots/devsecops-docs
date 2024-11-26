@@ -1,6 +1,20 @@
 # 🗒️ Release notes
 
-**release\_v24.11.2 (latest)**
+**release\_v24.11.3 (latest)**
+
+```
+- Added tags to scanners
+- Automation rules execution order:
+1. reject
+2. risk accept
+3. confirm
+
+- Assets and tags as parameters for automation rules
+- Skip ssl verification flag for a message broker
+- Various importers bug fixes
+```
+
+**release\_v24.11.2**
 
 ```
 - New asset creation logic on import. 
@@ -63,7 +77,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 4. **Added asset creation for the Asset Audit endpoint**: The Assets Audit Endpoint has been enhanced with the ability to create assets, streamlining asset management within the audit process. <mark style="color:green;">**`NEW`**</mark>
 5. **Notifications**: Now use application/json content type <mark style="color:green;">**`NEW`**</mark>
 6. **Select different triage statuses for top CWE recommendations** <mark style="color:green;">**`NEW`**</mark>
-7. **Added integrations to Patch Request for Findings endpoint **<mark style="color:green;">**`NEW`**</mark>
+7. **Added integrations to Patch Request for Findings endpoint&#x20;**<mark style="color:green;">**`NEW`**</mark>
 
 **release\_v24.08.2**&#x20;
 
@@ -146,7 +160,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 1. **Groups functionality** : You can now create your own groups and filter your findings by these groups <mark style="color:green;">**`NEW`**</mark>
 2. **Jira issues to reports**: Reports now include issue information from Jira <mark style="color:green;">**`NEW`**</mark>
 3. **PHPCodeSniffer importer**: An importer for PHPCodeSniffer has been added <mark style="color:green;">**`NEW`**</mark>
-4. **Improved automation processes **<mark style="color:blue;">**`UPDATE`**</mark>
+4. **Improved automation processes&#x20;**<mark style="color:blue;">**`UPDATE`**</mark>
 5. **Copy button for Auditor jobs**: Added Copy button for Auditor jobs <mark style="color:green;">**`NEW`**</mark>
 6. **Tag management screen**: Added tag management screen <mark style="color:green;">**`NEW`**</mark>
 
