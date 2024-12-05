@@ -15,6 +15,8 @@ description: >-
 5. Select the "**WebHooks**" from the menu on the left side of the screen.
 6. Click on the "**Create a WebHook**" button.
 
+**For cloud Jira instance: https://\<instance>.atlassian.net/plugins/servlet/webhooks**
+
 <figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>"Create a WebHook" page</p></figcaption></figure>
 
 ### Step 2: Configure the webhook in Jira
