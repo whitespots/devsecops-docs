@@ -23,6 +23,7 @@
   * [AppSec Portal cooperation](auditor/run-audit/appsec-portal-cooperation.md)
   * [Direct use of Auditor](auditor/run-audit/direct-use-of-auditor.md)
 * [🗒️ Release notes](auditor/release-notes.md)
+* [🩼 Maintenance](auditor/maintenance.md)
 
 ## 🖥️ AppSec Portal
 
@@ -80,7 +81,7 @@
       * [Gosec](appsec-portal/scanners/scanner-description/code-scanners/gosec.md)
       * [Hadolint](appsec-portal/scanners/scanner-description/code-scanners/hadolint.md)
       * [KICS](appsec-portal/scanners/scanner-description/code-scanners/kics.md)
-      * [PHPCodeSniffer](appsec-portal/scanners/scanner-description/code-scanners/php\_codesniffer.md)
+      * [PHPCodeSniffer](appsec-portal/scanners/scanner-description/code-scanners/php_codesniffer.md)
       * [Retire.js](appsec-portal/scanners/scanner-description/code-scanners/retire.js.md)
       * [Semgrep](appsec-portal/scanners/scanner-description/code-scanners/semgrep.md)
       * [SpotBugs](appsec-portal/scanners/scanner-description/code-scanners/spotbugs.md)
