@@ -1,6 +1,16 @@
 # 🗒️ Release notes
 
-**release\_v24.11.3 (latest)**
+**release\_v24.12.1 (latest)**
+
+```
+- Сustom importers
+- GIT integrations healthcheck and error log
+- Autovalidator, Deduplicator, CVSS launch frequency in seconds
+- Improved metrics caching
+- Minor UI and bug fixes
+```
+
+**release\_v24.11.3**
 
 ```
 - Added tags to scanners
