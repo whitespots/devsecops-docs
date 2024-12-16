@@ -34,25 +34,27 @@ To update the AppSec Portal to the latest version, follow these steps:
 
 ### **Manual update**
 
-1. Stop the application:
-
-```
-docker compose down -v
-```
-
-This will stop all services and remove the associated volumes, which will clean up the environment.
-
-2. Pull the latest changes from the repository:
+1. Pull the latest changes from the repository:
 
 ```bash
 git pull
 ```
 
-This ensures that you have the most up-to-date codebase to work with
-
-3. Restart the application:
+2. Edit `IMAGE_VERSION` variable in .env file&#x20;
+3. Pull images
 
 ```
-docker compose up -d
+docker compose pull
 ```
+
+4. Restart your app
+
+<pre><code><strong>docker compose down -v &#x26;&#x26; docker compose up -d
+</strong></code></pre>
+
+This will stop all services and remove the associated volumes, which will clean up the environment.
+
+That's it.&#x20;
+
+Portal will care about all migrations :smile:
 

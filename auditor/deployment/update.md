@@ -22,27 +22,30 @@ For the update it is enough to run pipeline and the script will autonomously upd
 
 ### Manual update <a href="#user-content-manual-update" id="user-content-manual-update"></a>
 
-1. Stop the application:
+1. Pull the latest changes from the repository:
 
-```
-docker compose down -v
-```
-
-This will stop all services and remove the associated volumes, which will clean up the environment.&#x20;
-
-2. &#x20;Pull the latest changes from the repository:
-
-```
+```bash
 git pull
 ```
 
-This ensures that you have the most up-to-date codebase to work with.
-
-3. Restart the application:
+2. Edit `IMAGE_VERSION` variable in .env file&#x20;
+3. Pull images
 
 ```
-docker compose up -d
+docker compose pull
 ```
+
+4. Restart your app
+
+```
+docker compose down -v && docker compose up -d
+```
+
+This will stop all services and remove the associated volumes, which will clean up the environment.
+
+That's it.&#x20;
+
+Auditor will care about all migrations :smile:
 
 ## Update in Kubernetes environment: <a href="#user-content-update-in-kubernetes-environment" id="user-content-update-in-kubernetes-environment"></a>
 
