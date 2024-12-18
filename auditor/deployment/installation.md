@@ -166,69 +166,116 @@ helm repo add auditor https://gitlab.com/api/v4/projects/51993931/packages/helm/
 
 **Step 2. Set environment variables**
 
-change the default environment variables to meet your requirements:
+In the **values.yaml** file, change the default environment variables to meet your requirements:
 
 * In the **deploymentSpec** section:
 
 ```
-    global.image.tag=release_v24.07.2 
+global.image.tag=release_v24.11.3
 ```
 
-* In the **configMap** section:
+* Postgres:
 
 ```
-  configs.configMap.database.host=your_db_host
-  configs.configMap.redis.host=your_redis_host
-  postgresql.auth.database=appsec
-  postgresql.auth.username=appsec
-  postgresql.containerPorts.postgresql=5432
-  configs.configMap.database.host=your_db_host
-  rabbitmq.auth.username=admin           
-  rabbitmq.containerPorts.amqp=5672 
+postgresql.auth.database="postgres"       
+postgresql.auth.username="postgres"
+postgresql.auth.password="postgres" 
 ```
 
-* In the **secrets** section:
+* External postgres:
 
 ```
-  postgresql.auth.password=appsec
-  rabbitmq.auth.password=admin
-  redis.auth.password="11110000"
+externalPostgresql.enabled="true"
+externalPostgresql.host=""
+externalPostgresql.port="5432"
+externalPostgresql.database=""
+externalPostgresql.username=""
+externalPostgresql.password=""
 ```
 
-<mark style="color:blue;">`global.image.tag`</mark>`:` specify a particular release identifier\
-<mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>, <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark> and <mark style="color:blue;">`postgresql.auth.password`</mark> variables are required for database configuration.\
-For message broker <mark style="color:blue;">`rabbitmq.auth.username`</mark>, <mark style="color:blue;">`rabbitmq.auth.password`</mark> and <mark style="color:blue;">`rabbitmq.containerPorts.amqp`</mark> need to be specified\
-<mark style="color:blue;">`redis.auth.password`</mark> If the broker is hosted on a third-party server leave the variable at its default value
+* Redis
+
+```
+redis.auth.password="11110000"
+```
+
+* External redis
+
+```
+externalRedis.enabled="true"
+externalRedis.host=""
+externalRedis.password=""
+```
+
+* Rabbitmq
+
+```
+rabbitmq.auth.username="admin"
+rabbitmq.auth.password="admin"
+```
+
+* External Rabbitmq
+
+```
+externalRabbitmq.enabled="true"
+externalRabbitmq.host=""
+externalRabbitmq.port="5672"
+externalRabbitmq.username=""
+externalRabbitmq.password=""
+```
 
 **Step 3. Helm install with all resources inside cluster**
 
 In the example we use pre-installed nginx ingress controller and postgres, redis, rabbitmq from chart:
 
 ```
-helm install auditor auditor/appsecauditor --set postgresql.enabled=true
-  --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
-  --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip
-  --set ingress.ingressClassName=nginx --set ingress.host=your_own_host -n <namespace>
-
+helm upgrade --install auditor auditor/appsecauditor \
+   --set rabbitmq.auth.username="admin" \
+   --set rabbitmq.auth.password="admin" \
+   --set postgresql.enabled=true \
+   --set ingress.enabled=true \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
+   --set ingress.ingressClassName=nginx \
+   -n whitespots-auditor --create-namespace
 ```
 
-After the first login you will receive an <mark style="color:blue;">**`Access Token`**</mark>.&#x20;
+Test with your ingress If you don't have any:
+
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
+kubectl get svc -n ingress-nginx
+```
+
+Just in case if migrations haven't succeed
+
+```
+kubectl exec -it $(kubectl get pods -n whitespots-auditor -l app.kubernetes.io/name=appsecauditor-auditor -o jsonpath='{.items[0].metadata.name}') -n whitespots-auditor -- alembic upgrade head
+```
+
+After the first login you will receive an  <mark style="color:blue;">**`Access Token`**</mark>. Copy and set as a variable token and relaunch service scanner\_worker.
 
 <img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
 <mark style="color:red;">Copy and set</mark> <mark style="color:red;">as a variable token</mark> and relaunch service scanner\_worker.
 
 ```
-kubectl get deployments -n <namespace>
-kubectl delete deployment <scanner_runner> -n <namespace>
-helm upgrade auditor auditor/appsecauditor --set postgresql.enabled=true
-    --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
-    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip
-    --set ingress.ingressClassName=nginx --set configs.secret.access_token=your_token --set ingress.host=your__own_host -n <namespace>
+kubectl get deployments -n whitespots-auditor
+kubectl delete deployment auditor-appsecauditor-scanner-worker -n whitespots-auditor
+helm upgrade --install auditor auditor/appsecauditor \
+   --set rabbitmq.auth.username="admin" \
+   --set rabbitmq.auth.password="admin" \
+   --set postgresql.enabled=true \
+   --set ingress.enabled=true \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
+   --set ingress.ingressClassName=nginx \
+   --set configs.secret.access_token=access_token \
+   -n whitespots-auditor --create-namespace
 
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
+**Save the key value in a safe place for later usage** in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
 
 </details>
 
