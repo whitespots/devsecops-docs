@@ -237,6 +237,7 @@ helm upgrade --install auditor auditor/appsecauditor \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
    --set ingress.ingressClassName=nginx \
+   --set ingress.host=localhost \
    -n whitespots-auditor --create-namespace
 ```
 
@@ -262,6 +263,7 @@ After the first login you will receive an  <mark style="color:blue;">**`Access T
 ```
 kubectl get deployments -n whitespots-auditor
 kubectl delete deployment auditor-appsecauditor-scanner-worker -n whitespots-auditor
+
 helm upgrade --install auditor auditor/appsecauditor \
    --set rabbitmq.auth.username="admin" \
    --set rabbitmq.auth.password="admin" \
@@ -270,6 +272,7 @@ helm upgrade --install auditor auditor/appsecauditor \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
    --set ingress.ingressClassName=nginx \
+   --set ingress.host=localhost \
    --set configs.secret.access_token=access_token \
    -n whitespots-auditor --create-namespace
 

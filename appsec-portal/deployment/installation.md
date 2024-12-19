@@ -156,6 +156,7 @@ helm upgrade --install portal appsecportal/appsecportal \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
    --set ingress.ingressClassName=nginx \
+   --set ingress.host=localhost \
    -n appsecportal --create-namespace
 ```
 
