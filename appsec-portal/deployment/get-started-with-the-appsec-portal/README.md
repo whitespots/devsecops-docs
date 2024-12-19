@@ -2,6 +2,8 @@
 
 Once the portal has been installed and launched, open it in a **browser**&#x20;
 
+**Get your license using this instruction** [license-obtaining.md](../license-obtaining.md "mention")
+
 **Enter the license number** to activate it.
 
 <figure><img src="../../../.gitbook/assets/licens act 1.png" alt=""><figcaption></figcaption></figure>
