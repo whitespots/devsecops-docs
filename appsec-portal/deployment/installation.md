@@ -147,78 +147,33 @@ Add the Appsec portal package to your server:
 helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/helm/stable
 ```
 
-**Step 2**: Set variables if you want to change some default values
-
-* <mark style="background-color:blue;">**Release name**</mark><mark style="background-color:blue;">:</mark>
-
-```bash
-global.image.tag=release_v24.08.4
-```
-
-* <mark style="background-color:blue;">**Jira Webhook**</mark><mark style="background-color:blue;">:</mark>
-
-```bash
-webhook.ingress.path="/api/v1/jira-helper/jira-event/<your-webhook>/"
-```
-
-Replace _your-webhook_ in path variable '/api/v1/jira-helper/jira-event/your-webhook/' with the unique identifier (token) associated with the specific webhook event, for example, e2b7e8be-1c77-4969-9105-58e91bd311cc.
-
-* <mark style="background-color:blue;">**Variables**</mark><mark style="background-color:blue;">:</mark>
-
-```bash
-configs.configMap.cookies_secure="True"  
-configs.configMap.database.host="postgres"     
-postgresql.containerPorts.postgresql="5432"         
-postgresql.auth.database="postgres"       
-postgresql.auth.username="postgres"      
-configs.configMap.debug="True"           
-configs.configMap.domain="http://localhost"  
-rabbitmq.auth.username="admin" 
-```
-
-* <mark style="color:blue;">`configs.configMap.cookies_secure`</mark>: variable determines the cookie security flag. It should be set to `True` if HTTPS is used.
-* <mark style="color:blue;">`configs.configMap.database.host`</mark>, <mark style="color:blue;">`postgresql.containerPorts.postgresql`</mark><mark style="color:blue;">,</mark> <mark style="color:blue;">`postgresql.auth.database`</mark>, <mark style="color:blue;">`postgresql.auth.username`</mark>,  and <mark style="color:blue;">`postgresql.auth.password`</mark> specify the variables needed to configure the database, or use the defaults.
-* The <mark style="color:blue;">`configs.configMap.domain`</mark> specify the domain where the Appsec-portal will be accessible.
-* if the container is raised locally <mark style="color:blue;">`rabbitmq.auth.username`</mark> need to be specified
-
-- <mark style="background-color:blue;">**Secrets**</mark><mark style="background-color:blue;">:</mark>
-
-```bash
-rabbitmq.containerPorts.amqp="amqp://admin:mypass@rabbitmq:5672/"
-postgresql.auth.password="postgres"
-configs.secret.jwt_private_key=<your key>
-configs.secret.jwt_public_key=<your key>
-configs.secret.secret_key=<your key>
-rabbitmq.auth.password="mypass"
-```
-
-* If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`rabbitmq.containerPorts.amqp`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`rabbitmq.auth.username`</mark> and <mark style="color:blue;">`rabbitmq.auth.password`</mark> need to be specified
-* The <mark style="color:blue;">`configs.secret.jwt_private_key`</mark> and <mark style="color:blue;">`configs.secret.jwt_public_key`</mark> variables are RSA key pair used to sign JWT keys
-* <mark style="color:blue;">`configs.secret.secret_key`</mark>: variable is used to generate hashes in Django
-
-<mark style="background-color:orange;">Note:</mark> Make sure that all of these variables are correctly substituted into the helm install portal appsecportal/appsecportal command
-
-**Step 3:** Helm install with all resources inside cluster
-
-In the example we use pre-installed nginx ingress controller and postgres, rabbitmq from chart:
+**Step 2**: Install it
 
 ```
-helm install portal appsecportal/appsecportal --set postgresql.enabled=true 
-    --set ingress.enabled=true --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing
-    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip --set ingress.ingressClassName=nginx 
-    --set ingress.host=your_own_host -n <namespace>
-
+helm upgrade --install portal appsecportal/appsecportal \
+   --set postgresql.enabled=true \
+   --set ingress.enabled=true \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
+   --set ingress.ingressClassName=nginx \
+   -n appsecportal --create-namespace
 ```
 
-**Step 4:** Create a superuser account
-
-To create an administrator account, execute the following command:
+**Step 3:** Create a superuser account
 
 ```
-kubectl get pods -n <namespace>
-kubectl exec -it -n <namespace> <portal_pod> -c appsecportal-backend -- /bin/sh 
-python3 manage.py createsuperuser --username admin
+kubectl exec -it $(kubectl get pods -n appsecportal -l app.kubernetes.io/name=appsecportal-portal -o jsonpath='{.items[0].metadata.name}') -n appsecportal -- python manage.py createsuperuser --username admin
 ```
+
+**Step 4:** Just in case if you don't have any ingress inside your cluster
+
+```
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+helm install nginx-ingress ingress-nginx/ingress-nginx -n ingress-nginx --create-namespace
+```
+
+**For more details please visit** [**our repository**](https://gitlab.com/whitespots-public/appsec-portal/-/tree/main/AppsecPortal-HelmChart?ref_type=heads)
 
 This username and password will allow you to **log in to** the installed **Appsec Portal**
 
