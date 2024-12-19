@@ -147,9 +147,7 @@ Add the Appsec portal package to your server:
 helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/helm/stable
 ```
 
-**Step 2**: Set environment variables
-
-change the default environment variables to meet your requirements :
+**Step 2**: Set variables if you want to change some default values
 
 * <mark style="background-color:blue;">**Release name**</mark><mark style="background-color:blue;">:</mark>
 
@@ -183,9 +181,7 @@ rabbitmq.auth.username="admin"
 * The <mark style="color:blue;">`configs.configMap.domain`</mark> specify the domain where the Appsec-portal will be accessible.
 * if the container is raised locally <mark style="color:blue;">`rabbitmq.auth.username`</mark> need to be specified
 
-<!---->
-
-* <mark style="background-color:blue;">**Secrets**</mark><mark style="background-color:blue;">:</mark>
+- <mark style="background-color:blue;">**Secrets**</mark><mark style="background-color:blue;">:</mark>
 
 ```bash
 rabbitmq.containerPorts.amqp="amqp://admin:mypass@rabbitmq:5672/"
