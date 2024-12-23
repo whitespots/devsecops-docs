@@ -1,6 +1,6 @@
 # 🗒️ Release notes
 
-**release\_v24.12.2**
+**release\_v24.12.2 (latest)**
 
 ```
 - Business criticality in percents
@@ -9,7 +9,7 @@
 - New quick filters
 ```
 
-**release\_v24.12.1 (latest)**
+**release\_v24.12.1**&#x20;
 
 ```
 - Сustom importers
