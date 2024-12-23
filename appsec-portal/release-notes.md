@@ -1,5 +1,14 @@
 # 🗒️ Release notes
 
+**release\_v24.12.2**
+
+```
+- Business criticality in percents
+- New UI filters (source line for finding, business criticality for products)
+- Caching fixes
+- New quick filters
+```
+
 **release\_v24.12.1 (latest)**
 
 ```
