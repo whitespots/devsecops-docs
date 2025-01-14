@@ -146,7 +146,7 @@ docker-compose down
 docker-compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 
@@ -278,7 +278,7 @@ helm upgrade --install auditor auditor/appsecauditor \
 
 ```
 
-**Save the key value in a safe place for later usage** in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
+**Save the key value in a safe place for later usage** in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 
@@ -356,7 +356,7 @@ docker compose down
 docker compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/auditor/auditor-settings/auditor-configurator.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 

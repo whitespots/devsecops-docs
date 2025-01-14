@@ -2,6 +2,7 @@
 description: >-
   Deduplicator can help streamline the vulnerability management process and save
   time by identifying and removing duplicate findings
+icon: copy
 ---
 
 # Deduplicator

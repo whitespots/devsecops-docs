@@ -4,4 +4,4 @@ This setting allows user to group search results (findings) based on specified r
 
 <figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
-This setting enables users to efficiently organize and structure [search results](../../findings-view/grouped-findings-as-a-result-of.md). By classifying findings based on predefined criteria, users gain a clearer understanding of the vulnerabilities present in the products being scanned.
+This setting enables users to efficiently organize and structure [search results](../../features/findings-view/grouped-findings-as-a-result-of.md). By classifying findings based on predefined criteria, users gain a clearer understanding of the vulnerabilities present in the products being scanned.

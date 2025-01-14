@@ -8,14 +8,14 @@ See tariff plans on our [website](https://whitespots.io/)
 | :-----------------------------------------------------------------------------------: | ---------------- | :------------: | :---------------: |
 | [Users\&Roles](../../general-portal-settings/managing-user-roles-and-access-control/) | ✅                |        ✅       |         ✅         |
 |                  [SSO ](../../general-portal-settings/sso-settings/)                  | ❌                |        ❌       |         ✅         |
-|          [Product Settings](../../general-portal-settings/product-settings/)          | ✅                |        ✅       |         ✅         |
+|               [Product Settings](../../features/working-with-products/)               | ✅                |        ✅       |         ✅         |
 |          [Scanner Settings](../../general-portal-settings/scanner-settings/)          | ✅                |        ✅       |         ✅         |
 |              [Metrics](../../features/security-metrics/metrics-settings/)             | ✅                |        ✅       |         ✅         |
-|            [Jira integration](../../jira/jira-integration-configuration.md)           | ✅                |        ✅       |         ✅         |
-|                     [DefectDojo integration](../../defectdojo.md)                     | ✅                |        ✅       |         ✅         |
+|       [Jira integration](../../features/jira/jira-integration-configuration.md)       | ✅                |        ✅       |         ✅         |
+|            [DefectDojo integration](../../features/move-from-defectdojo.md)           | ✅                |        ✅       |         ✅         |
 |          [Notification](../../general-portal-settings/notification-settings/)         | ✅                |        ✅       |         ✅         |
 |                              [Auditor](broken-reference)                              | ❌                |        ✅       |         ✅         |
 |     [Basic deduplication](../../features/deduplicator/basic-deduplicator-rules.md)    | ✅                |        ❌       |         ✅         |
 |                      [Dedublicator](../../features/deduplicator/)                     | ❌                |        ❌       |         ✅         |
-|                        [Auto Validator](../../auto-validator/)                        | ❌                |        ❌       |         ✅         |
+|                    [Auto Validator](../../features/auto-validator/)                   | ❌                |        ❌       |         ✅         |
 |                     [CVSS](../../features/security-metrics/cvss/)                     | ❌                |        ❌       |         ✅         |

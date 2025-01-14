@@ -1,6 +1,6 @@
 # Auditor Job Config
 
-When a scanner is added to the [Auditor jobs](../../../auditor/settings/jobs/), this section specifies its settings for running the Audit.
+When a scanner is added to the [Auditor jobs](../../../auditor/features/settings/jobs/), this section specifies its settings for running the Audit.
 
 * **Shared Volume**: in activated position passes its scan results to the next jobs in the sequence
 

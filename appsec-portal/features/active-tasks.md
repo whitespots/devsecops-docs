@@ -4,7 +4,7 @@ description: >-
   /global-settings/active-tasks page
 ---
 
-# Active tasks
+# 📈 Active tasks
 
 **Portal** has a _distributed task queue_ that can collect, record, schedule, and perform tasks.
 

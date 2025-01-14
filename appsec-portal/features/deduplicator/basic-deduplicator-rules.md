@@ -1,4 +1,4 @@
-# Basic deduplicator rules
+# ⚙️ Basic deduplicator rules
 
 Basic deduplication works during report import, scanner report post-processing and Auditor execution, within the specified scope and using configurable matching criteria.
 

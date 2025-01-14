@@ -6,7 +6,7 @@ description: General AppSec Portal settings description
 
 * [**Profile setting**](profile.md)
 * [**User roles and access control**](managing-user-roles-and-access-control/)
-* [**Product settings**](product-settings/)
+* [**Product settings**](../features/working-with-products/)
 * [**Scanner setings**](scanner-settings/)
 * [**Notification settings**](notification-settings/)
 * [**SSO setings**](sso-settings/)

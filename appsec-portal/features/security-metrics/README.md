@@ -2,6 +2,7 @@
 description: >-
   By using SLA and WRT, it is possible to achieve faster validation,
   prioritisation and remediation of vulnerabilities.
+icon: gauge-min
 ---
 
 # Security Metrics

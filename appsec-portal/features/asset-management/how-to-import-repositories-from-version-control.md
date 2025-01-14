@@ -1,6 +1,6 @@
 # How to import repositories from version control
 
-1. Be sure, that you have [set up the integration with your version control system](../../general-portal-settings/version-control.md)
+1. Be sure, that you have [set up the integration with your version control system](../../general-portal-settings/version-control-integration.md)
 2. Navigate to Assets->Repositories page and click the "Import" button
 
 <figure><img src="../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>

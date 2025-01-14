@@ -101,13 +101,13 @@ Customise the view of the metric view using the Findings Count Statistics sectio
 
 <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-1. **Finding Discovery Rate** (**FDR**) measures the rate at which new vulnerabilities are _verified per day_, either manually or automatically (through the Auto[ Validator](../../auto-validator/)). It helps you evaluate the effectiveness of your Auto Validator's rules and security team.
+1. **Finding Discovery Rate** (**FDR**) measures the rate at which new vulnerabilities are _verified per day_, either manually or automatically (through the Auto[ Validator](../auto-validator/)). It helps you evaluate the effectiveness of your Auto Validator's rules and security team.
 
 <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>FDR chart</p></figcaption></figure>
 
-2. **False Positive Rate** (**FPR**) quantifies the rate of reported vulnerabilities that are later determined to be _false positives per day_ manually or by [Auto Validator](../../auto-validator/). A lower false positive rate indicates the accuracy of your vulnerability detection tools and methodologies.
+2. **False Positive Rate** (**FPR**) quantifies the rate of reported vulnerabilities that are later determined to be _false positives per day_ manually or by [Auto Validator](../auto-validator/). A lower false positive rate indicates the accuracy of your vulnerability detection tools and methodologies.
 
 <figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 

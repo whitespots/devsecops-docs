@@ -17,7 +17,7 @@ Authentication through SSO allows users to log in to the portal without the need
 <figure><img src="../../../.gitbook/assets/Okta corr.gif" alt=""><figcaption><p>Example for Okta</p></figcaption></figure>
 
 2. Navigate to the administrative panel of AppSec Portal: \
-   _**Settings -> Users and Roles -> SSO integrations**_
+   &#xNAN;_**Settings -> Users and Roles -> SSO integrations**_
 3. On the right panel, select Add SSO (+ SSO)
 4. In the SSO settings section, enter the parameters:\
    **Title**: Provide a title for the SSO integration. This title will be displayed during the login process.\

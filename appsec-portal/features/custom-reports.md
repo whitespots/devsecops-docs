@@ -1,5 +1,6 @@
 ---
 description: Get an easy-to-use report to analyse and share with others
+icon: file-chart-column
 ---
 
 # Custom Reports

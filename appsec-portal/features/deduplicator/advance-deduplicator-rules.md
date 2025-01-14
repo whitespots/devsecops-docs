@@ -2,7 +2,7 @@
 description: To set up a rule for Deduplicator, follow the steps below
 ---
 
-# Advance Deduplicator rules
+# ⚙️ Advance Deduplicator rules
 
 1. Select the **Deduplicator**, followed by clicking on the **Rule** button
 
@@ -12,7 +12,7 @@ description: To set up a rule for Deduplicator, follow the steps below
 
 <figure><img src="../../../.gitbook/assets/dedublic rule 1.png" alt=""><figcaption></figcaption></figure>
 
-3. Select one or more **identity criteria** of original and duplicate findings_:_
+3. Select one or more **identity criteria** of original and duplicate finding&#x73;_:_
 
 * **same product**
 * **same title**

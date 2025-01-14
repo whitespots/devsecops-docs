@@ -1,4 +1,4 @@
-# Recommendations
+# 🎯 Recommendations
 
 You can read the recommendations for your organisation by going to the **Recommendations** section on the left-hand side of the home page.
 
