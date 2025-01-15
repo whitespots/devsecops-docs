@@ -1,6 +1,23 @@
 # 🗒️ Release notes
 
-**release\_v24.12.2 (latest)**
+**release\_v25.01.1 (latest)**
+
+```
+- New bulk actions for validation rules (remove, disable)
+- Validation rules filtering by tag
+- Validation rules regex support
+- New fields for validation instructions (line number, severity)
+- Close merge request for custom statuses with custom comment option
+- UI: attention for sequences with same scanner
+- UI: random avatars
+- UI: Suggest variable names for job env variables
+- UI: Suggest Scanner/Importer for SCAN_TYPE variable
+- CWE findings filter now suggests CWE for filtered findings
+- Minor UI fixes
+- Some bugfixes
+```
+
+**release\_v24.12.2**&#x20;
 
 ```
 - Business criticality in percents
