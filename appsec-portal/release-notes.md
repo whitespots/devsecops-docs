@@ -1,6 +1,16 @@
 # 🗒️ Release notes
 
-**release\_v25.01.1 (latest)**
+**release\_v25.02.1 (latest)**
+
+```
+- Rename for products and custom scanners
+- Reworked product clusters
+- Reworked report generation
+- Fix product deletion, tags
+- Added preferred findings for wrt calculation
+```
+
+**release\_v25.01.1**
 
 ```
 - New bulk actions for validation rules (remove, disable)
