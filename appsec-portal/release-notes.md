@@ -1,6 +1,21 @@
 # 🗒️ Release notes
 
-**release\_v25.02.1 (latest)**
+## Stay updated!&#x20;
+
+Subscribe to our [telegram channel](https://t.me/whitespots_io)
+
+\
+**release\_v25.02.2 (latest)**
+
+```
+- Notifications have product scopes now.
+- Notifications (any webhook) can be triggered by findings import
+- Notifications (any webhook) can be triggered by validator's finished cycle
+- Now all tables are able to switch between card / table modes
+- UI fixes
+```
+
+**release\_v25.02.1**
 
 ```
 - Rename for products and custom scanners
