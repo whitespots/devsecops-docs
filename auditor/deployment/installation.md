@@ -6,6 +6,10 @@ description: Auditor step-by-step deployment guide
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
+### Repository address
+
+[https://gitlab.com/whitespots-public/auditor](https://gitlab.com/whitespots-public/auditor)
+
 ## System Requirements for Auditor usage:
 
 * Minimum system resources: 4 GB of RAM and 2 CPU cores.
@@ -162,77 +166,23 @@ Add the Auditor package to your server:
 
 ```
 helm repo add auditor https://gitlab.com/api/v4/projects/51993931/packages/helm/stable
+helm repo update
 ```
 
-**Step 2. Set environment variables**
+**Step 2. Take a look at our helm variables and define which you want to change**
 
-In the **values.yaml** file, change the default environment variables to meet your requirements:
-
-* In the **deploymentSpec** section:
-
-```
-global.image.tag=release_v24.11.3
-```
-
-* Postgres:
-
-```
-postgresql.auth.database="postgres"       
-postgresql.auth.username="postgres"
-postgresql.auth.password="postgres" 
-```
-
-* External postgres:
-
-```
-externalPostgresql.enabled="true"
-externalPostgresql.host=""
-externalPostgresql.port="5432"
-externalPostgresql.database=""
-externalPostgresql.username=""
-externalPostgresql.password=""
-```
-
-* Redis
-
-```
-redis.auth.password="11110000"
-```
-
-* External redis
-
-```
-externalRedis.enabled="true"
-externalRedis.host=""
-externalRedis.password=""
-```
-
-* Rabbitmq
-
-```
-rabbitmq.auth.username="admin"
-rabbitmq.auth.password="admin"
-```
-
-* External Rabbitmq
-
-```
-externalRabbitmq.enabled="true"
-externalRabbitmq.host=""
-externalRabbitmq.port="5672"
-externalRabbitmq.username=""
-externalRabbitmq.password=""
-```
+[**https://gitlab.com/whitespots-public/auditor/-/blob/main/AuditorHelmChart/values.yaml?ref\_type=heads**](https://gitlab.com/whitespots-public/auditor/-/blob/main/AuditorHelmChart/values.yaml?ref_type=heads)
 
 **Step 3. Helm install with all resources inside cluster**
 
-In the example we use pre-installed nginx ingress controller and postgres, redis, rabbitmq from chart:
+**In the example we use pre-installed nginx ingress controller and postgres, redis, rabbitmq from chart:**
 
 ```
 helm upgrade --install auditor auditor/appsecauditor \
    --set rabbitmq.auth.username="admin" \
    --set rabbitmq.auth.password="admin" \
    --set postgresql.enabled=true \
+   --set configs.configMap.max_threads_autoscale=4 \
    --set ingress.enabled=true \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
@@ -254,6 +204,33 @@ Just in case if migrations haven't succeed
 kubectl exec -it $(kubectl get pods -n whitespots-auditor -l app.kubernetes.io/name=appsecauditor-auditor -o jsonpath='{.items[0].metadata.name}') -n whitespots-auditor -- alembic upgrade head
 ```
 
+**Another example for external Rabbitmq**
+
+`amqps://myuser:password@rabbit.cloudprovider.com:5671/vhost`
+
+```
+helm upgrade --install auditor auditor/appsecauditor \
+   --set rabbitmq.enabled="false" \
+   --set externalRabbitmq.enabled="true" \
+   --set externalRabbitmq.scheme="amqps" \
+   --set externalRabbitmq.port="5671" \
+   --set externalRabbitmq.username="myuser" \
+   --set externalRabbitmq.vhost="vhost" \
+   --set externalRabbitmq.password="password" \
+   --set externalRabbitmq.host="rabbit.cloudprovider.com" \
+   --set postgresql.enabled=true \
+   --set configs.configMap.max_threads_autoscale=4 \
+   --set ingress.enabled=true \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
+   --set ingress.ingressClassName=nginx \
+   --set ingress.host=localhost \
+   --set configs.secret.access_token=57e86d18e7dd0ab \
+   -n whitespots-auditor --create-namespace
+```
+
+**Step 4. Connect runners to CI**
+
 After the first login you will receive an  <mark style="color:blue;">**`Access Token`**</mark>. Copy and set as a variable token and relaunch service scanner\_worker.
 
 <img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
@@ -268,6 +245,7 @@ helm upgrade --install auditor auditor/appsecauditor \
    --set rabbitmq.auth.username="admin" \
    --set rabbitmq.auth.password="admin" \
    --set postgresql.enabled=true \
+   --set configs.configMap.max_threads_autoscale=4 \
    --set ingress.enabled=true \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
@@ -275,6 +253,7 @@ helm upgrade --install auditor auditor/appsecauditor \
    --set ingress.host=localhost \
    --set configs.secret.access_token=access_token \
    -n whitespots-auditor --create-namespace
+
 
 ```
 

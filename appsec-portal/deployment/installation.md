@@ -6,6 +6,10 @@ description: AppSec Portal deployment step-by-step guide
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+### Repository address
+
+[https://gitlab.com/whitespots-public/appsec-portal](https://gitlab.com/whitespots-public/appsec-portal)
+
 ### System Requirements for Portal usage:
 
 * Minimum system resources: 4 GB of RAM and 2 CPU cores.
@@ -149,21 +153,55 @@ helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/
 
 **Step 2**: Install it
 
+Example install with default PostgreSQL and RabbitMQ:
+
 ```
-helm upgrade --install portal appsecportal/appsecportal \
+helm upgrade --install portal portal/portal \
    --set postgresql.enabled=true \
+   --set ingress.enabled=true \
+   --set rabbitmq.enabled=true \
+   --set rabbitmq.auth.username="admin" \
+   --set rabbitmq.auth.password="admin" \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
+   --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
+   --set ingress.ingressClassName=nginx \
+   --set ingress.host=localhost \
+   --set configs.configMap.cookies_secure=false \
+   -n whitespots-portal --create-namespace
+```
+
+Example install with external PostgreSQL and external RabbitMQ:
+
+```
+helm upgrade --install portal portal/portal \
+   --set postgresql.enabled=false \
+   --set rabbitmq.enabled=false \
+   --set externalRabbitmq.enabled=true \
+   --set externalRabbitmq.scheme="amqps" \
+   --set externalRabbitmq.port="5671" \
+   --set externalRabbitmq.username="myuser" \
+   --set externalRabbitmq.vhost="vhost" \
+   --set externalRabbitmq.password="password" \
+   --set externalRabbitmq.host="rabbit.cloudprovider.com" \
+   --set externalPostgresql.enabled=true \
+   --set externalPostgresql.host="postgres.cloudprovider.com" \
+   --set externalPostgresql.port="5432" \
+   --set externalPostgresql.database="postgres" \
+   --set externalPostgresql.username="postgres" \
+   --set externalPostgresql.password="postgres" \
    --set ingress.enabled=true \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/scheme"=internet-facing \
    --set ingress.annotations."nginx\.ingress\.kubernetes\.io\/target\-type"=ip \
    --set ingress.ingressClassName=nginx \
    --set ingress.host=localhost \
-   -n appsecportal --create-namespace
+   --set configs.configMap.cookies_secure=false \
+   -n whitespots-portal --create-namespace
 ```
 
 **Step 3:** Create a superuser account
 
 ```
-kubectl exec -it $(kubectl get pods -n appsecportal -l app.kubernetes.io/name=appsecportal-portal -o jsonpath='{.items[0].metadata.name}') -n appsecportal -- python manage.py createsuperuser --username admin
+kubectl exec -it $(kubectl get pods -n whitespots-portal -l app.kubernetes.io/name=portal-portal -o jsonpath='{.items[0].metadata.name}') -n whitespots-portal -- python manage.py createsuperuser --username admin
 ```
 
 **Step 4:** Just in case if you don't have any ingress inside your cluster
