@@ -1,10 +1,17 @@
 # 🗒️ Release notes
 
+**release\_v25.03.1**
+
+```
+- Added timeout
+- Added dns
+```
+
 **release\_v24.11.2 (latest)**
 
 ```
-1) Added endpoint for running bulk audits
-2) Small fixes and improvements
+- Added endpoint for running bulk audits
+- Small fixes and improvements
 ```
 
 **release\_v24.10.2**

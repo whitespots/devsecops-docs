@@ -5,7 +5,14 @@
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
 \
-**release\_v25.02.2 (latest)**
+**release\_v25.03.1 (latest)**
+
+```
+- Reworked roles
+- UI fixes
+```
+
+**release\_v25.02.2**
 
 ```
 - Notifications have product scopes now.
