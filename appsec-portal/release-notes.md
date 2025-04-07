@@ -4,8 +4,22 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
+
+
+**release\_v25.04.1 (latest)**
+
+```
+- Fixed assignee for self-hosted JIRA 
+- Jobs, assets, rules lists are now open modal by clicking on the row
+- Table inline editing for fields: severity, asset's product, sequence
+- Rule modals now have affected findings lists
+- Buttons UI rework
+- Open table row menu by right click
+- Form validation errors are now less annoying
+```
+
 \
-**release\_v25.03.1 (latest)**
+**release\_v25.03.1**
 
 ```
 - Reworked roles
