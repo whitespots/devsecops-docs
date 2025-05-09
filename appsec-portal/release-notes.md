@@ -4,9 +4,17 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
+**release\_v25.05.1 (latest)**
 
+```
+- Reworked VCS integration to be based on QualityGates
+- Added AutoValidation on report import
+- VCS integration can now change commit status
+- UI/UX improvements
+- Refactoring and bug fixes
+```
 
-**release\_v25.04.1 (latest)**
+**release\_v25.04.1**
 
 ```
 - Fixed assignee for self-hosted JIRA 
