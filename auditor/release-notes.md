@@ -1,5 +1,11 @@
 # 🗒️ Release notes
 
+**release\_v25.06.1**
+
+```
+- More entrypoints for microservices
+```
+
 **release\_v25.03.1**
 
 ```
