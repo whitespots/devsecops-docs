@@ -4,7 +4,15 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.05.1 (latest)**
+**release\_v25.05.2 (latest)**
+
+```
+- Added event log
+- Updated celery dependencies
+- Minor UI fixes
+```
+
+**release\_v25.05.1**&#x20;
 
 ```
 - Reworked VCS integration to be based on QualityGates
