@@ -4,7 +4,16 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.05.2 (latest)**
+**release\_v25.06.1** **(latest)**
+
+```
+- Fixed bulk triage bug
+- Improved sla violation performance
+- Django worker moved to another container
+- Minor UI fixes
+```
+
+**release\_v25.05.2**&#x20;
 
 ```
 - Added event log
