@@ -1,5 +1,13 @@
 # 🗒️ Release notes
 
+**release\_v25.07.1 (latest)**
+
+```
+1) Add job statistics.
+2) Add pipeline and job time expectations.
+3) Fixed bugs.
+```
+
 **release\_v25.06.1**
 
 ```
