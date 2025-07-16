@@ -4,7 +4,18 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.06.1** **(latest)**
+**release\_v25.07.1** **(latest)**
+
+```
+- Auditor interface is now availiable in Portal 
+- More data for audit: branch, commit hash, commit author, duplicates counts
+- Bulk jira issues creation
+- Fields for scanner table: autocloser action, autocloser enabled
+- Sticky columns in tables
+- Bugfixes: auto-tagging, custom import logging
+```
+
+**release\_v25.06.1**
 
 ```
 - Fixed bulk triage bug
