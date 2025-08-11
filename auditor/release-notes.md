@@ -1,6 +1,16 @@
 # 🗒️ Release notes
 
-**release\_v25.07.1 (latest)**
+
+
+**release\_v25.08.1 (latest)**
+
+```
+1) Improved logging
+2) UI improvement
+3) Fixed bugs
+```
+
+**release\_v25.07.1**
 
 ```
 1) Add job statistics.
