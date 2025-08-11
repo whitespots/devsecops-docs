@@ -4,7 +4,18 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.07.1** **(latest)**
+**release\_v25.08.1** **(latest)**
+
+```
+- BitBucket support
+- Custom fields for webhook notifications
+- Jira default assignee selection
+- Improved jira description
+- Added new IDE extensions for JetBrains and VSX-based editors
+- Minor UI and bug fixes
+```
+
+**release\_v25.07.1**
 
 ```
 - Auditor interface is now availiable in Portal 
