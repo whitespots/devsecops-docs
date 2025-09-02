@@ -2,7 +2,14 @@
 
 
 
-**release\_v25.08.1 (latest)**
+**release\_v25.09.1 (latest)**
+
+```
+- Changed fixtures
+- Fixed bugs
+```
+
+**release\_v25.08.1**
 
 ```
 1) Improved logging

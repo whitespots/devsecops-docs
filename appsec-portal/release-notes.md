@@ -4,7 +4,16 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.08.1** **(latest)**
+**release\_v25.09.1 (latest)**
+
+```
+— You can now create roles from projects in GitHub and GitLab SSO integrations
+— Empty reports are now supported when importing findings
+— Added a migration to create a default product
+— Minor bug fixes in VCS
+```
+
+**release\_v25.08.1**
 
 ```
 - BitBucket support
