@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Managing user roles and access control
 
 **Role-Based Access Control (RBAC)** is a powerful security mechanism implemented in the AppSec Portal, ensuring a robust and flexible approach to managing user roles and access privileges. RBAC enables organizations to assign specific roles and permissions to users based on their responsibilities and requirements within the application security ecosystem.

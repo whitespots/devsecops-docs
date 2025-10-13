@@ -132,6 +132,8 @@
     * [Finding groups](appsec-portal/features/working-with-products/finding-groups.md)
     * [Risk assessment](appsec-portal/features/working-with-products/risk-assessment.md)
     * [Product Asset](appsec-portal/features/working-with-products/product-asset.md)
+  * [Quality Gate](appsec-portal/features/quality-gate.md)
+  * [Bring your own scanner](appsec-portal/features/bring-your-own-scanner.md)
 * [🛠️ General Portal settings](appsec-portal/general-portal-settings/README.md)
   * [Version Control Integration](appsec-portal/general-portal-settings/version-control-integration.md)
   * [Profile](appsec-portal/general-portal-settings/profile.md)

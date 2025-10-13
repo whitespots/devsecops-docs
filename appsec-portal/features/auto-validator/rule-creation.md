@@ -16,7 +16,7 @@ To import, click the '**Import**' button and drag and drop the JSON file contain
 
 1. Add new rule for validation:
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * decide what to do with findings if the right conditions are met: **reject, confirm, no, temporarily accept risk or permamently accept risk .** If **сonfirm** is selected, the validator will automatically create corresponding tasks in Jira. If **reject** is selected, findings will be excluded from future checks. If **No** is selected, entered **tag** or/and **group** will be assigned to findings in accordance with rule;
 * automatically add tags to validated findings;

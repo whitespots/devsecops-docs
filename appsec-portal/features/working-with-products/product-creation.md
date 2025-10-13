@@ -1,6 +1,6 @@
 # Product Creation
 
-1. To create a new product, click the <img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt="" data-size="line"> button on the Products page.
+1. To create a new product, click the <img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="" data-size="line"> button on the Products page.
 
 <figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
