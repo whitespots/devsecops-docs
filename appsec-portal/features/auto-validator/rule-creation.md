@@ -2,17 +2,17 @@
 
 {% hint style="info" %}
 You can **export** and **import** selected validation rules in JSON format.
+{% endhint %}
 
 To export, select the desired rules and click the **Export** button:
 
 <img src="../../../.gitbook/assets/autoval1(2).gif" alt="" data-size="original">
 
-
-
 To import, click the '**Import**' button and drag and drop the JSON file containing the validation rules:
 
 <img src="../../../.gitbook/assets/autoval3.gif" alt="" data-size="original">
-{% endhint %}
+
+
 
 1. Add new rule for validation:
 
