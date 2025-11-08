@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Whitespots Wiki](README.md)
 * [Auditor](auditor/README.md)
   * [📥 Deployment](auditor/deployment/README.md)
     * [Installation](auditor/deployment/installation.md)
