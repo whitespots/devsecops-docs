@@ -4,7 +4,24 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.09.2 (latest)**
+**release\_v25.11.1**
+
+```
+- Customization of basic deduplication
+- Improved information in commit status in QG
+- VCS support with self-signed certificate
+- Refactoring, bug and UI fixes
+```
+
+**release\_v25.10.1**
+
+```
+- Reworked rules import/export
+- Added docker image tag field for findings
+- Minor fixes/improvements
+```
+
+**release\_v25.09.2**
 
 ```
 - Custom importer improvements
