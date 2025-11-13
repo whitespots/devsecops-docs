@@ -4,7 +4,7 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.11.1**
+**release\_v25.11.1 (latest)**
 
 ```
 - Customization of basic deduplication
