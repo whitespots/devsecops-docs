@@ -4,7 +4,25 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.11.1 (latest)**
+**release\_v25.11.3 (latest)**
+
+```
+- Improved import performance (a lot)
+- Reworked swagger schema
+- Removed legacy CI endpoints
+```
+
+**release\_v25.11.2**
+
+```
+- Added GitLab container registry integration
+- Reworked asset submission to audit workflow
+- Added custom field to automation instructions (they were not there for some reason)
+- Added option to delete associated findings when deleting assets
+- Code refactoring and minor bug fixes
+```
+
+**release\_v25.11.1**
 
 ```
 - Customization of basic deduplication
