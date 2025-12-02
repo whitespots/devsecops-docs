@@ -41,7 +41,7 @@
 
 <figure><img src="../../.gitbook/assets/view1.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### **Findings vi**ew
+#### Findings view
 
 [View details](findings-view/)
 
@@ -88,7 +88,7 @@
 
 <figure><img src="../../.gitbook/assets/report titul.png" alt="" width="344"><figcaption></figcaption></figure>
 
-#### **Cust**om Reports
+#### Custom Reports
 
 [View details](custom-reports.md)
 
@@ -101,7 +101,7 @@
 
 <figure><img src="../../.gitbook/assets/recommendation.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### **R**ecommendations
+#### Recommendations
 
 [View details](recommendations.md)
 
