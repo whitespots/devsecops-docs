@@ -4,7 +4,7 @@
 
 Subscribe to our [telegram channel](https://t.me/whitespots_io)
 
-**release\_v25.11.3 (latest)**
+#### release\_v25.11.3 (latest)
 
 ```
 - Improved import performance (a lot)
@@ -12,7 +12,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Removed legacy CI endpoints
 ```
 
-**release\_v25.11.2**
+#### release\_v25.11.2
 
 ```
 - Added GitLab container registry integration
@@ -22,7 +22,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Code refactoring and minor bug fixes
 ```
 
-**release\_v25.11.1**
+#### release\_v25.11.1
 
 ```
 - Customization of basic deduplication
@@ -31,7 +31,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Refactoring, bug and UI fixes
 ```
 
-**release\_v25.10.1**
+#### release\_v25.10.1
 
 ```
 - Reworked rules import/export
@@ -39,7 +39,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor fixes/improvements
 ```
 
-**release\_v25.09.2**
+#### release\_v25.09.2
 
 ```
 - Custom importer improvements
@@ -48,7 +48,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Bug fixes and minor improvements
 ```
 
-**release\_v25.09.1**
+#### release\_v25.09.1
 
 ```
 - You can now create roles from projects in GitHub and GitLab SSO integrations
@@ -57,7 +57,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor bug fixes in VCS
 ```
 
-**release\_v25.08.1**
+#### release\_v25.08.1
 
 ```
 - BitBucket support
@@ -68,7 +68,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor UI and bug fixes
 ```
 
-**release\_v25.07.1**
+#### release\_v25.07.1
 
 ```
 - Auditor interface is now availiable in Portal 
@@ -79,7 +79,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Bugfixes: auto-tagging, custom import logging
 ```
 
-**release\_v25.06.1**
+#### release\_v25.06.1
 
 ```
 - Fixed bulk triage bug
@@ -88,7 +88,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor UI fixes
 ```
 
-**release\_v25.05.2**&#x20;
+#### release\_v25.05.2&#x20;
 
 ```
 - Added event log
@@ -96,7 +96,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor UI fixes
 ```
 
-**release\_v25.05.1**&#x20;
+#### release\_v25.05.1&#x20;
 
 ```
 - Reworked VCS integration to be based on QualityGates
@@ -106,7 +106,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Refactoring and bug fixes
 ```
 
-**release\_v25.04.1**
+#### release\_v25.04.1
 
 ```
 - Fixed assignee for self-hosted JIRA 
@@ -118,15 +118,14 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Form validation errors are now less annoying
 ```
 
-\
-**release\_v25.03.1**
+#### &#x20;release\_v25.03.1
 
 ```
 - Reworked roles
 - UI fixes
 ```
 
-**release\_v25.02.2**
+#### release\_v25.02.2
 
 ```
 - Notifications have product scopes now.
@@ -136,7 +135,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - UI fixes
 ```
 
-**release\_v25.02.1**
+#### release\_v25.02.1
 
 ```
 - Rename for products and custom scanners
@@ -146,7 +145,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Added preferred findings for wrt calculation
 ```
 
-**release\_v25.01.1**
+#### release\_v25.01.1
 
 ```
 - New bulk actions for validation rules (remove, disable)
@@ -163,7 +162,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Some bugfixes
 ```
 
-**release\_v24.12.2**&#x20;
+#### release\_v24.12.2&#x20;
 
 ```
 - Business criticality in percents
@@ -172,7 +171,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - New quick filters
 ```
 
-**release\_v24.12.1**&#x20;
+#### release\_v24.12.1&#x20;
 
 ```
 - Сustom importers
@@ -182,7 +181,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Minor UI and bug fixes
 ```
 
-**release\_v24.11.3**
+#### release\_v24.11.3
 
 ```
 - Added tags to scanners
@@ -196,7 +195,7 @@ Subscribe to our [telegram channel](https://t.me/whitespots_io)
 - Various importers bug fixes
 ```
 
-**release\_v24.11.2**
+#### release\_v24.11.2
 
 ```
 - New asset creation logic on import. 
@@ -210,7 +209,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 - Customizable UI tables. Now you can pick up your favourite columns and sort data by them
 ```
 
-**release\_v24.11.1**&#x20;
+#### release\_v24.11.1&#x20;
 
 ```
 - Multiple git instances
@@ -219,7 +218,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 - Various bug fixes
 ```
 
-**release\_v24.10.2**
+#### release\_v24.10.2
 
 * New token-based authorization for Jira <mark style="color:green;">**`NEW`**</mark>
 * Job sequence per asset <mark style="color:green;">**`NEW`**</mark>
@@ -227,13 +226,13 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 * New auditor job settings <mark style="color:green;">**`NEW`**</mark>
 * Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.10.1**&#x20;
+#### release\_v24.10.1&#x20;
 
 1. Improved version control systems integration: delayed comments, deletion of previous comments, including findings from other branches in pull requests <mark style="color:blue;">**`UPDATE`**</mark>
 2. Some notifications now include user information <mark style="color:blue;">**`UPDATE`**</mark>
 3. Small fixes in importers <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.09.1**&#x20;
+#### release\_v24.09.1&#x20;
 
 1. Webhook based integration with GitHub and GitLab: push events trigger scans, merge requests trigger comments <mark style="color:green;">**`NEW`**</mark>
 2. Reworked Assets table in product <mark style="color:blue;">**`UPDATE`**</mark>
@@ -241,7 +240,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 4. Improved Job list in Auditor settings <mark style="color:blue;">**`UPDATE`**</mark>
 5. Minor UI bug fixes <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.08.4**
+#### release\_v24.08.4
 
 1. **Date Selection for Temporarily Accepted Findings**: Introduced a date select feature for temporarily accepted findings, allowing users to specify a review date. <mark style="color:green;">**`NEW`**</mark>
 2. **Russian Portal Translation**: The portal is now available in Russian. <mark style="color:green;">**`NEW`**</mark>
@@ -251,7 +250,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 6. **Bugfix**: Filtering by tags resulted in duplicate products <mark style="color:blue;">**`UPDATE`**</mark>
 7. **Bugfix**: Wrong triage status after re-verifying a result <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.08.3**
+#### release\_v24.08.3
 
 1. **Status event notifications**: Now include findings IDs <mark style="color:green;">**`NEW`**</mark>
 2. **CWE Filter**: Displays total number of findings per CWE <mark style="color:green;">**`NEW`**</mark>
@@ -261,13 +260,13 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 6. **Select different triage statuses for top CWE recommendations** <mark style="color:green;">**`NEW`**</mark>
 7. **Added integrations to Patch Request for Findings endpoint&#x20;**<mark style="color:green;">**`NEW`**</mark>
 
-**release\_v24.08.2**&#x20;
+#### release\_v24.08.2&#x20;
 
 1. **Custom field for findings and basic deduplication**: Introduced the ability to add custom fields to findings, along with basic deduplication functionality. <mark style="color:green;">**`NEW`**</mark>
 2. **SSL configuration for notifications**: Added SSL configuration options for notifications, improving the security and reliability of notification delivery. <mark style="color:blue;">**`UPDATE`**</mark>
 3. **Minor bug fixes**: Various minor issues have been addressed to improve system stability and performance. <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.08.1**&#x20;
+#### release\_v24.08.1&#x20;
 
 1. **New statuses**: Introduced new statuses (_Temporarily Risk Accepted_, _Permanently Risk Accepted_) to better categorise and manage risk acceptance in findings. <mark style="color:green;">**`NEW`**</mark>
 2. **Autovalidator actions for new findings statuses**: Added autovalidator actions to handle the newly introduced issue statuses. <mark style="color:green;">**`NEW`**</mark>
@@ -277,7 +276,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 6. **Enhanced findings automation filters**: Improved findings automation filters. <mark style="color:blue;">**`UPDATE`**</mark>
 7. **Minor bug fixes**: Various minor bugs have been addressed to improve overall system performance and reliability. <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.07.3**&#x20;
+#### release\_v24.07.3&#x20;
 
 1. **Added support for Common Weakness Enumeration (CWE)**: Allows users to focus on the most common security issues. <mark style="color:green;">**`NEW`**</mark>
 2. **Refactored importers to support CWE**: Importers have been refactored to include CWE support, allowing for more comprehensive and detailed analysis of security issues. <mark style="color:green;">**`NEW`**</mark>
@@ -285,7 +284,7 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 4. **Organisation removed from repository URL configuration**: Simplified repository URL configuration by removing the organisation parameter. The portal can now automatically retrieve most information from the repository asset, streamlining setup and configuration. <mark style="color:blue;">**`UPDATE`**</mark>
 5. **Minor bug fixes:** Various minor bugs have been addressed to improve overall system performance and reliability. <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.07.2**
+#### release\_v24.07.2
 
 1. **UI improvements**: Made several improvements to the user interface for a more intuitive and user-friendly experience. <mark style="color:blue;">**`UPDATE`**</mark>
 2. **Jira Webhooks Improvements**: Improved integration with Jira webhooks for more reliable and efficient issue tracking and management. <mark style="color:blue;">**`UPDATE`**</mark>
@@ -294,12 +293,12 @@ Those who use auditor - you are great, it's nothing to worry about 😄
 5. **Bug fixes**: Various minor bugs have been addressed to improve overall system performance and reliability.  <mark style="color:blue;">**`UPDATE`**</mark>
 6. **Maintenance Some microservices removed**: Some microservices have been removed from the system. <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.07.1**&#x20;
+#### release\_v24.07.1&#x20;
 
 1. **Grouping feature for Auto Validator**: A new grouping feature has been added to the Auto Validator, allowing users to organise and categorise validation results more efficiently. <mark style="color:green;">**`NEW`**</mark>
 2. Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
 
-**release\_v24.06.3.1**
+#### release\_v24.06.3.1
 
 1. Minor bugfixes <mark style="color:blue;">**`UPDATE`**</mark>
 
