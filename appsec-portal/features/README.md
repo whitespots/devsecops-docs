@@ -4,7 +4,9 @@
 
 <figure><img src="../../.gitbook/assets/portal-clean.whitespots.io_autovalidator(square) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Security Metrics**](security-metrics/)
+#### Security Metrics
+
+[View details](security-metrics/)
 
 ✔️ Manage different SLA's and WRT, based on product criticality.
 
@@ -17,7 +19,9 @@
 
 <figure><img src="../../.gitbook/assets/autovalid.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Auto Validator**](auto-validator/)
+#### Auto Validator
+
+[View details](auto-validator/)
 
 ✔️ Helpful tool for automatic validation of findings that does not interfere with the implemented logic.
 
@@ -25,7 +29,9 @@
 
 <figure><img src="../../.gitbook/assets/dedublic.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Deduplication Config**](deduplicator/)
+#### Deduplication Config
+
+[View details](deduplicator/)
 
 ✔️ Rules\
 ✔️ Cross-scanner deduplication \
@@ -35,7 +41,9 @@
 
 <figure><img src="../../.gitbook/assets/view1.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Findings view**](findings-view/)
+#### **Findings vi**ew
+
+[View details](findings-view/)
 
 ✔️ Groups findings automatic and manual\
 ✔️ Tag assigning\
@@ -46,7 +54,9 @@
 
 <figure><img src="../../.gitbook/assets/active task(1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Active tasks**](active-tasks.md)
+#### Active tasks
+
+[View details](active-tasks.md)
 
 ✔️ A new perspective on active tasks queue: check what's happening in Auto Validator with ease
 
@@ -54,7 +64,9 @@
 
 <figure><img src="../../.gitbook/assets/jira 2.JPG" alt=""><figcaption></figcaption></figure>
 
-#### [**Jira integration** ](jira/)
+#### Jira integration
+
+[View details](jira/)
 
 ✔️ Portal supports 2 spaces (Security and Product). \
 ✔️ You can set default space for all products at once. \
@@ -64,7 +76,9 @@
 
 <figure><img src="../../.gitbook/assets/auditor feat.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Auditor cooperation**](vulnerability-discovery/audits.md)
+#### Auditor cooperation
+
+[View details](vulnerability-discovery/auditor-settings/)
 
 ✔️ Scans your product directly\
 ✔️ Using multiple scanners in a single iteration\
@@ -74,7 +88,9 @@
 
 <figure><img src="../../.gitbook/assets/report titul.png" alt="" width="344"><figcaption></figcaption></figure>
 
-#### [**Custom Reports**](custom-reports.md)
+#### **Cust**om Reports
+
+[View details](custom-reports.md)
 
 ✔️ Issue a full report or executive summary\
 ✔️ Include all or verified findings in the report\
@@ -85,7 +101,9 @@
 
 <figure><img src="../../.gitbook/assets/recommendation.png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### [**Recommendations**](recommendations.md)
+#### **R**ecommendations
+
+[View details](recommendations.md)
 
 ✔️ Best practice recommendations \
 ✔️ Recommendations based on process insights \
