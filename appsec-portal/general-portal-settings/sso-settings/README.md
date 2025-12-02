@@ -27,8 +27,7 @@ Authentication through SSO allows users to log in to the portal without the need
    **Scopes**: By default, the scope includes the OpenID, email, and profile parameters. You can remove specific parameters if necessary. \
    **Use Self-Signed Certificate**: Activate this option if it's necessary for your setup. \
    **Allowed Email Domains**: Enter the allowed email domains as a comma-separated list if necessary. \
-   **Roles**: Choose roles from the dropdown list to be assigned to each user authenticated using this method if necessary.\
-
+   **Roles**: Choose roles from the dropdown list to be assigned to each user authenticated using this method if necessary.<br>
 5. Click "Create"
 
 <figure><img src="../../../.gitbook/assets/okta2.gif" alt=""><figcaption></figcaption></figure>
@@ -66,7 +65,6 @@ Follow the steps below to configure the mapping:
 
 <figure><img src="../../../.gitbook/assets/sso mapping3.png" alt=""><figcaption></figcaption></figure>
 
-If you have filled in the **JSON key in JWT token with list of external groups** field but **haven't** configured the **mapping,** upon the first login via Single Sign-On (SSO), the portal will display all roles received from your provider. You can map them later. \
-
+If you have filled in the **JSON key in JWT token with list of external groups** field but **haven't** configured the **mapping,** upon the first login via Single Sign-On (SSO), the portal will display all roles received from your provider. You can map them later. <br>
 
 <figure><img src="../../../.gitbook/assets/sso map.png" alt=""><figcaption></figcaption></figure>

@@ -14,7 +14,7 @@ See tariff plans on our [website](https://whitespots.io/)
 |       [Jira integration](../../features/jira/jira-integration-configuration.md)       | ✅                |        ✅       |         ✅         |
 |            [DefectDojo integration](../../features/move-from-defectdojo.md)           | ✅                |        ✅       |         ✅         |
 |          [Notification](../../general-portal-settings/notification-settings/)         | ✅                |        ✅       |         ✅         |
-|                              [Auditor](broken-reference)                              | ❌                |        ✅       |         ✅         |
+|                     [Auditor](/broken/pages/IswxkBnVMfTDcm98kr4S)                     | ❌                |        ✅       |         ✅         |
 |     [Basic deduplication](../../features/deduplicator/basic-deduplicator-rules.md)    | ✅                |        ❌       |         ✅         |
 |                      [Dedublicator](../../features/deduplicator/)                     | ❌                |        ❌       |         ✅         |
 |                    [Auto Validator](../../features/auto-validator/)                   | ❌                |        ❌       |         ✅         |

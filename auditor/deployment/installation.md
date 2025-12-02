@@ -126,8 +126,7 @@ In the GitLab CI/CD > Pipelines section, you should see the pipeline running the
 **Step 8. Monitor the Installation**
 
 Once the pipeline is running, click on the deploy job to view the logs.\
-The Ansible playbook will be executed, deploying Auditor on the specified host.\
-
+The Ansible playbook will be executed, deploying Auditor on the specified host.<br>
 
 <img src="../../.gitbook/assets/ci_deploy.jpg" alt="" data-size="original">
 

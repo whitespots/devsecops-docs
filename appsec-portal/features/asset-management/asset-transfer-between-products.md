@@ -1,6 +1,6 @@
 # Asset Transfer Between Products
 
-You can move an Asset to another product through [**editing**](broken-reference) the Asset
+You can move an Asset to another product through [**editing**](/broken/pages/5sgUFZP3sQOFDmKimDfh#actions-on-assets) the Asset
 
 {% hint style="info" %}
 When you change an asset's product, all of its previously discovered findings will be displayed for the selected product.

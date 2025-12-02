@@ -15,7 +15,7 @@ Add version control integration
 
 <figure><img src="../../.gitbook/assets/image (171).png" alt="" width="375"><figcaption></figcaption></figure>
 
-5. That's it. Now you can[ import repositories](broken-reference) from your version control system or configure your code scan process
+5. That's it. Now you can[ import repositories](/broken/pages/y9iF35gaw3DQOGacptNy) from your version control system or configure your code scan process
 
 ## Set up a webhook
 

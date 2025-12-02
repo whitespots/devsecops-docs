@@ -1,6 +1,93 @@
 # 🎯 Features
 
-[Import ](scanners/importing-reports-from-scanners-to-appsec-portal/)scanner's report or use [Auditor](broken-reference) to scan a product with a set of scanners from the AppSec Portal and get a result based on your requirements
+[Import ](scanners/importing-reports-from-scanners-to-appsec-portal/)scanner's report or use [Auditor](../../auditor/) to scan a product with a set of scanners from the AppSec Portal and get a result based on your requirements
 
-<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th>Feature</th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Security Metrics</strong></td><td><p>✔️ Manage different SLA's and WRT, based on product criticality.</p><p>✔️Customizable dashboard metrics (per products, product types, products with tags and so on) <br>✔️ Identify and analyse risk of security defects in every product with informative Dashboard and Risk Assessment Overview. </p><p>✔️ Configure a CVSS rule to better assess the security of detected issues in your products.</p></td><td><a href="../../.gitbook/assets/dashboard.png">dashboard.png</a></td><td><a href="security-metrics/">security-metrics</a></td></tr><tr><td><strong>Auto Validator</strong></td><td>✔️Helpful tool for automatic validation of findings that does not interfere with the implemented logic.</td><td><a href="../../.gitbook/assets/autovalid.png">autovalid.png</a></td><td><a href="auto-validator/">auto-validator</a></td></tr><tr><td><strong>Deduplication Config</strong></td><td>✔️Rules<br>✔️Cross-scanner deduplication <br>✔️Cross-product deduplication (if required)</td><td><a href="../../.gitbook/assets/dedublic.png">dedublic.png</a></td><td><a href="deduplicator/">deduplicator</a></td></tr><tr><td><strong>Findings view</strong></td><td>✔️Groupe findings automatic and manual<br>✔️Tag assigning<br>✔️Bulk action<br>✔️Filters and sorting<br></td><td><a href="../../.gitbook/assets/view1.png">view1.png</a></td><td><a href="findings-view/">findings-view</a></td></tr><tr><td><strong>Active tasks</strong></td><td>✔️ A new perspective on active tasks queue: check what's happening in Auto Validator with ease</td><td><a href="../../.gitbook/assets/active task(1).png">active task(1).png</a></td><td></td></tr><tr><td><strong>Jira integration</strong> </td><td><p>✔️ Portal supports 2 spaces (Security and Product). </p><p>✔️ You can set default space for all products at once. </p><p>✔️ Portal creates tasks in separate query, so other functionality will not affect the speed of task creation.</p></td><td><a href="../../.gitbook/assets/jira 2.JPG">jira 2.JPG</a></td><td></td></tr><tr><td><strong>Auditor cooperation</strong></td><td><p>✔️ Scans your product directly</p><p>✔️ Using multiple scanners in a single iteration</p><p>✔️ Automatic scheduled scanning of your product</p></td><td><a href="../../.gitbook/assets/auditor feat.png">auditor feat.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Custom Reports</strong></td><td>✔️ Issue a full report or executive summary<br>✔️ Include all or verified findings in the report<br>✔️ Issue a report for one, multiple or all products<br>✔️ View the report online or print it out</td><td><a href="../../.gitbook/assets/report titul.png">report titul.png</a></td><td><a href="custom-reports.md">custom-reports.md</a></td></tr><tr><td><strong>Recommendations</strong></td><td>✔️ Best practice recommendations <br>✔️ Recommendations based on process insights <br>✔️ Recommendations based on portal settings</td><td><a href="../../.gitbook/assets/recommendation.png">recommendation.png</a></td><td><a href="recommendations.md">recommendations.md</a></td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/portal-clean.whitespots.io_autovalidator(square) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Security Metrics**](security-metrics/)
+
+✔️ Manage different SLA's and WRT, based on product criticality.
+
+✔️ Customizable dashboard metrics (per products, product types, products with tags and so on) \
+✔️ Identify and analyse risk of security defects in every product with informative Dashboard and Risk Assessment Overview.&#x20;
+
+✔️ Configure a CVSS rule to better assess the security of detected issues in your products.
+
+
+
+<figure><img src="../../.gitbook/assets/autovalid.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Auto Validator**](auto-validator/)
+
+✔️ Helpful tool for automatic validation of findings that does not interfere with the implemented logic.
+
+
+
+<figure><img src="../../.gitbook/assets/dedublic.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Deduplication Config**](deduplicator/)
+
+✔️ Rules\
+✔️ Cross-scanner deduplication \
+✔️ Cross-product deduplication (if required)
+
+
+
+<figure><img src="../../.gitbook/assets/view1.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Findings view**](findings-view/)
+
+✔️ Groups findings automatic and manual\
+✔️ Tag assigning\
+✔️ Bulk action\
+✔️ Filters and sorting
+
+
+
+<figure><img src="../../.gitbook/assets/active task(1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Active tasks**](active-tasks.md)
+
+✔️ A new perspective on active tasks queue: check what's happening in Auto Validator with ease
+
+
+
+<figure><img src="../../.gitbook/assets/jira 2.JPG" alt=""><figcaption></figcaption></figure>
+
+#### [**Jira integration** ](jira/)
+
+✔️ Portal supports 2 spaces (Security and Product). \
+✔️ You can set default space for all products at once. \
+✔️ Portal creates tasks in separate query, so other functionality will not affect the speed of task creation.
+
+
+
+<figure><img src="../../.gitbook/assets/auditor feat.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Auditor cooperation**](vulnerability-discovery/audits.md)
+
+✔️ Scans your product directly\
+✔️ Using multiple scanners in a single iteration\
+✔️ Automatic scheduled scanning of your product
+
+
+
+<figure><img src="../../.gitbook/assets/report titul.png" alt="" width="344"><figcaption></figcaption></figure>
+
+#### [**Custom Reports**](custom-reports.md)
+
+✔️ Issue a full report or executive summary\
+✔️ Include all or verified findings in the report\
+✔️ Issue a report for one, multiple or all products\
+✔️ View the report online or print it out
+
+
+
+<figure><img src="../../.gitbook/assets/recommendation.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### [**Recommendations**](recommendations.md)
+
+✔️ Best practice recommendations \
+✔️ Recommendations based on process insights \
+✔️ Recommendations based on portal settings
 

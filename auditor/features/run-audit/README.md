@@ -2,8 +2,8 @@
 
 You can run the Auditor through the Appsec Portal
 
-* [Manually](broken-reference)
-* [By setting up a schedule](broken-reference)
+* [Manually](/broken/pages/WC1DgsgAx2WDIhQnKA6v)
+* [By setting up a schedule](/broken/pages/Mdd86fzDYFtLKaMsHlxC)
 
 Faindings detected by the Auditor will be [displayed](../../../appsec-portal/features/findings-view/) in the Appsec portal
 

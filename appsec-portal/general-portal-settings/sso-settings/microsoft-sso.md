@@ -7,7 +7,7 @@ The Microsoft identity platform **interface may change**, so for the most up-to-
 
 To log in to the AppSec portal through your Microsoft identity platform, follow these steps:
 
-1. Navigate to your **Microsoft Entra** using the [link](https://entra.microsoft.com/#view/Microsoft\_AAD\_RegisteredApps/ApplicationsListBlade/quickStartType\~/null/sourceType/Microsoft\_AAD\_IAM)
+1. Navigate to your **Microsoft Entra** using the [link](https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM)
 2. Navigate to **Application** -> **App registrations** section and **register a new** **application**
 
 <figure><img src="../../../.gitbook/assets/micr sso1.png" alt=""><figcaption></figcaption></figure>
@@ -62,8 +62,7 @@ Get more information about this specific feature from the [video](https://youtu.
 
 <figure><img src="../../../.gitbook/assets/ms mapp.png" alt=""><figcaption></figcaption></figure>
 
-3. If a mapping has not been previously configured, the first time you log in using Single Sign-On (SSO), the SSO settings will display a list of roles received from Microsoft under the name **External Group Name**. You can configure these roles by creating mappings. To do this, add the corresponding portal roles for each group from this list. \
-
+3. If a mapping has not been previously configured, the first time you log in using Single Sign-On (SSO), the SSO settings will display a list of roles received from Microsoft under the name **External Group Name**. You can configure these roles by creating mappings. To do this, add the corresponding portal roles for each group from this list. <br>
 
 If new roles appear on the Microsoft's side, they will also appear as unassociated during the first login and you should associate them later.
 

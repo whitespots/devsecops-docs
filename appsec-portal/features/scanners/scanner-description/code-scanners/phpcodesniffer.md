@@ -6,7 +6,7 @@
 
 Scanner tokenizes PHP files and detects violations of a defined set of coding standards.
 
-[PHPCodeSniffer](https://github.com/PHPCSStandards/PHP\_CodeSniffer/) is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP\_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
+[PHPCodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer/) is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP\_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
 
 **Curl example**
 
@@ -27,7 +27,7 @@ In this command, the following parameters are used:
 7. `-F "scanner_name=<scanner_name>"`: specifies the **name of the scanner** used to generate the report (PHPCodeSniffer)
 8. `-F "branch=<branch_name>"`: (_optional_) specifies the name of the branch in the source code repository (if applicable) This parameter is particularly useful when you want to associate the scan results with a specific branch in your repository. If not provided, the scan will be associated with the default branch
 
-Asset information, if an [auditor ](broken-reference)is used
+Asset information, if an [auditor ](/broken/pages/IswxkBnVMfTDcm98kr4S)is used
 
 9. `-F "repository=<repository SSH URL>"`: If your product is **code** in a repository enter the address of your **repository** in a specific format, for example: git@gitlab.com:whitespots-public/appsec-portal.git
 10. &#x20;`-F "docker_image=<registry address>"`: If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest

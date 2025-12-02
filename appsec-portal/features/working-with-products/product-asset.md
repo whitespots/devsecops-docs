@@ -4,7 +4,7 @@
 To ensure the proper functioning of Auditor, include assets for products created in the Portal in version v23.10.1 and earlier.
 {% endhint %}
 
-To enable [**Auditor** ](broken-reference)functionality, it is necessary to define the product asset by indicating the **product's location**.
+To enable [**Auditor** ](/broken/pages/IswxkBnVMfTDcm98kr4S)functionality, it is necessary to define the product asset by indicating the **product's location**.
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -66,8 +66,7 @@ Please note that for a successful integration with Jira, you must ensure that th
 
 ## Step 5. Issue Priority Mapping
 
-Optionally, establish a mapping between finding severity and Jira issue priority.\
-
+Optionally, establish a mapping between finding severity and Jira issue priority.<br>
 
 {% hint style="warning" %}
 Ensure all projects **in your Jira** instance have the "Priority" field before configuring. In case of any modifications to the priority descriptions in Jira **after** configuring the **mapping**, the AppSec Portal will **not update** them.

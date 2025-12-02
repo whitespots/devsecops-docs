@@ -27,8 +27,7 @@ All you have to do here is to define the **`VULNERS_API_KEY`** variable to get v
 
 <figure><img src="../../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
-That's it. Now you are ready to create validation rules based on provided descriptions\
-
+That's it. Now you are ready to create validation rules based on provided descriptions<br>
 
 <figure><img src="../../../../../.gitbook/assets/vulners trivy.jpeg" alt=""><figcaption></figcaption></figure>
 
