@@ -22,7 +22,7 @@ We've made it easy for you to do so with our _**Whitespots Store**_. Here's how 
 3. If you wish to obtain a paid version of the licence, click on the **contact us** link at the bottom of the page. This will take you to a page with a request form.
 
 {% hint style="success" %}
-The **license key** is needed [**to activate the Appsec Portal**](get-started-with-the-appsec-portal/). You can always go back to the store to copy it.
+The **license key** is needed [**to activate the AppSec Portal**](get-started-with-the-appsec-portal/). You can always go back to the store to copy it.
 {% endhint %}
 
 > If you have any issues during installation or have any questions about using our platform, don't hesitate to reach out to our support team _**sales@whitespots.io**_ :heart:.

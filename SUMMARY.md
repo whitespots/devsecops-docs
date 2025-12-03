@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Whitespots Wiki](README.md)
-* [Appsec Portal](appsec-portal/README.md)
+* [AppSec Portal](appsec-portal/README.md)
   * [📥 Deployment](appsec-portal/deployment/README.md)
     * [License obtaining](appsec-portal/deployment/license-obtaining.md)
     * [Installation](appsec-portal/deployment/installation.md)

@@ -1,11 +1,11 @@
 ---
-description: This section describes each scanner used by the Appsec portal
+description: This section describes each scanner used by the AppSec Portal
 icon: subtitles
 ---
 
 # Scanner description
 
-The Apsec portal uses the following types of scanners:
+The AppSec Portal uses the following types of scanners:
 
 * [Code Scanners](code-scanners/)
 * [Secret Scanners](secret-scanners/)

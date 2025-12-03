@@ -145,7 +145,7 @@ Before using Helm, make sure that Helm is installed on your computer and that yo
 
 **Step 1:** Add helm package
 
-Add the Appsec portal package to your server:
+Add the AppSec Portal package to your server:
 
 ```
 helm repo add appsecportal https://gitlab.com/api/v4/projects/37960926/packages/helm/stable
@@ -214,7 +214,7 @@ helm install nginx-ingress ingress-nginx/ingress-nginx -n ingress-nginx --create
 
 **For more details please visit** [**our repository**](https://gitlab.com/whitespots-public/appsec-portal/-/tree/main/AppsecPortal-HelmChart?ref_type=heads)
 
-This username and password will allow you to **log in to** the installed **Appsec Portal**
+This username and password will allow you to **log in to** the installed **AppSec Portal**
 
 **Next step:** [Start your AppSec Portal and apply the licence](get-started-with-the-appsec-portal/)
 
@@ -293,7 +293,7 @@ docker compose exec back python3 manage.py createsuperuser --username admin
 
 <img src="../../.gitbook/assets/setup.png" alt="" data-size="original">
 
-This username and password will allow you to **log in to** the installed **Appsec Portal**
+This username and password will allow you to **log in to** the installed **AppSec Portal**
 
 or
 
