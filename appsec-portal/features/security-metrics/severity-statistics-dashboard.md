@@ -27,7 +27,7 @@ The **timeline** of the charts can be customized to show data for the last 3 day
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Note that the **General Weighted Risk Trend** displays the [WRT](wrt-weighted-risk-trend.md), risk appetite and severity weight values. Be sure to [set the appropriate weights](https://docs.whitespots.io/appsec-portal/features/security-metrics/metrics-settings) before viewing the graph. Otherwise, the graph may be distorted by incorrect weight values.
+Note that the **General Weighted Risk Trend** displays the [WRT](wrt-weighted-risk-trend.md), risk appetite and severity weight values. Be sure to [set the appropriate weights](metrics-settings/) before viewing the graph. Otherwise, the graph may be distorted by incorrect weight values.
 {% endhint %}
 
 By regulary tracking the following global metrics, you can gain a better understanding of your security posture and make informed decisions to enhance your overall security strategy.

@@ -43,5 +43,5 @@ The dashboard also displays **statistics** on unverified, verified, and resolved
 <figure><img src="../../../.gitbook/assets/bus crit.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-The **default** value for business criticality is **10**. Unless you set a different value, any product is considered to be _<mark style="color:red;">highly critical</mark>_. Please adjust criticality level so that your metrics reflect a more realistic [_risk trend_](https://docs.whitespots.io/appsec-portal/features/security-metrics/wrt-weighted-risk-trend).
+The **default** value for business criticality is **10**. Unless you set a different value, any product is considered to be _<mark style="color:red;">highly critical</mark>_. Please adjust criticality level so that your metrics reflect a more realistic [_risk trend_](../security-metrics/wrt-weighted-risk-trend.md).
 {% endhint %}

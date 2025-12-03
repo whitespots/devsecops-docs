@@ -8,8 +8,8 @@ icon: gauge-min
 # Security Metrics
 
 * [**Severity Statistics Dashboard**](severity-statistics-dashboard.md)
-* [**WRT (Weighted Risk Trend)**](https://docs.whitespots.io/appsec-portal/features/security-metrics/wrt-weighted-risk-trend)
-* [**How to work with WRT (guide for team leads)**](https://docs.whitespots.io/appsec-portal/features/security-metrics/how-to-work-with-wrt-for-team-leads)
-* [**Metrics settings**](https://docs.whitespots.io/appsec-portal/features/security-metrics/metrics-settings)
+* [**WRT (Weighted Risk Trend)**](wrt-weighted-risk-trend.md)
+* [**How to work with WRT (guide for team leads)**](how-to-work-with-wrt-for-team-leads.md)
+* [**Metrics settings**](metrics-settings/)
 * [**CVSS**](cvss/)
 
