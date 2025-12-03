@@ -4,7 +4,7 @@
 **Auditor image:** registry.gitlab.com/whitespots-public/security-images/toolset:latest + your scripts\
 **AppSec Portal Importer Name**: Whitespots Portal
 
-Whitespots Portal general report format provides the ability for users to submit their own reports to Appsec Portal for further processing and management. To do this, the importer needs to provide a list of dictionaries in the following format:
+Whitespots Portal general report format provides the ability for users to submit their own reports to AppSec Portal for further processing and management. To do this, the importer needs to provide a list of dictionaries in the following format:
 
 <pre><code><strong>[
 </strong><strong>    {
@@ -19,7 +19,7 @@ Whitespots Portal general report format provides the ability for users to submit
 ]
 </code></pre>
 
-This tool provides flexibility and allows users to submit their data for further analytics and security improvements using Appsec Portal.
+This tool provides flexibility and allows users to submit their data for further analytics and security improvements using AppSec Portal.
 
 {% code overflow="wrap" %}
 ```

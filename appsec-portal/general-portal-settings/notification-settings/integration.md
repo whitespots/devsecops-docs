@@ -13,7 +13,7 @@ To set up integration with your notification service, follow these steps:
 3. Fill in the required fields:
 
 * **Title** (<mark style="color:red;">required</mark>): The desired name of the integration or service to which the notification is associated.
-* **Notification URL** (<mark style="color:red;">required</mark>): URL to which HTTP requests containing notifications are sent. Appsec Portal will use this URL to deliver notifications.
+* **Notification URL** (<mark style="color:red;">required</mark>): URL to which HTTP requests containing notifications are sent. AppSec Portal will use this URL to deliver notifications.
 * **Authorization Header** (<mark style="color:orange;">if your service requires authentication</mark>): The name of the HTTP request header in which the authentication token will be placed.
 * **Authorization Header Value** (<mark style="color:orange;">if your service requires authentication</mark>): The authentication token, which is placed in the specified header.&#x20;
 

@@ -1,15 +1,15 @@
 ---
-description: To send scanning data to AWS Security Hub on Appsec Portal
+description: To send scanning data to AWS Security Hub on AppSec Portal
 ---
 
 # Importing reports via AWS Lambda Function within AWS Security Hub
 
-This is achieved using an AWS Lambda function written in Python. The function extracts an API key from AWS Secrets Manager, constructs a request with scanning data, and sends it to the specified Appsec Portal address.
+This is achieved using an AWS Lambda function written in Python. The function extracts an API key from AWS Secrets Manager, constructs a request with scanning data, and sends it to the specified AppSec Portal address.
 
 ## Step 1: Integration Preparation
 
 1. AWS Lambda: Ensure you have a configured and functioning AWS Lambda function
-2. AWS Secrets Manager: Create a secret in AWS Secrets Manager containing the [**API key**](../../../importing-reports-from-scanners-to-appsec-portal/#authorization-token) for accessing Appsec Portal. Ensure you have read access rights to this secret
+2. AWS Secrets Manager: Create a secret in AWS Secrets Manager containing the [**API key**](../../../importing-reports-from-scanners-to-appsec-portal/#authorization-token) for accessing AppSec Portal. Ensure you have read access rights to this secret
 
 ## Step 2: Creating AWS Lambda Function
 
@@ -27,7 +27,7 @@ import urllib3
 
 def lambda_handler(event, context):
     
-    # Fetch Appsec Portal API key from AWS Secrets Manager
+    # Fetch AppSec Portal API key from AWS Secrets Manager
     client_sm = boto3.client('secretsmanager')
     appsec_portal_secret_raw = client_sm.get_secret_value(
         SecretId="<secret_name>"
@@ -59,9 +59,9 @@ def lambda_handler(event, context):
     }
 ```
 
-Replace "_**\<secret\_name>**_" with the name of the secret in AWS Secrets Manager containing your API key for Appsec Portal
+Replace "_**\<secret\_name>**_" with the name of the secret in AWS Secrets Manager containing your API key for AppSec Portal
 
-Replace "_**\<portal\_address>**_" with the address of your Appsec Portal
+Replace "_**\<portal\_address>**_" with the address of your AppSec Portal
 
 5. Save the changes made to the function
 
@@ -70,5 +70,5 @@ Replace "_**\<portal\_address>**_" with the address of your Appsec Portal
 1. In the "Test" section of the AWS Lambda console, create a test event with content similar to your report to test the function
 2. If the function passes testing successfully, publish it
 
-Congratulations! Your function is now ready to send reports to Appsec Portal
+Congratulations! Your function is now ready to send reports to AppSec Portal
 

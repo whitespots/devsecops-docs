@@ -10,7 +10,7 @@ You can use **CVSS** ([Common Vulnerability Scoring System](https://www.first.or
 
 It includes a number of metrics such as attack type, privilege level, impact on confidentiality, data integrity and availability.&#x20;
 
-Appsec Portal has support for two versions of the standard: [3.1 ](https://www.first.org/cvss/v3-1/)and [4.0](https://www.first.org/cvss/v4-0/).
+AppSec Portal has support for two versions of the standard: [3.1 ](https://www.first.org/cvss/v3-1/)and [4.0](https://www.first.org/cvss/v4-0/).
 
 By [set up the CVSS role](cvss-rule.md) and defining the appropriate vectors for your products, you can more accurately determine the level of risk and potential security threats.&#x20;
 

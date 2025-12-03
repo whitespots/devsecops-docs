@@ -34,7 +34,7 @@ The **name** in the **Title** should be **unique** and not repeat previously cre
 <figure><img src="../../../.gitbook/assets/notif sched5.gif" alt=""><figcaption></figcaption></figure>
 
 <mark style="background-color:blue;">The schedule is set and integrated into your service.</mark> \
-From now on, Appsec Portal will send notifications with information about findings that match the selected criteria and at the set frequency.
+From now on, AppSec Portal will send notifications with information about findings that match the selected criteria and at the set frequency.
 
 <figure><img src="../../../.gitbook/assets/notif sched 6.png" alt=""><figcaption></figcaption></figure>
 

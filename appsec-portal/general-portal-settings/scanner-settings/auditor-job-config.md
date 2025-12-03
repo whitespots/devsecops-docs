@@ -12,7 +12,7 @@ When a scanner is added to the [Auditor jobs](../../../auditor/features/settings
 <figure><img src="../../../.gitbook/assets/scan job2.png" alt=""><figcaption></figcaption></figure>
 
 * **Run Command**: specifies the command code to run the scan. \
-  If you are using your own command, you should specify the _**/data/**_ directory to save the report in, so that it can be sent to the Appsec Portal.
+  If you are using your own command, you should specify the _**/data/**_ directory to save the report in, so that it can be sent to the AppSec Portal.
 
 <figure><img src="../../../.gitbook/assets/scan job3.png" alt=""><figcaption></figcaption></figure>
 

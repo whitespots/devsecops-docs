@@ -1,12 +1,12 @@
 # Direct use of Auditor
 
-If you are using Auditor **without** the Appsec Portal, **directly**:&#x20;
+If you are using Auditor **without** the AppSec Portal, **directly**:&#x20;
 
 1. **Preconfigure Auditor**
 
 if you are using your own images for job (scanners), [**preconfigure**](../settings/direct-use-of-the-auditor/docker-credentials.md) Auditor&#x20;
 
-2. **Create pipline**
+2. **Create pipeline**
 
 On the dashboard page click on <img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt="" data-size="line"> button
 

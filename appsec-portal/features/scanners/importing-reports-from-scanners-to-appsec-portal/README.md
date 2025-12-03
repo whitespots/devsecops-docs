@@ -1,6 +1,6 @@
 # 🔌 Importing reports from scanners to AppSec Portal
 
-You can import your reports from scanners (in json format) into Appsec Portal for viewing and processing using the following methods:
+You can import your reports from scanners (in json format) into AppSec Portal for viewing and processing using the following methods:
 
 **Method 1:** [**Mannual import using a Report File**](manual-import-using-report-file.md)
 

@@ -5,7 +5,7 @@ icon: webhook
 
 # Importing reports via Lambda Function using a Report File
 
-You have the capability to import reports into the AppsecPortal using the provided function below.
+You have the capability to import reports into the AppSec Portal using the provided function below.
 
 <pre class="language-python"><code class="lang-python">import json
 import urllib.request
@@ -49,7 +49,7 @@ Replace the following parameters:
 
 * _**\<event>**_ with the name of your file containing report
 * _**\<appsec portal api key>**_ with the key of your [**authorization token**](./#authorization-token)
-* &#x20;**\<portal address>** with the address of your Appsec Portal
+* &#x20;**\<portal address>** with the address of your AppSec Portal
 * **\<product name>** with the name of your product
 * &#x20;**\<product\_type>** with the name of your product type
 * &#x20;**\<scanner name>** with the [**name of your scanner**](../scanner-description/)
@@ -62,7 +62,7 @@ Asset information, if an [auditor ](../../../../auditor/)is used
 * **\<domain>** If your product is **web** enter the **domain name** of your product, for example: whitespots.io
 * **\<host>** If your product is **web** enter the **IP address** of your product, for example: 0.0.0.0
 
-Congratulations!🎉  Your function is now ready to send reports to Appsec Portal
+Congratulations!🎉  Your function is now ready to send reports to AppSec Portal
 
 [^1]: replace
 

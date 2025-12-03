@@ -20,7 +20,7 @@ Each job (scanner) has a preset configuration that can be changed or supplemente
 <figure><img src="../../../../.gitbook/assets/job conf 3.png" alt=""><figcaption></figcaption></figure>
 
 * **Run Command**: specifies the command code to run the scan. \
-  If you are using your own command, you should specify the _**/data/**_ directory to save the report in, so that it can be sent to the Appsec Portal.
+  If you are using your own command, you should specify the _**/data/**_ directory to save the report in, so that it can be sent to the AppSec Portal.
 
 <figure><img src="../../../../.gitbook/assets/job config 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -34,5 +34,5 @@ Each job (scanner) has a preset configuration that can be changed or supplemente
 {% hint style="warning" %}
 Mandatory environment variables for each job type **Scanner**:\
 <mark style="color:blue;">`REPORT_FILE_NAME`</mark> file name should send to the portal and \
-<mark style="color:blue;">`SCAN_TYPE`</mark>[**importer**](../../../../appsec-portal/features/scanners/) (parser)  to process the report.
+<mark style="color:blue;">`SCAN_TYPE`</mark> [**importer**](../../../../appsec-portal/features/scanners/) (parser)  to process the report.
 {% endhint %}

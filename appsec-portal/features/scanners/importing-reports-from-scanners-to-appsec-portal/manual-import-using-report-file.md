@@ -16,4 +16,4 @@ Follow the steps below to download manualy a report that has been received from 
 
 <figure><img src="../../../../.gitbook/assets/manual import 3.png" alt=""><figcaption></figcaption></figure>
 
-If the report contains findings, these will be displayed in the Appsec Portal for that product.
+If the report contains findings, these will be displayed in the AppSec Portal for that product.
