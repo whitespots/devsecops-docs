@@ -1,5 +1,5 @@
 ---
-description: To send scanning data to Appsec Portal
+description: To send scanning data to AppSec Portal
 icon: webhook
 ---
 
