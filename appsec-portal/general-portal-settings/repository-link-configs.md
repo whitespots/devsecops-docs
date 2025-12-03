@@ -1,7 +1,7 @@
 # Repository Link Configs
 
 {% hint style="info" %}
-<img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="line">Used in working with an [**Auditor**](/broken/pages/IswxkBnVMfTDcm98kr4S)
+Used in working with the [**Auditor**](../../auditor/)
 {% endhint %}
 
 This configuration enables the Portal to provide a link to the repository sources using the provided finding path and line. Associate it with Product Assets of the Repository type in [product settings](../features/asset-management/adding-a-product-asset.md).

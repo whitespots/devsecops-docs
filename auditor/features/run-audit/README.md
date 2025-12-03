@@ -1,12 +1,13 @@
 # 🚀 Run Audit
 
-You can run the Auditor through the Appsec Portal
+You can run the Auditor through the AppSec Portal
 
-* [Manually](/broken/pages/WC1DgsgAx2WDIhQnKA6v)
-* [By setting up a schedule](/broken/pages/Mdd86fzDYFtLKaMsHlxC)
+* [Manually](../../../appsec-portal/features/vulnerability-discovery/run-audit/run-audit-manually.md)
+* [By setting up a schedule](../../../appsec-portal/features/vulnerability-discovery/run-audit/scheduled-audit-run.md)
 
-Faindings detected by the Auditor will be [displayed](../../../appsec-portal/features/findings-view/) in the Appsec portal
+Findings detected by the Auditor will be [displayed](../../../appsec-portal/features/findings-view/) in the AppSec Portal
 
 {% hint style="info" %}
-If findings are detected during scanning, they will be automatically submitted to the Appsec portal when **all** scanners in the sequence have completed their work
+If findings are detected during scanning, they will be automatically submitted to the AppSec Portal when **all** scanners in the sequence have completed their work
 {% endhint %}
+

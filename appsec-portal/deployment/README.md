@@ -12,5 +12,5 @@ There are **three steps** to installing the AppSec Portal:&#x20;
 * [Installing the application](installation.md)
 * [Entering the license key in the installed application](get-started-with-the-appsec-portal/)
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><h2><a href="update.md">How to update</a></h2></td><td></td><td></td></tr><tr><td><h2><a href="/broken/pages/OzfKXoMWBz3cZWaWmd74">API usage</a></h2></td><td></td><td></td></tr><tr><td><h2><a href="database-transfer-guide.md">Data migration</a></h2></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><h2><a href="update.md">How to update</a></h2></td><td></td><td></td></tr><tr><td><h2><a href="accessing-the-appsec-portal-api-endpoints.md">API usage</a></h2></td><td></td><td></td></tr><tr><td><h2><a href="database-transfer-guide.md">Data migration</a></h2></td><td></td><td></td></tr></tbody></table>
 

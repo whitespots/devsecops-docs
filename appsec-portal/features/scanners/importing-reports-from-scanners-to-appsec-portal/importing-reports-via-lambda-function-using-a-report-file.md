@@ -55,7 +55,7 @@ Replace the following parameters:
 * &#x20;**\<scanner name>** with the [**name of your scanner**](../scanner-description/)
 * **\<branch>** (_optional_) with the the name of the branch in the source code repository (if applicable) This parameter is particularly useful when you want to associate the scan results with a specific branch in your repository. If not provided, the scan will be associated with the default branch
 
-Asset information, if an [auditor ](/broken/pages/IswxkBnVMfTDcm98kr4S)is used
+Asset information, if an [auditor ](../../../../auditor/)is used
 
 * **\<repository>**&#x49;f your product is **code** in a repository enter the address of your **repository** in a specific format, for example: git@gitlab.com:whitespots-public/appsec-portal.git
 * **\<docker\_image>** If your product is **image** enter the address of the **registry** where your product is located, for example: registry.gitlab.com/whitespots-public/appsec-portal/back/auto\_validator:latest

@@ -6,8 +6,8 @@
 
 1. _**Multi-profile Scanners**:_ Auditor utilizes multiple scanners, covering various security aspects to ensure comprehensive analysis.
 2. _**Code, Web**, **Images** and **Cloud account**:_ Perform scans on both your application code, websites, and images, providing a comprehensive security check.
-3. _**Schedule Auditing**_: [configure a schedule](/broken/pages/Mdd86fzDYFtLKaMsHlxC) to automatically start the Auditor.
-4. _**Detailed Reports** and **Jira integration**:_ When used in combination with [**Appsec portal**](/broken/pages/WZF7QeDNznYBiQcYs3Gr), get reports in a convenient way and integrate findings with Jira.
+3. _**Schedule Auditing**_: [configure a schedule](../../appsec-portal/features/vulnerability-discovery/run-audit/scheduled-audit-run.md) to automatically start the Auditor.
+4. _**Detailed Reports** and **Jira integration**:_ When used in combination with [**AppSec Portal**](../../appsec-portal/), get reports in a convenient way and integrate findings with Jira.
 5. _**Custom Configuration**:_ Tailor scan parameters to your needs for optimal control.
 
 **Get Started Easily:**&#x20;
