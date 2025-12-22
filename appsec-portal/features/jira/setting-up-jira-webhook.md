@@ -35,7 +35,7 @@ In the example below, the **URL** has several components separated by forward sl
 
 <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. Select the "**Issue related events**" that will trigger the webhook:&#x20;
+3. Select the "**Issue related events**" that will trigger the webhook:
 
 * check the "_updated_" and "_deleted_" boxes in the "**Issue**" and "**Comment**" columns.
 
@@ -43,15 +43,21 @@ In the example below, the **URL** has several components separated by forward sl
 5. Leave the "Exclude body" option unchecked.
 6. Save your changes.
 
-{% tabs %}
-{% tab title="Example configuration" %}
-<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+<details>
 
-{% tab title="Successfully created webhook" %}
+<summary>Example configuration</summary>
+
+<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Successfully created webhook</summary>
+
 <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+
+</details>
 
 ### Step 3: Test the webhook
 
