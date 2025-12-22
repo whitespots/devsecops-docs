@@ -22,37 +22,65 @@ Choose the necessary report settings for its output to meet your goals:
 
 <figure><img src="../../.gitbook/assets/report 2.png" alt=""><figcaption></figcaption></figure>
 
+#### Report sections preview
 
+Expand a section to see what it looks like in the generated report.
 
-{% tabs %}
-{% tab title="Cover Page" %}
+<details>
+
+<summary>Cover Page</summary>
+
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Overview" %}
+</details>
+
+<details>
+
+<summary>Overview</summary>
+
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="General Information" %}
+</details>
+
+<details>
+
+<summary>General Information</summary>
+
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Assets" %}
+</details>
+
+<details>
+
+<summary>Assets</summary>
+
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Executive Summary" %}
+</details>
+
+<details>
+
+<summary>Executive Summary</summary>
+
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Used Scanners" %}
+</details>
+
+<details>
+
+<summary>Used Scanners</summary>
+
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Executive summary and Full report example</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Findings" %}
+</details>
+
+<details>
+
+<summary>Findings</summary>
+
 <figure><img src="../../.gitbook/assets/report.png" alt=""><figcaption><p>Full Report example</p></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+
+</details>
 
 3. **Scanner list**: select whether to report all or only verified findings
 
