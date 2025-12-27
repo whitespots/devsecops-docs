@@ -4,6 +4,8 @@ description: Auditor step-by-step deployment guide
 
 # 📦 Deployment
 
+
+
 <figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repository address
@@ -12,7 +14,7 @@ description: Auditor step-by-step deployment guide
 
 ## System Requirements for Auditor usage:
 
-* Minimum system resources: 4 GB of RAM and 2 CPU cores.
+* Minimum system resources: 8 GB of RAM and 4 CPU cores.
 * Free disk space for installation and data storage of the Auditor.
 * Network access to and from the portal and to the location of your asset (the location of the product to be scanned).
 
