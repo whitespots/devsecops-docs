@@ -2,7 +2,7 @@
 
 ## Configure auditor
 
-1. [Install auditor](../auditor/deployment/installation.md)
+1. [Install auditor](../auditor/deployment.md)
 2. [Configure auditor](features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 ## Add sequences

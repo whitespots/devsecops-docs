@@ -2,9 +2,9 @@
 description: Auditor step-by-step deployment guide
 ---
 
-# Installation
+# 📦 Deployment
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repository address
 
@@ -24,7 +24,7 @@ Before installing the Auditor, make sure you have the following software install
 
 * [**Docker**](https://docs.docker.com/get-docker/) (version 19.03 or higher)
 * [**Docker Compose**](https://docs.docker.com/compose/install/linux/#install-using-the-repository) (version 1.26 or higher)
-* [**SSH keys**](installation.md#ssh-keys) (for GitLab CI installation option)
+* [**SSH keys**](deployment.md#ssh-keys) (for GitLab CI installation option)
 
 **Installation in Kubernetes environment:**
 
@@ -62,9 +62,9 @@ Select and copy the contents of the private key file. Ensure you copy the key wi
 
 ## Installation
 
-* Option 1:[ **GitLab CI installation** ](installation.md#gitlab-ci-installation-ansible-playbook)Ansible playbook (automated docker compose installation)
-* Option 2: [**Install using Helm**](installation.md#instal-using-helm) (install in Kubernetes environment)
-* Option 3:[ **Docker compose installation**](installation.md#docker-compose-installation) (manual docker compose installation)
+* Option 1:[ **GitLab CI installation** ](deployment.md#gitlab-ci-installation-ansible-playbook)Ansible playbook (automated docker compose installation)
+* Option 2: [**Install using Helm**](deployment.md#instal-using-helm) (install in Kubernetes environment)
+* Option 3:[ **Docker compose installation**](deployment.md#docker-compose-installation) (manual docker compose installation)
 
 <details>
 
@@ -128,7 +128,7 @@ In the GitLab CI/CD > Pipelines section, you should see the pipeline running the
 Once the pipeline is running, click on the deploy job to view the logs.\
 The Ansible playbook will be executed, deploying Auditor on the specified host.<br>
 
-<img src="../../.gitbook/assets/ci_deploy.jpg" alt="" data-size="original">
+<img src="../.gitbook/assets/ci_deploy.jpg" alt="" data-size="original">
 
 **Step 9. Adding an Access Token**
 
@@ -136,7 +136,7 @@ Now your application should be accessible on the port specified in the configura
 
 After the first run, you will receive an <mark style="color:blue;">**`Access Token`**</mark>.
 
-<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+<img src="../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
 <mark style="color:red;">Copy the value of the access token and add it in the CI/CD variables on GitLab</mark>
 
@@ -149,7 +149,7 @@ docker-compose down
 docker-compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 
@@ -232,7 +232,7 @@ helm upgrade --install auditor auditor/appsecauditor \
 
 After the first login you will receive an  <mark style="color:blue;">**`Access Token`**</mark>. Copy and set as a variable token and relaunch service scanner\_worker.
 
-<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+<img src="../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
 <mark style="color:red;">Copy and set</mark> <mark style="color:red;">as a variable token</mark> and relaunch service scanner\_worker.
 
@@ -256,7 +256,7 @@ helm upgrade --install auditor auditor/appsecauditor \
 
 ```
 
-**Save the key value in a safe place for later usage** in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
+**Save the key value in a safe place for later usage** in the Auditor [settings](../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 
@@ -301,7 +301,7 @@ DOCKER_ENCRYPTION_TOKEN=defaultvaluetobechangedorelse...
 ACCESS_TOKEN=<your value>
 ```
 
-* <mark style="color:blue;">`IMAGE_VERSION`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](../release-notes.md), e.g. release\_v24.07.2
+* <mark style="color:blue;">`IMAGE_VERSION`</mark>the <mark style="color:red;">required</mark> variable must be specified. Specify a [specific version](release-notes.md), e.g. release\_v24.07.2
 * <mark style="color:blue;">`DB_NAME`</mark>, <mark style="color:blue;">`DB_USER`</mark>, <mark style="color:blue;">`DB_PASS`</mark>, <mark style="color:blue;">`DB_HOST`</mark>, <mark style="color:blue;">`DB_PORT`</mark> variables are required for database configuration.
 * If the message broker is hosted on a third-party server, only the <mark style="color:blue;">`AMQP_HOST_STRING`</mark> must be specified. However, if the container is raised locally, all three variables, including <mark style="color:blue;">`RABBITMQ_DEFAULT_USER`</mark> and <mark style="color:blue;">`RABBITMQ_DEFAULT_PASS`</mark> need to be specified.\
   The username and password in the RABBITMQ\_DEFAULT\_PASS and RABBITMQ\_DEFAULT\_USER variables **must be the same** as in AMQP\_HOST\_STRING.
@@ -325,7 +325,7 @@ After successfully running the docker-compose up -d command, your application sh
 You will receive an <mark style="color:blue;">**`Access Token`**</mark> the first time you start. \
 <mark style="color:red;">Copy it and set it in the .env file</mark> as the value of the variable <mark style="color:blue;">ACCESS\_TOKEN</mark> (step 3)
 
-<img src="../../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
+<img src="../.gitbook/assets/acsess token.jpg" alt="" data-size="original">
 
 After adding the variable, **must to restart the service** from the command line using the command:
 
@@ -334,7 +334,7 @@ docker compose down
 docker compose up -d
 ```
 
-Save the key value in a safe place for later usage in the Auditor [settings](../../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
+Save the key value in a safe place for later usage in the Auditor [settings](../appsec-portal/features/vulnerability-discovery/auditor-settings/auditor-config.md)
 
 </details>
 
