@@ -4,6 +4,12 @@ description: Triage vulnerabilities faster than ever!
 
 # 🎣 Auto Validator
 
+
+
+{% embed url="https://youtu.be/rcV2QLMZMKE" %}
+
+
+
 * [**Rule creation guide**](rule-creation.md)
 * [**Rules filters & sorting**](rules-view.md)
 

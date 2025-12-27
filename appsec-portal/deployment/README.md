@@ -4,6 +4,8 @@ description: Welcome to the installation guide for AppSec Portal!
 
 # 📥 Deployment
 
+{% embed url="https://youtu.be/_GQFy2aAYDs" %}
+
 ## How to install
 
 There are **three steps** to installing the AppSec Portal:&#x20;

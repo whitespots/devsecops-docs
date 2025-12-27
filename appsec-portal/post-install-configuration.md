@@ -1,5 +1,7 @@
 # ⚙️ Post install Configuration
 
+{% embed url="https://youtu.be/TgBKlQQiciE" %}
+
 ## Configure auditor
 
 1. [Install auditor](../auditor/deployment.md)
