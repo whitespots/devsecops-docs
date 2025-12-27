@@ -41,7 +41,7 @@ Ok, you put the image address, now it's time to describe how it works
 
 4. Carefully follow the instructions (watch the video for more details)
 
-{% file src="../../.gitbook/assets/How to add custom scanners.mp4" %}
+{% embed url="https://www.youtube.com/watch?v=PCnAHVXimn4" %}
 
 > <mark style="color:$danger;">**Important information**</mark>
 >
