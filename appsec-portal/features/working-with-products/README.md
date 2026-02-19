@@ -32,9 +32,9 @@ This dashboard provides an overview of the product's risk profile, including the
 
 The dashboard also displays **statistics** on unverified, verified, and resolved findings, as well as a **list of all findings** grouped by verification status. Any finding in the list **can be expanded** to show all of its information.
 
+![Findings list grouped by verification status](<../../../.gitbook/assets/prod 4.png>)
 
-
-<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../../../.gitbook/assets/prod 4.png">prod 4.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="../../../.gitbook/assets/prod5.png">prod5.png</a></td></tr></tbody></table>
+![Expanded finding details](../../../.gitbook/assets/prod5.png)
 
 #### **Business Criticality**
 
