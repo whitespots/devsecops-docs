@@ -13,3 +13,9 @@ Example:
 */15 * * * * echo "cleaning is done: " > /opt/auditor/last-cron-cleanup.txt
 */15 * * * * date >> /opt/auditor/last-cron-cleanup.txt
 ```
+
+## I want to scale runners
+
+```
+docker compose scale scanner-worker=8
+```
